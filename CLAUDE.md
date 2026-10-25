@@ -8,14 +8,15 @@ Todo el contenido está en `data/diario.json`. `index.html` + `assets/app.js` lo
 1. Añade una entrada NUEVA al principio de `entradas` en `data/diario.json`, sin tocar las anteriores.
    - `id` y `fecha`: fecha de publicación (AAAA-MM-DD). `numero`: el siguiente al último.
    - `ventana.desde` = fecha − 7 días, `ventana.hasta` = fecha + 15 días.
-   - `titulo`: frase corta que resuma la tanda. `intro`: 2-4 frases (qué hay en Granada/Andalucía, huecos).
+   - `titulo`: frase corta que resuma la tanda. `intro`: 1-3 frases (qué hay en Granada/Andalucía).
+   - Tono de diario musical para cualquier lector: NADA de comentarios sobre cómo se ha hecho la selección, criterios, búsquedas, huecos ("no he encontrado…"), dudas de verificación, ni referencias a los gustos o al Spotify del dueño. Si un dato no está verificado, no lo pongas. Los huecos y dudas se cuentan solo en el mensaje privado al usuario, no en la web.
 2. Criterio de artistas (5 por semana):
    - Emergentes de verdad: primeras giras, EP o primeros discos, circuitos tipo Girando Por Salas o Radar Joven. Nada de veteranos ni artistas que llenan teatros.
    - Con al menos un concierto DENTRO de la ventana. Busca en salas y bares, festivales, ciclos de cantautores, conciertos en pueblos y asociaciones culturales, en España y Latinoamérica.
    - Que encajen con el perfil: canción de autor, rumba, flamenco y flamenquito, mestizaje; letras en castellano preferiblemente.
    - Que no hayan salido en ninguna entrada anterior.
 3. Campos por artista (mira las entradas existentes como ejemplo):
-   - `nombre`, `origen`, `estilo` (2-3 etiquetas), `porQue` (2-4 frases: quién es y por qué encaja).
+   - `nombre`, `origen`, `estilo` (2-3 etiquetas), `porQue` (2-4 frases: quién es, qué hace y dónde toca; sin comparar con los artistas que escucha el dueño).
    - `foto`: `https://open.spotify.com/oembed?url=https://open.spotify.com/artist/<ID>` devuelve `thumbnail_url`; usa `https://i.scdn.co/image/<hash>` cambiando el prefijo `ab67616100005174` por `ab6761610000e5eb` (640 px).
    - `spotifyId` (se incrusta el reproductor del artista), `cancion` {titulo, url}.
    - `conciertos`: [{fecha, hora, lugar, ciudad, precio, url}]. Incluye también las fechas fuera de la ventana si las hay.

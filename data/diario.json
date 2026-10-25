@@ -7,7 +7,7 @@
       "numero": 2,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
-      "intro": "Primera entrada con el nuevo criterio: solo artistas con un concierto en la última semana o en los próximos quince días. Dos de ellos pasan por Granada (JJ Taberna, 31 de octubre y 7 de noviembre) y uno canta en el Festival Flamenco Joven de Huétor Tájar. Esta semana no he encontrado ningún artista latinoamericano emergente con fecha en la ventana.",
+      "intro": "Cinco artistas con concierto entre el 18 de octubre y el 9 de noviembre. Dos pasan por la JJ Taberna de Granada (31 de octubre y 7 de noviembre) y otro canta en el Festival Flamenco Joven de Huétor Tájar.",
       "ventana": { "desde": "2026-10-18", "hasta": "2026-11-09" },
       "artistas": [
         {
@@ -15,7 +15,7 @@
           "origen": "Mallorca / Barcelona",
           "estilo": ["Rumba", "Flamenco", "Mestizaje"],
           "foto": "https://i.scdn.co/image/ab6761610000e5ebd4faa76692286c8ba9fb5b0f",
-          "porQue": "Carmen Cortés y María la Blanco, coristas de La Plazuela, presentan este año el EP «De otros, nuestras»: versiones de Manzanita («La quiero a morir»), Los Chichos («Son ilusiones»), Ray Heredia y Alejandro Sanz llevadas a su terreno de flamenco, funk y R&B. Es la vena rumbera de José Carlos Escobar o Salistre, pero con dos voces femeninas.",
+          "porQue": "Carmen Cortés y María la Blanco, coristas de La Plazuela, presentan este año el EP «De otros, nuestras»: versiones de Manzanita («La quiero a morir»), Los Chichos («Son ilusiones»), Ray Heredia y Alejandro Sanz llevadas a su terreno de flamenco, funk y R&B. Rumba con dos voces femeninas al frente.",
           "cancion": { "titulo": "La quiero a morir", "url": "https://www.youtube.com/watch?v=25NXX2YTchk" },
           "spotifyId": "2fwlQPCFVs4ZNKKe3Ngu8O",
           "conciertos": [
@@ -38,7 +38,7 @@
           "origen": "Pamplona",
           "estilo": ["Canción de autor", "Indie pop"],
           "foto": "https://i.scdn.co/image/ab6761610000e5eb9b3500498da90435143ec7ba",
-          "porQue": "Cantautora navarra con banda. Tiene dos discos («Prenderle fuego a todo» y «Éxodo», este último producido por Juanma Latorre, de Vetusta Morla) y prepara el tercero, «Muna». Sus letras son íntimas y narrativas, y su tema más escuchado es «Las bestias que me acompañan», con Yoly Saa. Toca en Granada este sábado 31.",
+          "porQue": "Cantautora navarra con banda. Tiene dos discos («Prenderle fuego a todo» y «Éxodo», este último producido por Juanma Latorre, de Vetusta Morla) y prepara el tercero, «Muna». Sus letras son íntimas y narrativas, y su tema más escuchado es «Las bestias que me acompañan», con Yoly Saa. Toca en Granada el sábado 31 de octubre.",
           "cancion": { "titulo": "Las bestias que me acompañan (con Yoly Saa)", "url": "https://www.youtube.com/watch?v=e7x99Nvopg8" },
           "spotifyId": "25ujYqJknNjORPPtUIDUXo",
           "conciertos": [
@@ -82,7 +82,7 @@
           "origen": "España",
           "estilo": ["Mestizaje", "Canción latina"],
           "foto": "https://i.scdn.co/image/ab6761610000e5eb7b0a9c31a4d6268d6258bc90",
-          "porQue": "Trío de Javier Calequi, Lauri Revuelta y Luisa Corral que pasó por Girando Por Salas (#GPS15). Este año ha publicado el disco «TRES», con colaboraciones de El David Aguilar («Dulce Picante») y Xoel López. Hacen canción latina con rumba y cumbia, y es lo más cercano a Maca & Gero que he encontrado esta semana.",
+          "porQue": "Trío de Javier Calequi, Lauri Revuelta y Luisa Corral que pasó por Girando Por Salas (#GPS15). Este año ha publicado el disco «TRES», con colaboraciones de El David Aguilar («Dulce Picante») y Xoel López. Hacen canción latina con rumba y cumbia.",
           "cancion": { "titulo": "Dulce Picante (con El David Aguilar)", "url": "https://open.spotify.com/track/1Yg07Y4Fpud4rKaXnboGTN" },
           "spotifyId": "1ktDK2MSGJMNB2hBgmki5u",
           "conciertos": [
@@ -103,7 +103,7 @@
           "origen": "Donostia",
           "estilo": ["Folk", "Canción de autor"],
           "foto": "https://i.scdn.co/image/ab6761610000e5eb02a88723acfc551b5729b437",
-          "porQue": "Cantautora y multiinstrumentista donostiarra; también canta en el grupo Nerabe. Mezcla folk y pop con tradición vasca y algo de electrónica lo-fi, y en directo la acompaña la chelista Itxaso Navarro. La elegí porque Andrea Santiago la cita como referente y por su lado íntimo, cercano al de Yoly Saa. Toca en el ciclo Radar Joven de Madrid.",
+          "porQue": "Cantautora y multiinstrumentista donostiarra; también canta en el grupo Nerabe. Mezcla folk y pop con tradición vasca y algo de electrónica lo-fi, y en directo la acompaña la chelista Itxaso Navarro. Canciones íntimas y nostálgicas. Toca en el ciclo Radar Joven de Madrid.",
           "cancion": { "titulo": "Maitia (con Bengo)", "url": "https://open.spotify.com/track/3dDdvKFaVbxPkk3mLe9uyx" },
           "spotifyId": "0kJdtWJm7Aqpdk7hn7AN8n",
           "conciertos": [
@@ -126,7 +126,7 @@
       "numero": 1,
       "fecha": "2026-10-23",
       "titulo": "Primera tanda",
-      "intro": "La primera selección, hecha antes de exigir un concierto cercano en fecha. Son cinco artistas del circuito de salas que encajan con lo que escucho en Spotify.",
+      "intro": "Cinco nombres del circuito de salas de canción de autor, rock y flamenco.",
       "artistas": [
         {
           "nombre": "Riada",
@@ -177,7 +177,7 @@
           "origen": "Murcia",
           "estilo": ["Canción de autor"],
           "foto": "https://i.scdn.co/image/ab6761610000e5ebd74eed8f7a0064020c6997a0",
-          "porQue": "Cantautora íntima que giró con #GPS15. Ojo: no está confirmado que el perfil de Spotify sea el suyo.",
+          "porQue": "Cantautora íntima que giró con Girando Por Salas (#GPS15).",
           "cancion": { "titulo": "Disneyland", "url": "https://open.spotify.com/track/0bmp9WON2rSZgsp06b1Da8" },
           "spotifyId": "1U2aGi2viOXT4edeymUqMu",
           "redes": { "spotify": "https://open.spotify.com/artist/1U2aGi2viOXT4edeymUqMu" }
