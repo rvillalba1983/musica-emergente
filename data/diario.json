@@ -7,7 +7,7 @@
       "numero": 2,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
-      "intro": "Cinco artistas con concierto entre el 18 de octubre y el 9 de noviembre. Dos pasan por la JJ Taberna de Granada (31 de octubre y 7 de noviembre) y otro canta en el Festival Flamenco Joven de Huétor Tájar.",
+      "intro": "Ocho artistas con concierto entre el 18 de octubre y el 9 de noviembre. Cuatro pasan por la JJ Taberna de Granada (30 y 31 de octubre, 1 y 7 de noviembre), y el Festival Flamenco Joven de Huétor Tájar junta el cante de Cristian de Moret con la guitarra de Juanito Campos.",
       "ventana": { "desde": "2026-10-18", "hasta": "2026-11-09" },
       "artistas": [
         {
@@ -117,6 +117,61 @@
           "videos": [
             { "id": "27eErH75yRw", "titulo": "Elurra" },
             { "id": "F60ueE70wB4", "titulo": "attä (EP completo)" }
+          ]
+        },
+        {
+          "nombre": "MAPA",
+          "origen": "Jaén / Málaga",
+          "estilo": ["Canción de autor", "Folk"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb627659bd3847e50f77829813",
+          "porQue": "Dúo de la cantautora jiennense María Luisa Rodríguez y el guitarrista malagueño Pablo Ramírez. Tocan canciones propias en la estela de Jorge Drexler, Sílvia Pérez Cruz o Fetén Fetén; de hecho, Diego Galaz y Jorge Arribas colaboran en «Pan de Pueblo». Dan un concierto solidario con Gaza en la JJ Taberna de Granada.",
+          "cancion": { "titulo": "Fueguitos (con Mäbu)", "url": "https://open.spotify.com/track/2qPoEGE6V6TNGkIfi0AilA" },
+          "spotifyId": "7Bv4NCknVMFKk6lvvS7UXN",
+          "conciertos": [
+            { "fecha": "2026-10-30", "hora": "21:00", "lugar": "JJ Taberna · Concierto solidario con Gaza", "ciudad": "Granada", "precio": "11,72 €", "url": "https://www.conciertosengranada.es/conciertos/127471-mapa" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/7Bv4NCknVMFKk6lvvS7UXN",
+            "youtube": "https://www.youtube.com/@mapamyp"
+          },
+          "videos": [
+            { "id": "rGbZinQGXkg", "titulo": "Pan de Pueblo (con Diego Galaz y Jorge Arribas)" },
+            { "id": "Leqvk1JQpdU", "titulo": "Seguir jugando (con Fede Comín y Álvaro Fraile)" }
+          ]
+        },
+        {
+          "nombre": "Julián Heredia",
+          "origen": "Granada",
+          "estilo": ["Flamenco", "Jazz"],
+          "porQue": "Bajista granadino de familia gitana con tradición flamenca. Ha acompañado a Josemi Carmona, Pepe Habichuela, Niño Josele y Tomatito, y debutó con «1 de cal y 9 de arena». En la JJ Taberna le acompañan Ermanno Panta (saxo y flauta), Yazan Ibrahim (guitarra y laúd), Pancho Brañas (batería) y, como invitada, la voz de Olivia Lavarda.",
+          "cancion": { "titulo": "Colores andaluces (con José Luis Lopretti y Hernán Priore)", "url": "https://www.youtube.com/watch?v=CDSrh1b6EXQ" },
+          "conciertos": [
+            { "fecha": "2026-11-01", "hora": "21:00", "lugar": "JJ Taberna", "ciudad": "Granada", "precio": "15 €", "url": "https://www.conciertosengranada.es/conciertos/127472-julian-heredia" }
+          ],
+          "redes": {
+            "youtube": "https://www.youtube.com/@julianherediaoficial404",
+            "instagram": "https://www.instagram.com/julianheredia_music/"
+          },
+          "videos": [
+            { "id": "CDSrh1b6EXQ", "titulo": "Colores andaluces" },
+            { "id": "Ozihn0BwpMk", "titulo": "Julián Heredia" }
+          ]
+        },
+        {
+          "nombre": "Juanito Campos",
+          "estilo": ["Guitarra flamenca"],
+          "porQue": "Guitarrista de acompañamiento al cante, con tablas de peña junto a Laura Marchal (en La Platería de Granada), Diego Agujeta o Luis el Zambo, y varias sesiones grabadas para Solera Flamenca. Pone el toque en el Festival Flamenco Joven de Huétor Tájar, donde coincide con Cristian de Moret, con el que ya ha grabado por bulerías.",
+          "cancion": { "titulo": "Bulerías con Cristian de Moret (Solera Flamenca)", "url": "https://www.youtube.com/watch?v=wmY5jqpg2ZQ" },
+          "conciertos": [
+            { "fecha": "2026-11-06", "hora": "19:30", "lugar": "Festival Flamenco Joven · Casa de la Cultura", "ciudad": "Huétor Tájar (Granada)", "precio": "7 €", "url": "https://www.conciertosengranada.es/conciertos/128714-cristian-de-moret-juan-pinilla-marta-la-nina-juanito-campos-antonio-de-la-luz" }
+          ],
+          "redes": {
+            "youtube": "https://www.youtube.com/@JuanitoCamposGuitarraFlamenca",
+            "instagram": "https://www.instagram.com/juanitocamposgf"
+          },
+          "videos": [
+            { "id": "fu-GOPpu5_Y", "titulo": "Granaína con Laura Marchal (Peña La Platería)" },
+            { "id": "oHY3MUOjT4c", "titulo": "Seguiriya con Diego Agujeta" }
           ]
         }
       ]

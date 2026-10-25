@@ -78,7 +78,7 @@
   function renderArtista(a, completa) {
     var tags = (a.estilo || []).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
     var cancion = a.cancion ? '<p class="cancion">Para empezar: <strong><a href="' + esc(a.cancion.url) + '" target="_blank" rel="noopener">' + esc(a.cancion.titulo) + "</a></strong></p>" : "";
-    var foto = a.foto ? '<img class="foto" loading="lazy" src="' + esc(a.foto) + '" alt="' + esc(a.nombre) + '">' : '<div class="foto" aria-hidden="true"></div>';
+    var foto = a.foto ? '<img class="foto" loading="lazy" src="' + esc(a.foto) + '" alt="' + esc(a.nombre) + '">' : '<div class="foto sin-foto" aria-hidden="true">' + esc(a.nombre.split(/\s+/).slice(0, 2).map(function (p) { return p.charAt(0); }).join("").toUpperCase()) + "</div>";
     var media = "";
     if (completa) {
       var sp = a.spotifyId ? '<iframe class="spotify-embed" loading="lazy" title="' + esc(a.nombre) + ' en Spotify" src="https://open.spotify.com/embed/artist/' + esc(a.spotifyId) + '?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>' : "";
