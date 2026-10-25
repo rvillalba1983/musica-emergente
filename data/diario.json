@@ -1,0 +1,188 @@
+{
+  "titulo": "Radar de salas",
+  "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
+  "entradas": [
+    {
+      "id": "2026-10-25",
+      "numero": 2,
+      "fecha": "2026-10-25",
+      "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
+      "intro": "Primera entrada con el nuevo criterio: solo artistas con un concierto en la última semana o en los próximos quince días. Dos de ellos pasan por Granada (JJ Taberna, 31 de octubre y 7 de noviembre) y uno canta en el Festival Flamenco Joven de Huétor Tájar. Esta semana no he encontrado ningún artista latinoamericano emergente con fecha en la ventana.",
+      "ventana": { "desde": "2026-10-18", "hasta": "2026-11-09" },
+      "artistas": [
+        {
+          "nombre": "Carmen y María",
+          "origen": "Mallorca / Barcelona",
+          "estilo": ["Rumba", "Flamenco", "Mestizaje"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5ebd4faa76692286c8ba9fb5b0f",
+          "porQue": "Carmen Cortés y María la Blanco, coristas de La Plazuela, presentan este año el EP «De otros, nuestras»: versiones de Manzanita («La quiero a morir»), Los Chichos («Son ilusiones»), Ray Heredia y Alejandro Sanz llevadas a su terreno de flamenco, funk y R&B. Es la vena rumbera de José Carlos Escobar o Salistre, pero con dos voces femeninas.",
+          "cancion": { "titulo": "La quiero a morir", "url": "https://www.youtube.com/watch?v=25NXX2YTchk" },
+          "spotifyId": "2fwlQPCFVs4ZNKKe3Ngu8O",
+          "conciertos": [
+            { "fecha": "2026-11-07", "hora": "21:00", "lugar": "JJ Taberna", "ciudad": "Granada", "precio": "15 €", "url": "https://conciertos.club/artistas/carmen-y-maria" },
+            { "fecha": "2026-12-19", "hora": "21:00", "lugar": "París 15 (con Serko)", "ciudad": "Málaga", "precio": "29 €", "url": "https://conciertos.club/artistas/carmen-y-maria" },
+            { "fecha": "2027-01-22", "hora": "21:00", "lugar": "Peor para el Sol", "ciudad": "Madrid", "precio": "15 €", "url": "https://conciertos.club/artistas/carmen-y-maria" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/2fwlQPCFVs4ZNKKe3Ngu8O",
+            "youtube": "https://www.youtube.com/@_carmenymaria_",
+            "instagram": "https://www.instagram.com/_carmenymaria_/"
+          },
+          "videos": [
+            { "id": "FXwux7na21o", "titulo": "Son Ilusiones (vídeo oficial)" },
+            { "id": "IGs5XgKMZ3U", "titulo": "Bajo la lluvia (vídeo oficial)" }
+          ]
+        },
+        {
+          "nombre": "Andrea Santiago",
+          "origen": "Pamplona",
+          "estilo": ["Canción de autor", "Indie pop"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb9b3500498da90435143ec7ba",
+          "porQue": "Cantautora navarra con banda. Tiene dos discos («Prenderle fuego a todo» y «Éxodo», este último producido por Juanma Latorre, de Vetusta Morla) y prepara el tercero, «Muna». Sus letras son íntimas y narrativas, y su tema más escuchado es «Las bestias que me acompañan», con Yoly Saa. Toca en Granada este sábado 31.",
+          "cancion": { "titulo": "Las bestias que me acompañan (con Yoly Saa)", "url": "https://www.youtube.com/watch?v=e7x99Nvopg8" },
+          "spotifyId": "25ujYqJknNjORPPtUIDUXo",
+          "conciertos": [
+            { "fecha": "2026-10-31", "hora": "20:30", "lugar": "JJ Taberna (con Supercremalleras)", "ciudad": "Granada", "precio": "11 €", "url": "https://conciertos.club/artistas/andrea-santiago" },
+            { "fecha": "2026-11-08", "hora": "14:00", "lugar": "Kuivi Almacenes", "ciudad": "Oviedo", "precio": "Entrada libre", "url": "https://conciertos.club/artistas/andrea-santiago" },
+            { "fecha": "2026-12-11", "hora": "20:00", "lugar": "Sala Vesta", "ciudad": "Madrid", "precio": "10,70 €", "url": "https://conciertos.club/artistas/andrea-santiago" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/25ujYqJknNjORPPtUIDUXo",
+            "youtube": "https://www.youtube.com/@andreasantiagomusica",
+            "instagram": "https://www.instagram.com/__andreasantiago__/"
+          },
+          "videos": [
+            { "id": "JuhHeukXTmk", "titulo": "Estrellas" },
+            { "id": "17PpTEedy6k", "titulo": "No quiero olvidar" }
+          ]
+        },
+        {
+          "nombre": "Cristian de Moret",
+          "origen": "Huelva (vive en Sevilla)",
+          "estilo": ["Flamenco", "Fusión"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5ebc8589d57ff5f480701538626",
+          "porQue": "Cantaor, pianista y productor. Ha trabajado con Carmen Linares, Rocío Molina o Pedro el Granaíno y en solitario ha sacado «Supernova» (2021) y «Caballo Rojo» (2023). Mezcla el cante con jazz y electrónica. Va al Festival Flamenco Joven de Huétor Tájar, a 40 minutos de Granada, con la guitarra de Juanito Campos y el cante de Juan Pinilla, Marta «La Niña» y Antonio de la Luz.",
+          "cancion": { "titulo": "Sube el precio del alquiler", "url": "https://open.spotify.com/track/5QaNvSTBr9wuCkVfoBLJ6B" },
+          "spotifyId": "0Lf8YxCqt0flPbiPlBDSPQ",
+          "conciertos": [
+            { "fecha": "2026-11-06", "hora": "19:30", "lugar": "Festival Flamenco Joven · Casa de la Cultura", "ciudad": "Huétor Tájar (Granada)", "precio": "7 €", "url": "https://conciertos.club/artistas/cristian-de-moret" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/0Lf8YxCqt0flPbiPlBDSPQ",
+            "youtube": "https://www.youtube.com/@CRISTIANDEMORET-g4v",
+            "bandcamp": "https://cristiandemoret.bandcamp.com"
+          },
+          "videos": [
+            { "id": "FZRncxmkV68", "titulo": "Yo quiero tu calor" },
+            { "id": "DDJpbuvqvMw", "titulo": "Dark Soleá" }
+          ]
+        },
+        {
+          "nombre": "Calequi y Las Panteras",
+          "origen": "España",
+          "estilo": ["Mestizaje", "Canción latina"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb7b0a9c31a4d6268d6258bc90",
+          "porQue": "Trío de Javier Calequi, Lauri Revuelta y Luisa Corral que pasó por Girando Por Salas (#GPS15). Este año ha publicado el disco «TRES», con colaboraciones de El David Aguilar («Dulce Picante») y Xoel López. Hacen canción latina con rumba y cumbia, y es lo más cercano a Maca & Gero que he encontrado esta semana.",
+          "cancion": { "titulo": "Dulce Picante (con El David Aguilar)", "url": "https://open.spotify.com/track/1Yg07Y4Fpud4rKaXnboGTN" },
+          "spotifyId": "1ktDK2MSGJMNB2hBgmki5u",
+          "conciertos": [
+            { "fecha": "2026-10-31", "hora": "21:30", "lugar": "Garaje Beat Club", "ciudad": "Murcia", "precio": "15 €", "url": "https://conciertos.club/murcia/conciertos/119298-calequi-y-las-panteras" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/1ktDK2MSGJMNB2hBgmki5u",
+            "youtube": "https://www.youtube.com/@calequiylaspanteras",
+            "instagram": "https://www.instagram.com/calequiylaspanteras/"
+          },
+          "videos": [
+            { "id": "i2oovIw_xVo", "titulo": "Un minuto más (lyric video)" },
+            { "id": "3ffe-AJq5Ds", "titulo": "La herida que prefiero (lyric video)" }
+          ]
+        },
+        {
+          "nombre": "Sara Zozaya",
+          "origen": "Donostia",
+          "estilo": ["Folk", "Canción de autor"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb02a88723acfc551b5729b437",
+          "porQue": "Cantautora y multiinstrumentista donostiarra; también canta en el grupo Nerabe. Mezcla folk y pop con tradición vasca y algo de electrónica lo-fi, y en directo la acompaña la chelista Itxaso Navarro. La elegí porque Andrea Santiago la cita como referente y por su lado íntimo, cercano al de Yoly Saa. Toca en el ciclo Radar Joven de Madrid.",
+          "cancion": { "titulo": "Maitia (con Bengo)", "url": "https://open.spotify.com/track/3dDdvKFaVbxPkk3mLe9uyx" },
+          "spotifyId": "0kJdtWJm7Aqpdk7hn7AN8n",
+          "conciertos": [
+            { "fecha": "2026-11-05", "hora": "21:00", "lugar": "Sala Vesta · Radar Joven", "ciudad": "Madrid", "precio": "7 €", "url": "https://conciertos.club/madrid/conciertos/127666-radar-joven-sara-zozaya" }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/0kJdtWJm7Aqpdk7hn7AN8n",
+            "youtube": "https://www.youtube.com/@sara.zozaya",
+            "instagram": "https://www.instagram.com/sara.zozaya/"
+          },
+          "videos": [
+            { "id": "27eErH75yRw", "titulo": "Elurra" },
+            { "id": "F60ueE70wB4", "titulo": "attä (EP completo)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23",
+      "numero": 1,
+      "fecha": "2026-10-23",
+      "titulo": "Primera tanda",
+      "intro": "La primera selección, hecha antes de exigir un concierto cercano en fecha. Son cinco artistas del circuito de salas que encajan con lo que escucho en Spotify.",
+      "artistas": [
+        {
+          "nombre": "Riada",
+          "origen": "Madrid",
+          "estilo": ["Rock", "Canción de autor"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb1a4acd6837128faee1abe5a6",
+          "porQue": "Banda de rock y canción de autor que este año gira con Girando Por Salas (#GPS16).",
+          "cancion": { "titulo": "Algo de Luz", "url": "https://open.spotify.com/track/1xvVF6adoDHS847ZalGMCO" },
+          "spotifyId": "1s0pVxTjaHIoGhLWLPq1rc",
+          "redes": { "spotify": "https://open.spotify.com/artist/1s0pVxTjaHIoGhLWLPq1rc" }
+        },
+        {
+          "nombre": "Gon Abril",
+          "origen": "Valladolid",
+          "estilo": ["Pop rock"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb2a6c0c9e7f631ee609a8d6c5",
+          "porQue": "Su primera gira de salas, «Lo Que Importa De Verdad», arranca en febrero de 2027.",
+          "cancion": { "titulo": "Vértigo", "url": "https://open.spotify.com/track/7AmsOVCEcTp5cWhcES3JRE" },
+          "spotifyId": "33E9EiMUaBxMlQwamgda4W",
+          "conciertos": [
+            { "fecha": "2027-02-25", "lugar": "Sala Porta Caeli", "ciudad": "Valladolid", "url": "https://www.laganzua.net/conciertos/entradas-gon-abril" },
+            { "fecha": "2027-02-26", "hora": "21:30", "lugar": "Sala Music Factory", "ciudad": "Salamanca", "url": "https://www.laganzua.net/conciertos/entradas-gon-abril" }
+          ],
+          "redes": { "spotify": "https://open.spotify.com/artist/33E9EiMUaBxMlQwamgda4W" }
+        },
+        {
+          "nombre": "Roura",
+          "origen": "A Coruña (vive en Madrid)",
+          "estilo": ["Canción de autor"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb750fac97a83510be4491058a",
+          "porQue": "Cantautor de canciones largas y narrativas, en la órbita de Quique González.",
+          "cancion": { "titulo": "Es tu vida", "url": "https://open.spotify.com/track/4vfrvOqohQqJJZJA5OUPeG" },
+          "spotifyId": "2II3DvO7vXKu8ADrdJv1rv",
+          "redes": { "spotify": "https://open.spotify.com/artist/2II3DvO7vXKu8ADrdJv1rv" }
+        },
+        {
+          "nombre": "Juan + Yerai",
+          "origen": "España",
+          "estilo": ["Flamenco", "Canción"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb209e48aca35e6e7693f9bc59",
+          "porQue": "Juan Debel con el guitarrista Yerai Cortés; colaboran Josemi Carmona y Jorge Pardo.",
+          "cancion": { "titulo": "Claro Que Te Imaginaba", "url": "https://open.spotify.com/track/5CZbimX3deoK3RK2odnb9N" },
+          "spotifyId": "0GwmnN8qnlqfPnw6D9nwBZ",
+          "redes": { "spotify": "https://open.spotify.com/artist/0GwmnN8qnlqfPnw6D9nwBZ" }
+        },
+        {
+          "nombre": "Carmesí",
+          "origen": "Murcia",
+          "estilo": ["Canción de autor"],
+          "foto": "https://i.scdn.co/image/ab6761610000e5ebd74eed8f7a0064020c6997a0",
+          "porQue": "Cantautora íntima que giró con #GPS15. Ojo: no está confirmado que el perfil de Spotify sea el suyo.",
+          "cancion": { "titulo": "Disneyland", "url": "https://open.spotify.com/track/0bmp9WON2rSZgsp06b1Da8" },
+          "spotifyId": "1U2aGi2viOXT4edeymUqMu",
+          "redes": { "spotify": "https://open.spotify.com/artist/1U2aGi2viOXT4edeymUqMu" }
+        }
+      ]
+    }
+  ]
+}

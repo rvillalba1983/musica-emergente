@@ -1,0 +1,118 @@
+:root {
+  --bg: #f6f1e7;
+  --paper: #fffdf8;
+  --ink: #1f1a16;
+  --muted: #6b6158;
+  --line: #e2d8c8;
+  --accent: #b4441f;
+  --accent-soft: #f3dfd3;
+  --ok: #3f6b4f;
+  --ok-soft: #dfeadf;
+  --shadow: 0 1px 2px rgba(31, 26, 22, .06), 0 6px 24px rgba(31, 26, 22, .06);
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15120f;
+    --paper: #1e1a16;
+    --ink: #efe7db;
+    --muted: #a99d90;
+    --line: #342d26;
+    --accent: #e0774e;
+    --accent-soft: #3a241a;
+    --ok: #8cc29e;
+    --ok-soft: #1f3226;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+/* Cabecera */
+.masthead { border-bottom: 1px solid var(--line); padding: 48px 0 20px; }
+.kicker { margin: 0; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.masthead h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(40px, 8vw, 72px); line-height: 1; margin: 10px 0 12px; letter-spacing: -.02em; }
+.lede { margin: 0; max-width: 60ch; color: var(--muted); font-size: 17px; }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.toc a { font-size: 13px; text-decoration: none; color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; background: var(--paper); }
+.toc a:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Entradas */
+.entrada { padding: 44px 0 12px; border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
+.entrada-head { margin-bottom: 26px; }
+.entrada-meta { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 13px; color: var(--muted); }
+.num { font-family: var(--serif); font-weight: 700; color: var(--accent); font-size: 15px; }
+.badge-ultima { background: var(--accent); color: #fff; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; }
+.entrada h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(26px, 4.4vw, 38px); line-height: 1.15; margin: 8px 0 10px; letter-spacing: -.01em; }
+.entrada .intro { margin: 0; max-width: 70ch; }
+.ventana { display: inline-block; margin-top: 12px; font-size: 13px; color: var(--muted); border-left: 3px solid var(--accent); padding-left: 10px; }
+
+/* Tarjeta de artista */
+.artista { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px; margin-bottom: 22px; display: grid; grid-template-columns: 180px 1fr; gap: 22px; }
+.foto { width: 180px; aspect-ratio: 1; border-radius: 10px; object-fit: cover; background: var(--line); }
+.artista h3 { font-family: var(--serif); font-size: 26px; line-height: 1.15; margin: 0 0 4px; }
+.origen { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.tag { font-size: 12px; background: var(--accent-soft); color: var(--accent); padding: 2px 9px; border-radius: 999px; font-weight: 500; }
+.porque { margin: 0 0 12px; }
+.cancion { font-size: 14px; margin: 0 0 14px; }
+.cancion strong { font-weight: 600; }
+
+.conciertos { list-style: none; margin: 0 0 14px; padding: 0; border-top: 1px solid var(--line); }
+.conciertos li { display: grid; grid-template-columns: 92px 1fr auto; gap: 10px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.conciertos .dia { font-weight: 600; font-variant-numeric: tabular-nums; }
+.conciertos .lugar span { color: var(--muted); }
+.conciertos .estado { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding: 2px 7px; border-radius: 4px; white-space: nowrap; }
+.estado.pasado { background: var(--line); color: var(--muted); }
+.estado.proximo { background: var(--ok-soft); color: var(--ok); }
+.estado.lejos { background: transparent; color: var(--muted); border: 1px solid var(--line); }
+.conciertos a { text-decoration: none; }
+
+.redes { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.red { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 500; text-decoration: none; color: var(--ink); border: 1px solid var(--line); padding: 5px 11px; border-radius: 8px; background: var(--bg); }
+.red:hover { border-color: var(--accent); color: var(--accent); }
+.red svg { width: 15px; height: 15px; fill: currentColor; }
+
+.media { grid-column: 1 / -1; display: grid; gap: 14px; }
+.spotify-embed { width: 100%; height: 152px; border: 0; border-radius: 12px; }
+.videos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; }
+.video button { all: unset; cursor: pointer; position: absolute; inset: 0; display: block; }
+.video img { width: 100%; height: 100%; object-fit: cover; opacity: .9; transition: opacity .2s; }
+.video button:hover img, .video button:focus-visible img { opacity: 1; }
+.video button:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.video .play { position: absolute; left: 50%; top: 50%; width: 64px; height: 44px; transform: translate(-50%, -50%); background: rgba(0, 0, 0, .7); border-radius: 12px; display: grid; place-items: center; }
+.video .play::after { content: ""; border-style: solid; border-width: 10px 0 10px 17px; border-color: transparent transparent transparent #fff; margin-left: 4px; }
+.video .vt { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 12px 9px; font-size: 13px; color: #fff; background: linear-gradient(transparent, rgba(0, 0, 0, .75)); }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Entradas antiguas, más compactas */
+.entrada.antigua .artista { grid-template-columns: 96px 1fr; padding: 16px; }
+.entrada.antigua .foto { width: 96px; }
+.entrada.antigua h3 { font-size: 21px; }
+
+.loading, .error { padding: 40px 0; color: var(--muted); }
+.foot { padding: 30px 16px 60px; font-size: 13px; color: var(--muted); }
+
+@media (max-width: 680px) {
+  .masthead { padding-top: 32px; }
+  .artista { grid-template-columns: 1fr; padding: 16px; gap: 14px; }
+  .foto { width: 100%; max-width: 260px; }
+  .entrada.antigua .artista { grid-template-columns: 72px 1fr; }
+  .entrada.antigua .foto { width: 72px; }
+  .videos { grid-template-columns: 1fr; }
+  .conciertos li { grid-template-columns: 78px 1fr; }
+  .conciertos .estado { grid-column: 2; justify-self: start; }
+}
