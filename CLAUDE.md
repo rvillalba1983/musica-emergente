@@ -3,6 +3,8 @@
 Web estática publicada en GitHub Pages: https://rvillalba1983.github.io/musica-emergente/
 Todo el contenido está en `data/diario.json`. `index.html` + `assets/app.js` lo pintan (no hay build).
 
+Todas las entradas, nuevas y antiguas, se pintan con el mismo formato completo (foto, conciertos, redes, reproductor de Spotify y 2 vídeos). Cualquier artista que se añada o retoque debe llevar todos los campos de abajo.
+
 ## Entrada semanal (cada viernes)
 
 1. Añade una entrada NUEVA al principio de `entradas` en `data/diario.json`, sin tocar las anteriores.

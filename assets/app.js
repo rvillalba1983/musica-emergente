@@ -75,15 +75,12 @@
     return html ? '<div class="videos">' + html + "</div>" : "";
   }
 
-  function renderArtista(a, completa) {
+  function renderArtista(a) {
     var tags = (a.estilo || []).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
     var cancion = a.cancion ? '<p class="cancion">Para empezar: <strong><a href="' + esc(a.cancion.url) + '" target="_blank" rel="noopener">' + esc(a.cancion.titulo) + "</a></strong></p>" : "";
     var foto = a.foto ? '<img class="foto" loading="lazy" src="' + esc(a.foto) + '" alt="' + esc(a.nombre) + '">' : '<div class="foto sin-foto" aria-hidden="true">' + esc(a.nombre.split(/\s+/).slice(0, 2).map(function (p) { return p.charAt(0); }).join("").toUpperCase()) + "</div>";
-    var media = "";
-    if (completa) {
-      var sp = a.spotifyId ? '<iframe class="spotify-embed" loading="lazy" title="' + esc(a.nombre) + ' en Spotify" src="https://open.spotify.com/embed/artist/' + esc(a.spotifyId) + '?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>' : "";
-      media = sp || a.videos || a.youtubeChannelId ? '<div class="media">' + sp + renderVideos(a) + "</div>" : "";
-    }
+    var sp = a.spotifyId ? '<iframe class="spotify-embed" loading="lazy" title="' + esc(a.nombre) + ' en Spotify" src="https://open.spotify.com/embed/artist/' + esc(a.spotifyId) + '?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>' : "";
+    var media = sp || a.videos || a.youtubeChannelId ? '<div class="media">' + sp + renderVideos(a) + "</div>" : "";
     return '<article class="artista">' + foto + "<div>" +
       "<h3>" + esc(a.nombre) + "</h3>" +
       (a.origen ? '<p class="origen">' + esc(a.origen) + "</p>" : "") +
@@ -96,11 +93,11 @@
   function renderEntrada(e, idx) {
     var ultima = idx === 0;
     var ventana = e.ventana ? '<span class="ventana">Conciertos entre el ' + fechaLarga(e.ventana.desde) + " y el " + fechaLarga(e.ventana.hasta) + "</span>" : "";
-    return '<section class="entrada' + (ultima ? "" : " antigua") + '" id="n' + esc(e.numero) + '">' +
+    return '<section class="entrada" id="n' + esc(e.numero) + '">' +
       '<header class="entrada-head"><div class="entrada-meta"><span class="num">Nº ' + esc(e.numero) + "</span><span>" + fechaLarga(e.fecha) + "</span>" +
       (ultima ? '<span class="badge-ultima">Esta semana</span>' : "") + "</div>" +
       "<h2>" + esc(e.titulo) + "</h2>" + (e.intro ? '<p class="intro">' + esc(e.intro) + "</p>" : "") + ventana + "</header>" +
-      e.artistas.map(function (a) { return renderArtista(a, ultima || e.completa); }).join("") + "</section>";
+      e.artistas.map(function (a) { return renderArtista(a); }).join("") + "</section>";
   }
 
   function render(data) {

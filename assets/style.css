@@ -63,7 +63,6 @@ img { max-width: 100%; display: block; }
 .artista { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px; margin-bottom: 22px; display: grid; grid-template-columns: 180px 1fr; gap: 22px; }
 .foto { width: 180px; aspect-ratio: 1; border-radius: 10px; object-fit: cover; background: var(--line); }
 .foto.sin-foto { display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); font: 700 56px/1 var(--serif); }
-.entrada.antigua .foto.sin-foto { font-size: 28px; }
 .artista h3 { font-family: var(--serif); font-size: 26px; line-height: 1.15; margin: 0 0 4px; }
 .origen { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
@@ -100,11 +99,6 @@ img { max-width: 100%; display: block; }
 .video .vt { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 12px 9px; font-size: 13px; color: #fff; background: linear-gradient(transparent, rgba(0, 0, 0, .75)); }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
-/* Entradas antiguas, más compactas */
-.entrada.antigua .artista { grid-template-columns: 96px 1fr; padding: 16px; }
-.entrada.antigua .foto { width: 96px; }
-.entrada.antigua h3 { font-size: 21px; }
-
 .loading, .error { padding: 40px 0; color: var(--muted); }
 .foot { padding: 30px 16px 60px; font-size: 13px; color: var(--muted); }
 
@@ -112,8 +106,6 @@ img { max-width: 100%; display: block; }
   .masthead { padding-top: 32px; }
   .artista { grid-template-columns: 1fr; padding: 16px; gap: 14px; }
   .foto { width: 100%; max-width: 260px; }
-  .entrada.antigua .artista { grid-template-columns: 72px 1fr; }
-  .entrada.antigua .foto { width: 72px; }
   .videos { grid-template-columns: 1fr; }
   .conciertos li { grid-template-columns: 78px 1fr; }
   .conciertos .estado { grid-column: 2; justify-self: start; }
