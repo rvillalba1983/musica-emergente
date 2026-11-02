@@ -13,7 +13,7 @@ En `scripts/` (Python sin dependencias) y `.github/workflows/`:
 - `refrescar.py` (miércoles): actualiza los 2 últimos vídeos de cada artista publicado, añade fechas nuevas de conciertos.club (nunca borra) y repone fotos caídas.
 - `revisar.py` (tras cada cambio del diario y tras el refresco): comprueba campos, fechas, repetidos, formatos de ID y que cargan fotos y miniaturas. Si falla, GitHub avisa por correo.
 
-Todos van despacio a propósito (pausas de 6-10 s con YouTube y 3-5 s con las agendas), reintentan con espera creciente ante un 429 y, si YouTube bloquea 3 veces seguidas, dejan de llamarle en esa ejecución sin tocar los datos que ya había. Se pueden lanzar a mano en la pestaña Actions del repo ("Run workflow") o en local: `python3 scripts/revisar.py`.
+Todos van despacio a propósito (pausas de 6-10 s con YouTube y 3-5 s con las agendas), reintentan con espera creciente ante un 429 y, si YouTube bloquea 3 veces seguidas, dejan de llamarle en esa ejecución sin tocar los datos que ya había. Se pueden lanzar a mano en la pestaña Actions del repo ("Run workflow"), con `gh api -X POST repos/rvillalba1983/musica-emergente/actions/workflows/<archivo>.yml/dispatches -f ref=main`, o en local: `python3 scripts/revisar.py`. Ojo: desde los servidores de GitHub, YouTube devuelve la lista de vídeos al día; desde una sesión de Claude en la nube a veces llega con retraso. Por eso, tras publicar una entrada, conviene lanzar `refrescar.yml` para que GitHub ponga los últimos vídeos.
 
 ## Entrada semanal (cada viernes)
 
