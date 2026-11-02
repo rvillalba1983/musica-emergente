@@ -151,7 +151,7 @@ def nombres_publicados(diario):
 # plantilla: cada concierto es un <li> con un bloque de microdatos schema.org.
 
 def _meta(bloque, prop):
-    m = re.search(r'itemprop="%s" content="([^"]*)"' % prop, bloque)
+    m = re.search(r'itemprop="%s" content="(.*?)"\s*/?>' % prop, bloque)
     return html.unescape(m.group(1)).strip() if m else ""
 
 
@@ -164,15 +164,15 @@ def parsear_agenda(pagina, base):
         estilo = re.search(r'class="estilo">\s*/\s*([^<]+)<', li)
         nombre = re.search(r'class="nombre"[^>]*>(.*?)</a>', li, flags=re.S)
         performers = re.findall(
-            r'itemprop="performer".*?itemprop="name" content="([^"]*)"', li, flags=re.S)
-        loc = re.search(r'itemprop="location".*?itemprop="name" content="([^"]*)"', li, flags=re.S)
+            r'itemprop="performer".*?itemprop="name" content="(.*?)"\s*/?>', li, flags=re.S)
+        loc = re.search(r'itemprop="location".*?itemprop="name" content="(.*?)"\s*/?>', li, flags=re.S)
         precio = re.search(r'class="precio"[^>]*>([^<]+)<', li) or re.search(
             r'class="precio_wrap">\s*([^<]+?)\s*</span>', li)
         url = _meta(li, "url")
         inicio = _meta(li, "startDate")
         out.append({
             "titulo": texto_plano(nombre.group(1)) if nombre else _meta(li, "name"),
-            "artistas": [html.unescape(p).strip() for p in performers] or [_meta(li, "name")],
+            "artistas": [html.unescape(p).strip(" .") for p in performers] or [_meta(li, "name").strip(" .")],
             "estilo": estilo.group(1).strip() if estilo else "",
             "fecha": inicio[:10],
             "hora": inicio[11:16] if len(inicio) > 10 else "",
@@ -243,7 +243,10 @@ def yt_canal_de_handle(url_canal):
     p = descargar(url_canal)
     if not p:
         return None
-    m = re.search(r'"externalId":"(UC[\w-]{22})"', p) or re.search(r'"channelId":"(UC[\w-]{22})"', p)
+    # El enlace canónico de la página es el del propio canal (otros "channelId"
+    # de la página pueden ser de canales recomendados).
+    m = (re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', p)
+         or re.search(r'"externalId":"(UC[\w-]{22})"', p))
     return m.group(1) if m else None
 
 

@@ -19,7 +19,7 @@ import re
 
 import comun as c
 
-ESTILOS = {"Cantautores", "Mestizaje/Fusión", "Flamenco/Copla", "Folk", "Música Latina",
+ESTILOS = {"Cantautores", "Mestizaje/Fusión", "Reggae/Ska", "Flamenco/Copla", "Folk", "Música Latina",
            "Pop Latino", "Rumba", "Canción de autor", "Música de Autor"}
 DESCARTAR = re.compile(r"candlelight|tributo|espect[aá]culo flamenco|tablao|jam session|"
                        r"karaoke|open mic|micro abierto|homenaje", re.I)
