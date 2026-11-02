@@ -3,6 +3,282 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
+      "id": "2026-11-02",
+      "numero": 3,
+      "fecha": "2026-11-02",
+      "titulo": "Flamenco joven en Huétor Tájar, ska almeriense y una chilena de gira",
+      "intro": "Cinco artistas con concierto entre el 26 de octubre y el 17 de noviembre. En Granada, la JJ Taberna recibe a Miguel Company el 6 de noviembre y a Alfredo Robles el 15, y ese mismo 6 el Festival Flamenco Joven de Huétor Tájar trae la guitarra de Antonio de la Luz. Fuera de Andalucía, la gallega Sara Sístole pasa por Radar Joven y la chilena Cancamusa arranca gira por España.",
+      "ventana": {
+        "desde": "2026-10-26",
+        "hasta": "2026-11-17"
+      },
+      "artistas": [
+        {
+          "nombre": "Miguel Company",
+          "origen": "Almería",
+          "estilo": [
+            "Rock mestizo",
+            "Ska"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb59f0ea5e92a8fb58341b68d0",
+          "porQue": "Banda almeriense de rock mestizo y ska, de directo enérgico y letras callejeras. Presentan «A Favor del Viento», su segundo disco, con colaboraciones de Boikot, El Bombo y Ferran Exceso. La gira para en la JJ Taberna de Granada el viernes 6 de noviembre y sigue por Badajoz, Málaga, Jaén, Murcia y Almería.",
+          "cancion": {
+            "titulo": "A Favor del Viento",
+            "url": "https://open.spotify.com/track/21lwySch44AmI0sBXOjVdp"
+          },
+          "spotifyId": "1e0IcVb7XU5p8UZI8oFU7N",
+          "conciertos": [
+            {
+              "fecha": "2026-11-06",
+              "hora": "21:00",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "12,48 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129639-miguel-company"
+            },
+            {
+              "fecha": "2026-11-07",
+              "hora": "22:00",
+              "lugar": "Ágora Pub",
+              "ciudad": "Badajoz",
+              "precio": "12 €",
+              "url": "https://conciertos.club/artistas/miguel-company"
+            },
+            {
+              "fecha": "2026-12-18",
+              "hora": "21:00",
+              "lugar": "Sala Marte",
+              "ciudad": "Málaga",
+              "precio": "12 €",
+              "url": "https://conciertos.club/artistas/miguel-company"
+            },
+            {
+              "fecha": "2027-01-23",
+              "hora": "20:30",
+              "lugar": "Inferno",
+              "ciudad": "Jaén",
+              "precio": "12 €",
+              "url": "https://conciertos.club/artistas/miguel-company"
+            },
+            {
+              "fecha": "2027-02-05",
+              "hora": "21:00",
+              "lugar": "Sala Revólver",
+              "ciudad": "Murcia",
+              "precio": "12 €",
+              "url": "https://conciertos.club/artistas/miguel-company"
+            },
+            {
+              "fecha": "2027-03-20",
+              "hora": "21:30",
+              "lugar": "Berlín Social Club",
+              "ciudad": "Almería",
+              "precio": "13,20 €",
+              "url": "https://conciertos.club/artistas/miguel-company"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/1e0IcVb7XU5p8UZI8oFU7N",
+            "youtube": "https://www.youtube.com/@miguelcompany_",
+            "instagram": "https://www.instagram.com/miguel_company/"
+          },
+          "videos": [
+            {
+              "id": "C2FTcH6_sq4",
+              "titulo": "Más Amor Que Fe (Live Session en La Jaula)"
+            },
+            {
+              "id": "DvKQwkh_a64",
+              "titulo": "Para Volver a Gritar, con Boikot y El Bombo"
+            }
+          ]
+        },
+        {
+          "nombre": "Antonio de la Luz",
+          "origen": "España",
+          "estilo": [
+            "Guitarra flamenca",
+            "Flamenco"
+          ],
+          "porQue": "Guitarrista flamenco joven que comparte en su canal falsetas por bulerías, soleá y su versión del trémolo de Sabicas. Toca el viernes 6 de noviembre en el XXI Festival Flamenco Joven de Huétor Tájar, junto a Juanito Campos y Vicente Márquez «Tente» al toque y con Cristian de Moret, Marta «La Niña» y Juan Pinilla al cante.",
+          "cancion": {
+            "titulo": "Soleá por bulerías",
+            "url": "https://www.youtube.com/watch?v=JVGmvetBwdk"
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-06",
+              "hora": "19:30",
+              "lugar": "Festival Flamenco Joven, Casa de la Cultura",
+              "ciudad": "Huétor Tájar (Granada)",
+              "precio": "7 €",
+              "url": "https://www.conciertosengranada.es/conciertos/128714-cristian-de-moret-juan-pinilla-marta-la-nina-juanito-campos-antonio-de-la-luz"
+            }
+          ],
+          "redes": {
+            "youtube": "https://www.youtube.com/@antoniodelaluz9622"
+          },
+          "videos": [
+            {
+              "id": "n6_sQVLQL0g",
+              "titulo": "Fantasía - Trémolo"
+            },
+            {
+              "id": "yWz4e0XRy8o",
+              "titulo": "Trémolo de Sabicas · Bronce Gitano"
+            }
+          ]
+        },
+        {
+          "nombre": "Alfredo Robles",
+          "origen": "España",
+          "estilo": [
+            "Flamenco fusión",
+            "Canción de autor",
+            "Mestizaje"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5ebdb0b11dda86b4c468cb999ad",
+          "porQue": "Guitarrista y cantautor de pop y flamenco fusión con mucho mestizaje, que canta en castellano y en italiano. Su disco es «No Somos de Nadie» y sus últimos temas, «Princesinha» y «Vacanza in Sardegna». El domingo 15 de noviembre toca en la JJ Taberna de Granada con casi toda su banda de estudio.",
+          "cancion": {
+            "titulo": "No Somos de Nadie",
+            "url": "https://open.spotify.com/album/32ZwCa7ITWarSP7ZzY5uTj"
+          },
+          "spotifyId": "0mSNOTzAK4g8d56t9Upz7O",
+          "conciertos": [
+            {
+              "fecha": "2026-11-15",
+              "hora": "19:00",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "5 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129652-alfredo-robles"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/0mSNOTzAK4g8d56t9Upz7O",
+            "youtube": "https://www.youtube.com/@AlfredoRoblesRuiz",
+            "instagram": "https://www.instagram.com/robles_emocion/",
+            "facebook": "https://www.facebook.com/alfredoroblesguitar",
+            "web": "https://alfredorobles.hearnow.com/no-somos-de-nadie"
+          },
+          "videos": [
+            {
+              "id": "xUuPA4QQ-n4",
+              "titulo": "Princesinha"
+            },
+            {
+              "id": "Y1_QpPGwhh4",
+              "titulo": "Non so chi sei (en directo)"
+            }
+          ]
+        },
+        {
+          "nombre": "Sara Sístole",
+          "origen": "Galicia",
+          "estilo": [
+            "Canción de autor",
+            "Raíz"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb9a0dcc8572590dd0bcf2eaea",
+          "porQue": "Cantautora gallega de voz con arena y letras que cuentan desde lo pequeño. Después de dos EP trabajó con Nacho Mur (La M.O.D.A.), Guille Molina y Javier Cerezo en la producción, y sus últimos estrenos son «Agua de Galicia» y «Mi luna», con Marilia Monzón. Toca en el ciclo Radar Joven de Madrid el jueves 5 de noviembre.",
+          "cancion": {
+            "titulo": "Mi luna",
+            "url": "https://open.spotify.com/track/0xDfx6X9c9Xwb0Ak3tFn1Y"
+          },
+          "spotifyId": "5IITtWpOwYWgCQOC5saIg8",
+          "conciertos": [
+            {
+              "fecha": "2026-11-05",
+              "hora": "21:00",
+              "lugar": "Intruso Bar (Radar Joven)",
+              "ciudad": "Madrid",
+              "precio": "7 €",
+              "url": "https://conciertos.club/artistas/sara-sistole"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/5IITtWpOwYWgCQOC5saIg8",
+            "youtube": "https://www.youtube.com/@SaraSistole",
+            "instagram": "https://www.instagram.com/sistolemusica/"
+          },
+          "videos": [
+            {
+              "id": "D2IAv8As2ak",
+              "titulo": "Agua de Galicia (videoclip oficial)"
+            },
+            {
+              "id": "dHYhLnXicZk",
+              "titulo": "Mi luna, con Marilia Monzón (videoclip oficial)"
+            }
+          ]
+        },
+        {
+          "nombre": "Cancamusa",
+          "origen": "Chile",
+          "estilo": [
+            "Pop de autor",
+            "Canción"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb756aa9b0625b037ede77387c",
+          "porQue": "Cantautora y percusionista chilena de pop con peso en la letra y la melodía, casi siempre sobre el amor y el desamor. Tras el disco «Dopamina», en el que canta con Gepe, estrena «Cielo, llora por mí». En noviembre gira por España: Feria Trovam de Castellón, Barcelona, Madrid, Toledo y el Monkey Week de El Puerto de Santa María.",
+          "cancion": {
+            "titulo": "Cielo, llora por mí",
+            "url": "https://open.spotify.com/track/09ImD0c9clzVLFizFNEzOl"
+          },
+          "spotifyId": "6GSnSFc0O2JMkPkGcBFsNc",
+          "conciertos": [
+            {
+              "fecha": "2026-11-13",
+              "lugar": "Feria Trovam",
+              "ciudad": "Castellón",
+              "url": "https://www.laganzua.net/noticias/32836-cancamusa-talento-de-chile-en-gira-por-madrid-barcelona-y-mas-lugares-en-noviembre-de-2026"
+            },
+            {
+              "fecha": "2026-11-15",
+              "lugar": "Oasys",
+              "ciudad": "Barcelona",
+              "url": "https://www.laganzua.net/noticias/32836-cancamusa-talento-de-chile-en-gira-por-madrid-barcelona-y-mas-lugares-en-noviembre-de-2026"
+            },
+            {
+              "fecha": "2026-11-18",
+              "lugar": "Café La Palma",
+              "ciudad": "Madrid",
+              "url": "https://www.laganzua.net/noticias/32836-cancamusa-talento-de-chile-en-gira-por-madrid-barcelona-y-mas-lugares-en-noviembre-de-2026"
+            },
+            {
+              "fecha": "2026-11-19",
+              "lugar": "Sala Pícaro",
+              "ciudad": "Toledo",
+              "url": "https://www.laganzua.net/noticias/32836-cancamusa-talento-de-chile-en-gira-por-madrid-barcelona-y-mas-lugares-en-noviembre-de-2026"
+            },
+            {
+              "fecha": "2026-11-21",
+              "lugar": "Monkey Week",
+              "ciudad": "El Puerto de Santa María (Cádiz)",
+              "url": "https://www.laganzua.net/noticias/32836-cancamusa-talento-de-chile-en-gira-por-madrid-barcelona-y-mas-lugares-en-noviembre-de-2026"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/6GSnSFc0O2JMkPkGcBFsNc",
+            "youtube": "https://www.youtube.com/@CANCAMUSA.",
+            "instagram": "https://www.instagram.com/cancamusa/",
+            "tiktok": "https://www.tiktok.com/@.cancamusa",
+            "facebook": "https://www.facebook.com/cancamusa.musica/"
+          },
+          "videos": [
+            {
+              "id": "c71UJyrZ7bg",
+              "titulo": "Cielo, llora por mí (poema visual)"
+            },
+            {
+              "id": "271S1K2nMAY",
+              "titulo": "Cielo, llora por mí (videoclip)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-25",
       "numero": 2,
       "fecha": "2026-10-25",
