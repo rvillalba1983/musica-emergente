@@ -1,0 +1,20 @@
+# Revisa el diario cada vez que cambia data/diario.json. Si algo está roto,
+# la ejecución falla y GitHub avisa por correo.
+name: Revisar el diario
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/diario.json", "scripts/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/revisar.py

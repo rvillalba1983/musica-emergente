@@ -1,0 +1,41 @@
+# Cada jueves por la tarde prepara data/candidatos.json para la entrada del viernes.
+name: Recolectar candidatos
+
+on:
+  schedule:
+    - cron: "23 17 * * 4"   # jueves 17:23 UTC (18:23 en Granada en invierno)
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha de la entrada (AAAA-MM-DD). Vacío = el próximo viernes"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recolectar
+        run: |
+          if [ -n "${{ github.event.inputs.fecha }}" ]; then
+            python3 scripts/recolectar.py --fecha "${{ github.event.inputs.fecha }}"
+          else
+            python3 scripts/recolectar.py
+          fi
+      - name: Guardar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidatos.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Candidatos para la próxima entrada (automático)"
+          git pull --rebase origin main
+          git push origin HEAD:main

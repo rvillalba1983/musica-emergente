@@ -1,0 +1,37 @@
+# Cada miércoles pone al día vídeos, conciertos y fotos de los artistas ya publicados
+# y revisa que la web no tenga nada roto. Si la revisión falla, GitHub avisa por correo.
+name: Refrescar el diario
+
+on:
+  schedule:
+    - cron: "17 5 * * 3"    # miércoles 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  refrescar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refrescar vídeos, conciertos y fotos
+        run: python3 scripts/refrescar.py
+      - name: Revisar el diario
+        run: python3 scripts/revisar.py
+      - name: Guardar
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 -c "import json;json.load(open('data/diario.json'))"
+          git add data/diario.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Refresco semanal de vídeos y conciertos (automático)"
+          git pull --rebase origin main
+          git push origin HEAD:main

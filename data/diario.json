@@ -91,7 +91,8 @@
               "id": "DvKQwkh_a64",
               "titulo": "Para Volver a Gritar, con Boikot y El Bombo"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCZ5Bt9ZdMfR7uItvRULWRFQ"
         },
         {
           "nombre": "Antonio de la Luz",
@@ -127,7 +128,8 @@
               "id": "yWz4e0XRy8o",
               "titulo": "Trémolo de Sabicas · Bronce Gitano"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCldNbDQnCOr0rxtKaDxSQnw"
         },
         {
           "nombre": "Alfredo Robles",
@@ -170,7 +172,8 @@
               "id": "Y1_QpPGwhh4",
               "titulo": "Non so chi sei (en directo)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCjUxmZZR9lPnLWnqVsLR7KQ"
         },
         {
           "nombre": "Sara Sístole",
@@ -210,7 +213,8 @@
               "id": "dHYhLnXicZk",
               "titulo": "Mi luna, con Marilia Monzón (videoclip oficial)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCsEuUF-PbDDAS1MJZbos7Xg"
         },
         {
           "nombre": "Cancamusa",
@@ -274,7 +278,8 @@
               "id": "G9AOPa04zEU",
               "titulo": "Entre mis recuerdos (acústico)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UC2FAjQDOs0RyImGZLEXvy6A"
         }
       ]
     },
@@ -344,7 +349,8 @@
               "id": "IGs5XgKMZ3U",
               "titulo": "Bajo la lluvia (vídeo oficial)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCG4_l4yZYoB6q6bav15PpCg"
         },
         {
           "nombre": "Andrea Santiago",
@@ -393,14 +399,15 @@
           },
           "videos": [
             {
-              "id": "JuhHeukXTmk",
-              "titulo": "Estrellas"
+              "id": "ELpMB1n0tHA",
+              "titulo": "Una (Directo en Baluarte)"
             },
             {
-              "id": "17PpTEedy6k",
-              "titulo": "No quiero olvidar"
+              "id": "LftMNN_5vz4",
+              "titulo": "La gran colisión (Visualizer oficial)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCK9NNR4Z9jac9a3lJS4RgJw"
         },
         {
           "nombre": "Cristian de Moret",
@@ -437,10 +444,11 @@
               "titulo": "Yo quiero tu calor"
             },
             {
-              "id": "DDJpbuvqvMw",
-              "titulo": "Dark Soleá"
+              "id": "I-Rs0PaxSP4",
+              "titulo": "La flor del almendro (bulerías)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCxcBbxfsd-tzuJ0NdPajxyA"
         },
         {
           "nombre": "Calequi y Las Panteras",
@@ -480,7 +488,8 @@
               "id": "3ffe-AJq5Ds",
               "titulo": "La herida que prefiero (lyric video)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCcig2BbdtelE9Do8cxK9H_A"
         },
         {
           "nombre": "Sara Zozaya",
@@ -520,7 +529,8 @@
               "id": "F60ueE70wB4",
               "titulo": "attä (EP completo)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCHc6dJwAqloNoaot7edckTQ"
         },
         {
           "nombre": "MAPA",
@@ -559,7 +569,8 @@
               "id": "Leqvk1JQpdU",
               "titulo": "Seguir jugando (con Fede Comín y Álvaro Fraile)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UC_iYsE-GYap62CrtVfH9nAg"
         },
         {
           "nombre": "Julián Heredia",
@@ -596,7 +607,8 @@
               "id": "Ozihn0BwpMk",
               "titulo": "Julián Heredia"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCaOKM0_8N1lwxSouQgQ0G_g"
         },
         {
           "nombre": "Juanito Campos",
@@ -631,7 +643,8 @@
               "id": "oHY3MUOjT4c",
               "titulo": "Seguiriya con Diego Agujeta"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCrXMB9pDvSmKTSy_n72NZPw"
         }
       ]
     },
@@ -671,7 +684,8 @@
               "id": "HHP61TubWQM",
               "titulo": "Debajo una higuera"
             }
-          ]
+          ],
+          "youtubeChannelId": "UC_rtu95-8kQ70R1xTt8kI9g"
         },
         {
           "nombre": "Gon Abril",
@@ -704,6 +718,30 @@
               "url": "https://www.laganzua.net/conciertos/entradas-gon-abril"
             },
             {
+              "fecha": "2027-03-05",
+              "hora": "22:30",
+              "lugar": "Zentral Pamplona",
+              "ciudad": "Pamplona-Iruña",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/gon-abril"
+            },
+            {
+              "fecha": "2027-03-11",
+              "hora": "21:30",
+              "lugar": "La Yesería",
+              "ciudad": "Murcia",
+              "precio": "16,65 €",
+              "url": "https://conciertos.club/artistas/gon-abril"
+            },
+            {
+              "fecha": "2027-03-12",
+              "hora": "22:30",
+              "lugar": "Radio City",
+              "ciudad": "Valencia",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/gon-abril"
+            },
+            {
               "fecha": "2027-04-09",
               "hora": "22:30",
               "lugar": "Café La Palma",
@@ -728,7 +766,8 @@
               "id": "gS-f4XvfzcE",
               "titulo": "1000 Canciones"
             }
-          ]
+          ],
+          "youtubeChannelId": "UClpj_9uzT5Prn6tgmN2Qzfw"
         },
         {
           "nombre": "Roura",
@@ -750,14 +789,15 @@
           },
           "videos": [
             {
-              "id": "q07d4m9i5FU",
-              "titulo": "La taza (acústico)"
+              "id": "em_2liNJH-4",
+              "titulo": "Un baño de realidad (una canción para Luna)"
             },
             {
-              "id": "xXCEYnA4uos",
-              "titulo": "Querido Alejandro"
+              "id": "q07d4m9i5FU",
+              "titulo": "La taza (acústico)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UC0545NuqQudHWdQJVbNadxA"
         },
         {
           "nombre": "Juan + Yerai",
@@ -789,7 +829,8 @@
               "id": "zCIW5Cl7TQk",
               "titulo": "x ti"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCDf6zZ4nektWZx6J0bgj2GQ"
         },
         {
           "nombre": "Carmesí",
@@ -817,10 +858,11 @@
               "titulo": "Tour Tiro al plato 2026"
             },
             {
-              "id": "p9atO87Q_A0",
-              "titulo": "Tiro al plato (vídeo oficial)"
+              "id": "xViDVj0BZAQ",
+              "titulo": "Modo no molestar (acústico)"
             }
-          ]
+          ],
+          "youtubeChannelId": "UCca55sMeBnzipw68ex6WYpQ"
         }
       ]
     }
