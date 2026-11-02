@@ -77,7 +77,14 @@ def descargar(url, cabeceras=None):
             req = urllib.request.Request(url, headers=h)
             with urllib.request.urlopen(req, timeout=40) as r:
                 final = r.geturl()
-                texto = r.read().decode("utf-8", "ignore")
+                crudo = r.read()
+                cs = (r.headers.get_content_charset() or "utf-8").lower()
+                if cs in ("iso-8859-1", "latin-1", "latin1"):
+                    cs = "cp1252"  # algunas agendas declaran latin-1 y usan windows-1252
+                try:
+                    texto = crudo.decode(cs)
+                except (LookupError, UnicodeDecodeError):
+                    texto = crudo.decode("utf-8", "ignore")
             if "youtube.com" in host and ("consent.youtube.com" in final or "/sorry/" in final
                                           or "unusual traffic" in texto[:20000]):
                 raise Bloqueado("pantalla de consentimiento o captcha")
