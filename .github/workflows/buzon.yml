@@ -1,0 +1,116 @@
+# Buzón de entradas: la tarea semanal de Claude deja en un documento público de
+# Google Docs las entradas nuevas o corregidas del diario (formato "radar-buzon").
+# Cada hora este workflow lo lee y, si trae algo nuevo, lo incorpora a
+# data/diario.json, pasa la revisión y lo publica. Así no hace falta que la
+# tarea tenga permiso de escritura en el repo.
+name: Buzón de entradas
+
+on:
+  schedule:
+    - cron: "23 * * * *"    # cada hora
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+env:
+  BUZON_DOC_ID: "1Y0_cVxNAkfiOrypPVFqxJyOTQeKWC7XC6mAbgLQTztw"
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Leer el buzón
+        id: leer
+        run: |
+          if ! curl -sSL --fail -o /tmp/buzon.txt \
+            "https://docs.google.com/document/d/${BUZON_DOC_ID}/export?format=txt"; then
+            echo "::warning::No se puede leer el buzón (¿el documento está compartido como 'Cualquier persona con el enlace: lector'?)"
+            exit 0
+          fi
+          python3 - <<'PY'
+          import json, os, sys
+          crudo = open('/tmp/buzon.txt', encoding='utf-8-sig').read().strip()
+          if not crudo:
+              print('Buzón vacío'); sys.exit(0)
+          try:
+              b = json.loads(crudo)
+          except Exception as e:
+              print('::error::El buzón no es JSON válido:', e); sys.exit(1)
+          if b.get('contrato') != 'radar-buzon' or b.get('version') != 1 or not b.get('id'):
+              print('::error::El buzón no cumple el contrato radar-buzon v1'); sys.exit(1)
+          estado_p = 'data/buzon.json'
+          estado = json.load(open(estado_p)) if os.path.exists(estado_p) else {}
+          if estado.get('ultimo') == b['id']:
+              print('Nada nuevo en el buzón (', b['id'], ')'); sys.exit(0)
+
+          p = 'data/diario.json'
+          d = json.load(open(p))
+          por_id = {e['id']: i for i, e in enumerate(d['entradas'])}
+          nuevas = []
+          for e in b.get('entradas', []):
+              for campo in ('id', 'numero', 'fecha', 'titulo', 'intro', 'artistas'):
+                  if campo not in e:
+                      print(f'::error::Entrada sin "{campo}"'); sys.exit(1)
+              if e['id'] in por_id:
+                  d['entradas'][por_id[e['id']]] = e
+                  print('Corregida la entrada', e['id'])
+              else:
+                  nuevas.append(e)
+                  print('Nueva entrada', e['id'])
+          d['entradas'] = sorted(nuevas, key=lambda e: e['fecha'], reverse=True) + d['entradas']
+          # Correcciones puntuales de un artista ya publicado: {entrada, artista, campos}
+          for c in b.get('correcciones', []):
+              hecho = False
+              for e in d['entradas']:
+                  if e['id'] != c.get('entrada'):
+                      continue
+                  for a in e['artistas']:
+                      if a['nombre'] == c.get('artista'):
+                          a.update(c.get('campos', {})); hecho = True
+              if not hecho:
+                  print('::error::No encuentro', c.get('artista'), 'en', c.get('entrada')); sys.exit(1)
+              print('Corregido', c['artista'], 'en', c['entrada'])
+          with open(p, 'w', encoding='utf-8') as f:
+              json.dump(d, f, ensure_ascii=False, indent=2); f.write('\n')
+
+          if b.get('excluir'):
+              xp = 'data/excluir.json'
+              x = json.load(open(xp))
+              for n in b['excluir']:
+                  if n not in x['nombres']:
+                      x['nombres'].append(n)
+              with open(xp, 'w', encoding='utf-8') as f:
+                  json.dump(x, f, ensure_ascii=False, indent=2); f.write('\n')
+
+          estado['ultimo'] = b['id']
+          with open(estado_p, 'w', encoding='utf-8') as f:
+              json.dump(estado, f, ensure_ascii=False, indent=2); f.write('\n')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"id={b['id']}\n")
+          PY
+
+      - name: Revisar el diario
+        if: steps.leer.outputs.id != ''
+        run: python3 scripts/revisar.py
+
+      - name: Publicar
+        if: steps.leer.outputs.id != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diario.json data/excluir.json data/buzon.json
+          git commit -m "Buzón: ${{ steps.leer.outputs.id }} (automático)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          gh workflow run refrescar.yml --ref main
