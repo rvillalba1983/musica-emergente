@@ -3,6 +3,221 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
+      "id": "2026-11-08",
+      "numero": 4,
+      "fecha": "2026-11-08",
+      "titulo": "Cante joven en Huétor Tájar, bajo flamenco y una fueguina en Madrid",
+      "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, Marta «La Niña» cantó en el Festival Flamenco Joven de Huétor Tájar y Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; en Sevilla, Juanfe Pérez puso el bajo eléctrico al servicio del flamenco, y el 21 de noviembre Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
+      "ventana": {
+        "desde": "2026-11-01",
+        "hasta": "2026-11-23"
+      },
+      "artistas": [
+        {
+          "nombre": "Marta «La Niña»",
+          "origen": "Granada",
+          "estilo": [
+            "Cante flamenco",
+            "Flamenco"
+          ],
+          "porQue": "Cantaora joven que se mueve entre los palos clásicos y las rumbas: en su canal hay farruca, cantiñas, rumbas propias y el videoclip de «Como tú». Cantó el viernes 6 de noviembre en el XXI Festival Flamenco Joven de Huétor Tájar, junto a Cristian de Moret y Juan Pinilla al cante y Juanito Campos y Antonio de la Luz a la guitarra.",
+          "cancion": {
+            "titulo": "Como tú (videoclip)",
+            "url": "https://www.youtube.com/watch?v=FTUf_ujiUgk"
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-06",
+              "hora": "19:30",
+              "lugar": "Festival Flamenco Joven, Casa de la Cultura",
+              "ciudad": "Huétor Tájar (Granada)",
+              "precio": "7 €",
+              "url": "https://www.conciertosengranada.es/conciertos/128714-cristian-de-moret-juan-pinilla-marta-la-nina-juanito-campos-antonio-de-la-luz"
+            }
+          ],
+          "redes": {
+            "youtube": "https://www.youtube.com/@martalanina9620"
+          },
+          "videos": [
+            {
+              "id": "gLgYBRpC9N0",
+              "titulo": "«Esencia» (Farruca)"
+            },
+            {
+              "id": "H7CVbgPbhNY",
+              "titulo": "«Te vas» (Rumbas)"
+            }
+          ],
+          "youtubeChannelId": "UCntpMuxYcEvmpJWS-YM27tg"
+        },
+        {
+          "nombre": "Ermanno Panta",
+          "origen": "Sicilia / Formentera",
+          "estilo": [
+            "Mestizaje",
+            "Flamenco fusión",
+            "Jazz"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb12f49852bc11fc332137750d",
+          "porQue": "Cantante y multiinstrumentista siciliano afincado en Formentera que funde músicas tradicionales de Sicilia con palos flamencos y jazz, con letras en siciliano, castellano, catalán y árabe. Sus discos «Isla Musa» (2019) y «Llengua de Terra» (2023) dibujan un Mediterráneo sin fronteras. Tocó el sábado 7 de noviembre en el Ool Ya Koo de Granada.",
+          "cancion": {
+            "titulo": "La Bien Pagá",
+            "url": "https://open.spotify.com/track/2dtUBGB0261FX9wbXTse2r"
+          },
+          "spotifyId": "6ut8Ir2QKBy8CYxOexnDQx",
+          "conciertos": [
+            {
+              "fecha": "2026-11-07",
+              "hora": "22:00",
+              "lugar": "Ool Ya Koo",
+              "ciudad": "Granada",
+              "precio": "12 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129727-ermanno-panta"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/6ut8Ir2QKBy8CYxOexnDQx",
+            "youtube": "https://www.youtube.com/@ermannopanta",
+            "instagram": "https://www.instagram.com/ermanno_panta_banda_zeitun/",
+            "facebook": "https://www.facebook.com/Ermannopanta/",
+            "web": "https://www.ermannopanta.com/"
+          },
+          "videos": [
+            {
+              "id": "MVHvLycueSQ",
+              "titulo": "Pink Panther - Contrafact - Fato Consumado"
+            },
+            {
+              "id": "lb9GzYFYUoM",
+              "titulo": "Live at MPT1 Television"
+            }
+          ],
+          "youtubeChannelId": "UCbKAPnKL-qDaoyYxwcLwKFg"
+        },
+        {
+          "nombre": "Juanfe Pérez",
+          "origen": "Andalucía",
+          "estilo": [
+            "Flamenco",
+            "Bajo flamenco",
+            "Fusión"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5eb20e02339fdd113776c0dbff2",
+          "porQue": "Guitarrista de formación que se pasó al bajo eléctrico para llevarlo al flamenco. Su primer disco, «Prohibido el Toque», lo compuso, arregló y produjo él mismo: bulerías, fandangos de Huelva, tangos y vidalita con el bajo como voz principal. Tocó el jueves 5 de noviembre en la Peña Flamenca Torres Macarena de Sevilla.",
+          "cancion": {
+            "titulo": "Calle el Mudo - Fandangos de Huelva",
+            "url": "https://open.spotify.com/track/1q5LjUoks8c99QIB49brYJ"
+          },
+          "spotifyId": "4ReVewC0w8IZ1eKP2u0T3M",
+          "conciertos": [
+            {
+              "fecha": "2026-11-05",
+              "hora": "21:00",
+              "lugar": "Peña Flamenca Torres Macarena",
+              "ciudad": "Sevilla",
+              "url": "https://www.escenaensevilla.es/conciertos/22181-juanfe-perez"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/4ReVewC0w8IZ1eKP2u0T3M",
+            "youtube": "https://www.youtube.com/@juanfeperezmusic"
+          },
+          "videos": [
+            {
+              "id": "Z2oRVLZE33I",
+              "titulo": "Directo en el Teatro Central de Sevilla"
+            },
+            {
+              "id": "ekB2FjY1n4o",
+              "titulo": "Sin Estirpe (Seguiriya) LIVE"
+            }
+          ],
+          "youtubeChannelId": "UCHNR_U21Y_6uFmKfRQURWSg"
+        },
+        {
+          "nombre": "Maruja Lenon",
+          "origen": "Almería",
+          "estilo": [
+            "Fusión flamenca",
+            "Funk",
+            "Rock"
+          ],
+          "foto": "https://i.scdn.co/image/ab67616d0000b27346e4166ee9bb7f0cf9d87836",
+          "porQue": "Banda almeriense que mezcla funk, rock y pop con fusión flamenca, con Juan Pedro López Montoya a la guitarra y la voz, Juan Pedro Martínez a la guitarra solista, Pedretti Moreke al cajón y Ana Ruiza al bajo. Su primer EP salió en 2023, producido en Guadix por Cheluis Salmerón. Tocan el sábado 21 de noviembre en el Saigon de El Ejido, con entrada libre.",
+          "cancion": {
+            "titulo": "Fuentes de Colores",
+            "url": "https://open.spotify.com/track/13ks94sqIeAEhWhSaAs1oV"
+          },
+          "spotifyId": "3VcnYD2RMsOIE35ZXFHJEx",
+          "conciertos": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "20:00",
+              "lugar": "Saigon",
+              "ciudad": "El Ejido (Almería)",
+              "precio": "Entrada libre",
+              "url": "https://conciertos.club/almeria/conciertos/129923-maruja-lenon"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/3VcnYD2RMsOIE35ZXFHJEx",
+            "youtube": "https://www.youtube.com/@marujalenon"
+          },
+          "videos": [
+            {
+              "id": "U5jSX95Qba4",
+              "titulo": "Country Western"
+            },
+            {
+              "id": "xqVTnZbmXKo",
+              "titulo": "Fuentes de colores"
+            }
+          ],
+          "youtubeChannelId": "UCg_Dl54b9o9Wq512vpOIR3Q"
+        },
+        {
+          "nombre": "Luisina Kippes",
+          "origen": "Ushuaia (Argentina) / Madrid",
+          "estilo": [
+            "Canción de autor",
+            "Folklore argentino"
+          ],
+          "foto": "https://i.scdn.co/image/ab6761610000e5ebe9e16aedd0a13fbd062a29b9",
+          "porQue": "Compositora, intérprete y arreglista fueguina, nacida en Ushuaia y afincada en Madrid. En voz y guitarra junta canciones propias, folklore argentino y latinoamericano y boleros, con el viaje, el desarraigo y la identidad de fondo. Cierra la gira «Desde esta orilla» el domingo 15 de noviembre en Jazzville, Madrid.",
+          "cancion": {
+            "titulo": "Modo Avión",
+            "url": "https://open.spotify.com/track/7tehnC1EPxaFa4o8yJ0BYK"
+          },
+          "spotifyId": "3QdSZ7VtPY8PzniW4C9Nv2",
+          "conciertos": [
+            {
+              "fecha": "2026-11-15",
+              "hora": "20:00",
+              "lugar": "Jazzville",
+              "ciudad": "Madrid",
+              "precio": "10 €",
+              "url": "https://conciertos.club/madrid/conciertos/129297-luisina-kippes"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/3QdSZ7VtPY8PzniW4C9Nv2",
+            "youtube": "https://www.youtube.com/@LuisinaKippes"
+          },
+          "videos": [
+            {
+              "id": "WDHJwfHKV9w",
+              "titulo": "Entre Cosmos y Mareas"
+            },
+            {
+              "id": "uO4qKozyLz4",
+              "titulo": "Gira «Desde esta orilla» en La Plata, Argentina"
+            }
+          ],
+          "youtubeChannelId": "UCeGG54GQi7k1i6WHWUmIhZA"
+        }
+      ]
+    },
+    {
       "id": "2026-11-02",
       "numero": 3,
       "fecha": "2026-11-02",
@@ -789,12 +1004,12 @@
           },
           "videos": [
             {
-              "id": "em_2liNJH-4",
-              "titulo": "Un baño de realidad (una canción para Luna)"
-            },
-            {
               "id": "q07d4m9i5FU",
               "titulo": "La taza (acústico)"
+            },
+            {
+              "id": "xXCEYnA4uos",
+              "titulo": "Querido Alejandro"
             }
           ],
           "youtubeChannelId": "UC0545NuqQudHWdQJVbNadxA"
