@@ -1,153 +1,30 @@
 {
-  "generado": "2026-11-05T22:59+00:00",
-  "fecha_entrada": "2026-11-06",
+  "generado": "2026-11-12T23:02+00:00",
+  "fecha_entrada": "2026-11-13",
   "ventana": {
-    "desde": "2026-10-30",
-    "hasta": "2026-11-21"
+    "desde": "2026-11-06",
+    "hasta": "2026-11-28"
   },
   "aviso": "Lista automática SIN revisar: el canal de YouTube y el Spotify se han emparejado por nombre y pueden ser de otro artista homónimo. Compruébalo antes de publicar.",
   "youtube_bloqueado": false,
   "candidatos": [
     {
-      "nombre": "Juan Pinilla",
+      "nombre": "Alumnado del Conservatorio Profesional de Música Carlos Ros",
       "estilos": [
         "Flamenco/Copla"
       ],
       "zona": "Granada",
       "conciertos": [
         {
-          "fecha": "2026-11-06",
+          "fecha": "2026-11-12",
           "hora": "19:30",
-          "lugar": "Casa de la Cultura",
-          "ciudad": "Huétor Tajar",
-          "precio": "7 €",
-          "url": "https://www.conciertosengranada.es/conciertos/128714-cristian-de-moret-juan-pinilla-marta-la-nina-juanito-campos-antonio-de-la-luz"
+          "lugar": "Palacio de Villalegre",
+          "ciudad": "Guadix",
+          "url": "https://www.conciertosengranada.es/conciertos/130595-alumnado-del-conservatorio-profesional-de-musica-carlos-ros"
         }
       ],
-      "bio": "El XXI Festival Flamenco Joven de Huétor Tájar se celebrará el 6 de noviembre a las 19:30 h, con una propuesta dedicada al cante, el toque y el baile flamenco.\nEl cartel cuenta con las actuaciones de Cristian de Moret, Marta “La Niña” y Juan Pinilla al cante; Juanito Campos, Antonio de la Luz y Vicente Márquez “Tente” al toque; y las alumnas de Silvia Lozano, con Adriana “La Morena”, Daniela “La Lozana” y el Grupo Soleá, al baile. Una cita que pone en valor el talento joven, la formación y la tradición flamenca.\nPuntos de venta entradas físicas. - Casa de la Cultura (Viernes, sábado y domingo de 20:30 a 21:30) - Farmacia 1º de Mayo (Plaza Primero de Mayo) - Restaurante Riviera. Venta online  WhatsApp al 622031609",
+      "bio": "El Conservatorio Profesional de Música Carlos Ros celebrará el próximo jueves, a las 19:30 horas, un concierto de su alumnado en el salón de actos del Palacio Villalegre.\nLa actuación reunirá a estudiantes de distintas especialidades, entre ellas guitarra flamenca, cante y baile, junto a intérpretes de piano, violín, flauta, trompa, contrabajo y percusión.",
       "youtube": null
-    },
-    {
-      "nombre": "Marta \"La Niña\"",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Granada",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "19:30",
-          "lugar": "Casa de la Cultura",
-          "ciudad": "Huétor Tajar",
-          "precio": "7 €",
-          "url": "https://www.conciertosengranada.es/conciertos/128714-cristian-de-moret-juan-pinilla-marta-la-nina-juanito-campos-antonio-de-la-luz"
-        }
-      ],
-      "bio": "El XXI Festival Flamenco Joven de Huétor Tájar se celebrará el 6 de noviembre a las 19:30 h, con una propuesta dedicada al cante, el toque y el baile flamenco.\nEl cartel cuenta con las actuaciones de Cristian de Moret, Marta “La Niña” y Juan Pinilla al cante; Juanito Campos, Antonio de la Luz y Vicente Márquez “Tente” al toque; y las alumnas de Silvia Lozano, con Adriana “La Morena”, Daniela “La Lozana” y el Grupo Soleá, al baile. Una cita que pone en valor el talento joven, la formación y la tradición flamenca.\nPuntos de venta entradas físicas. - Casa de la Cultura (Viernes, sábado y domingo de 20:30 a 21:30) - Farmacia 1º de Mayo (Plaza Primero de Mayo) - Restaurante Riviera. Venta online  WhatsApp al 622031609",
-      "youtube": {
-        "channelId": "UCntpMuxYcEvmpJWS-YM27tg",
-        "url": "https://www.youtube.com/@martalanina9620",
-        "videos": [
-          {
-            "id": "gLgYBRpC9N0",
-            "titulo": "Marta La Niña \"Esencia\" (Farruca)"
-          },
-          {
-            "id": "H7CVbgPbhNY",
-            "titulo": "Marta La Niña \"Te vas\" (Rumbas)"
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "Jaguardiente",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "Granada",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "23:30",
-          "lugar": "Sala Premier",
-          "ciudad": "Granada",
-          "url": "https://www.conciertosengranada.es/conciertos/130100-jaguardiente"
-        }
-      ],
-      "bio": "Jaguardiente Jaguardiente es una formación que combina en su repertorio todas las ramificaciones del funk, el jazz, el soul, el blues y demás variantes de la música afroamericana de ida y vuelta.\nSu formación es amplia y cambiante. Actúan en fomato dúo, con Lila Green a la voz y Gustavo Sánchez a la guitarra, aunque también en formato banda completa . Por el grupo han pasado también según el momento Toni Loop (teclas), Alex Rubio (teclas), Barri (percusión), Sergio Romero (batería) Zeka (percusión) Frederic (bajo) y Corentín (saxo).\nCurtidos a ras de suelo, suelen ser frecuentes sus actuaciones en las plazas públicas del centro de Granada, tanto como en escenarios bajo techo del circuito de clubes de la ciudad nazarí.",
-      "youtube": {
-        "channelId": "UCVqLiknWYJI27ZPDIqtMLTA",
-        "url": "https://www.youtube.com/@jaguardiente6848",
-        "videos": [
-          {
-            "id": "iKgmuLM08N0",
-            "titulo": "Jaguardiente - Cunnilimbus"
-          },
-          {
-            "id": "i1jY2Xjd2-Y",
-            "titulo": "Jaguardiente - “On my mind” (Jorja Smith) Cover"
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "Gitanos",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "Granada",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "16:30",
-          "lugar": "JJ Taberna",
-          "ciudad": "Granada",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/129635-gitanos"
-        }
-      ],
-      "bio": "Gitanos (Tuba Akatay & Rycardo Moreno)",
-      "youtube": null
-    },
-    {
-      "nombre": "Ermanno Panta",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "Granada",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "22:00",
-          "lugar": "Ool Ya Koo",
-          "ciudad": "Granada",
-          "precio": "12 €",
-          "url": "https://www.conciertosengranada.es/conciertos/129727-ermanno-panta"
-        }
-      ],
-      "bio": "Ermanno Panta Una sonoridad cálida y vibrante caracteriza la música de Ermanno Panta, cantante y multi-instrumentista.\nEl sueño de un Mediterráneo libre se reconoce tanto en las letras como en el concepto musical que resuenan en sus últimas grabaciones, el disco \"Isla Musa” (2019, con el soporte del Instituto de Estudios Baleares y en \"Llengua de Terra\" (2023, cofinanciado por el Instituto de Estudios Baleares y Fundación SGAE) dedicado a Sicilia, su lugar de nacimiento, y a Formentera, su isla de adopción. En estas obras, los estilos tradicionales de Sicilia se funden con los palos del flamenco y el jazz confluyendo en un repertorio inspirador y poético.\nLetras en siciliano, castellano, catalá y árabe junto con elementos musicales paisajísticos recrean un aroma tan característico de los paisajes sonoros mediterráneos y ofrecen un compromiso simbólico de diversidad.\nAquí conviven el respeto por la música de raíz, arreglos de gusto moderno y amplios espacios de improvisación. El jazz constituye la lente a través de la que se vuelve posible reinterpretar músicas de raíz en clave fresca, elegante e innovadora.",
-      "youtube": {
-        "channelId": "UCbKAPnKL-qDaoyYxwcLwKFg",
-        "url": "https://www.youtube.com/@ermannopanta",
-        "videos": [
-          {
-            "id": "MVHvLycueSQ",
-            "titulo": "Pink Panther - Contrafact - Fato Consumado"
-          },
-          {
-            "id": "lb9GzYFYUoM",
-            "titulo": "Ermanno Panta live at MPT1 Television"
-          }
-        ],
-        "enlaces": [
-          "https://www.ermannopanta.com/"
-        ]
-      },
-      "redes_enlazadas": {}
     },
     {
       "nombre": "Jonathan Vallejo",
@@ -161,7 +38,6 @@
           "hora": "20:30",
           "lugar": "La Goma",
           "ciudad": "Granada",
-          "precio": "pay after show",
           "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
         }
       ],
@@ -195,7 +71,6 @@
           "hora": "20:30",
           "lugar": "La Goma",
           "ciudad": "Granada",
-          "precio": "pay after show",
           "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
         }
       ],
@@ -220,7 +95,6 @@
           "hora": "21:30",
           "lugar": "JJ Taberna",
           "ciudad": "Granada",
-          "precio": "12 €",
           "url": "https://www.conciertosengranada.es/conciertos/129637-bolero-please"
         }
       ],
@@ -255,6 +129,24 @@
         }
       ],
       "bio": "Este quinteto de son cubano nacido en Granada fusióna la tradición del género con la frescura de influencias contemporáneas. Su sonido combina la cadencia clásica del tres (reinterpretada a través de la guitarra) junto con el tumbao, la clave y la trompeta además de un set de percusiones -congas bongó, güiro y campana- que sostiene el pulso caribeño con carácter propio, con guiños a canciones modernas que amplían el horizonte del estilo sin perder su esencia.\nPresentaran algunos temas propios con los que abren una nueva etapa\nEmilio Sanz - trompeta Daniel de Rojas - guitarra Tomy Ciotto - bajo Tomás Medina - percusiones Carlos Berbel - voz",
+      "youtube": null
+    },
+    {
+      "nombre": "Víctor Franco",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:00",
+          "lugar": "Casa de Porras",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/130594-victor-franco"
+        }
+      ],
+      "bio": "",
       "youtube": null
     },
     {
@@ -313,6 +205,14 @@
           "ciudad": "Granada",
           "precio": "15 €",
           "url": "https://www.conciertosengranada.es/conciertos/129650-nito-serrano-y-lapurasangre"
+        },
+        {
+          "fecha": "2026-11-26",
+          "hora": "22:30",
+          "lugar": "Café Teatro Central",
+          "ciudad": "Baeza",
+          "precio": "6 €",
+          "url": "https://conciertos.club/jaen/conciertos/129649-nito-serrano-y-lapurasangre"
         }
       ],
       "bio": "Nito Serrano y Lapurasangre",
@@ -335,21 +235,33 @@
       ],
       "bio": "The Camels The Camels es una banda granadina de reggae fusionado con rock y ritmos bailables. Energética, fresca y con un directo que no perdona. Cuenta con un sonido propio que se mueve entre la elegancia y la fiesta de barrio.\nIntegrantes: \nCarlos Zeledon -Guitarrista\nJamil Zeledon- Pianista\nSergio Lepe - Vocalista\nLucho- Bajista\nCarlos Martinez -Bateria\nRemy Rossi- Saxofonista",
       "youtube": {
-        "channelId": "UCQ4NumpQKmj8l9G39ZpHl4A",
-        "url": "https://www.youtube.com/@THECAMELS_MUSIC",
+        "channelId": "UCzARlXf_ecKJRLCuDKTy1jQ",
+        "url": "https://www.youtube.com/@THECAMELS-3",
         "videos": [
           {
-            "id": "zx_uKw6oKgo",
-            "titulo": "The Incredible Feeling of Surfing a Wave of Sand 🌊| Anatolian Surf Rock"
+            "id": "On-yFic6TZI",
+            "titulo": "【秋冬】ストリートスナップを見ながら参考になるコーディネートを見つけよう!!!【ピンタレスト】"
           },
           {
-            "id": "N-s8CV5PO1o",
-            "titulo": "Anatolia Rebels Riffs • 1983"
+            "id": "bIolIsxbSMI",
+            "titulo": "【コスパ最強】6590円!?ZARAブラックバギーデニムを紹介!!!"
           }
         ],
-        "enlaces": []
+        "enlaces": [
+          "http://www.instagram.com/fonseca.e.y",
+          "http://www.instagram.com/kein_c2",
+          "https://instagram.com/ghibellinavintage?igshid=MzRlODBiNWFlZA==",
+          "https://instagram.com/strato_01?igshid=MzRlODBiNWFlZA==",
+          "https://instagram.com/sugarhill_tokyo?igshid=MzRlODBiNWFlZA==",
+          "https://instagram.com/thecamels_bobyman",
+          "https://www.instagram.com/fonseca.e.y",
+          "https://www.instagram.com/kein_c2",
+          "https://www.instagram.com/thecamels_bobyman"
+        ]
       },
-      "redes_enlazadas": {}
+      "redes_enlazadas": {
+        "instagram": "http://www.instagram.com/fonseca.e.y"
+      }
     },
     {
       "nombre": "Garnata",
@@ -391,22 +303,6 @@
       ],
       "zona": "Granada",
       "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Sala Capitol",
-          "ciudad": "Santiago de Compostela",
-          "precio": "20 €",
-          "url": "https://conciertos.club/a-coruna/conciertos/111767-chiquita-movida"
-        },
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Porta Caeli",
-          "ciudad": "Valladolid",
-          "precio": "20 €",
-          "url": "https://conciertos.club/valladolid/conciertos/111764-chiquita-movida"
-        },
         {
           "fecha": "2026-11-12",
           "hora": "21:00",
@@ -459,314 +355,243 @@
       "redes_enlazadas": {}
     },
     {
-      "nombre": "Mario Díaz",
+      "nombre": "Rosario Toledo Orihuela",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-21",
+          "hora": "21:00",
+          "lugar": "Peña La Platería",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/130593-rosario-toledo-orihuela"
+        }
+      ],
+      "bio": "",
+      "youtube": null
+    },
+    {
+      "nombre": "Kirsti Blow",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-24",
+          "hora": "21:30",
+          "lugar": "Lemon Rock",
+          "ciudad": "Granada",
+          "precio": "Entrada libre",
+          "url": "https://www.conciertosengranada.es/conciertos/129871-kirsti-blow"
+        }
+      ],
+      "bio": "Kirsti Blow Kirsti Blow es una cantautora neoyorquina que actualmente reside en Granada. Su estilo fresco de blues-pop acústico está presente tanto en sus versiones como en sus propias canciones. Loose Ends es el nombre del primer LP de esta joven artista, compuesto y escrito por ella misma. \nephemera  es su segundo álbum, en la que Kirsti despliega una voz hipnótica que se entrelaza con guitarras sutiles, creando una atmósfera sensual y genuina, salpicada de matices folk y soul.",
+      "youtube": {
+        "channelId": "UCeye8NuSRAXHcdNvo0rP0NA",
+        "url": "https://www.youtube.com/@kirstiblow",
+        "videos": [
+          {
+            "id": "e4dqdXflKC0",
+            "titulo": "Dog Days by Kirsti Blow"
+          },
+          {
+            "id": "AFYLzDa4I4k",
+            "titulo": "Rooftop Concert - Almería, Spain"
+          }
+        ],
+        "enlaces": []
+      },
+      "redes_enlazadas": {}
+    },
+    {
+      "nombre": "Jalezz",
       "estilos": [
         "Mestizaje/Fusión"
       ],
       "zona": "Granada",
       "conciertos": [
         {
-          "fecha": "2026-11-21",
-          "hora": "21:30",
+          "fecha": "2026-11-27",
+          "hora": "21:00",
           "lugar": "JJ Taberna",
           "ciudad": "Granada",
-          "precio": "20 €",
-          "url": "https://www.conciertosengranada.es/conciertos/129653-mario-diaz"
+          "precio": "17,60 €",
+          "url": "https://www.conciertosengranada.es/conciertos/129654-jalezz"
         }
       ],
-      "bio": "Mario Díaz en Granada. Concierto Gira el mundo sigue fatal de los nervios",
-      "youtube": null
-    },
-    {
-      "nombre": "ANTONIO SANTIAGO, JOSELITO PÉREZ Y MIGUEL «EL RUBIO",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "20:30",
-          "lugar": "Fundación Cajasol",
-          "ciudad": "Sevilla",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/21319-antonio-santiago-joselito-perez-y-miguel-laquo-el-rubio-el-pechuguita-javielito-heredia-luis-pena-mara-rey"
-        }
-      ],
-      "bio": "",
-      "youtube": null
-    },
-    {
-      "nombre": "EL PECHUGUITA, JAVIELITO HEREDIA, LUIS PEÑA, MARA REY",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "20:30",
-          "lugar": "Fundación Cajasol",
-          "ciudad": "Sevilla",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/21319-antonio-santiago-joselito-perez-y-miguel-laquo-el-rubio-el-pechuguita-javielito-heredia-luis-pena-mara-rey"
-        }
-      ],
-      "bio": "",
-      "youtube": null
-    },
-    {
-      "nombre": "Manuel Cuesta",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "21:00",
-          "lugar": "Lady Drama Café Teatro",
-          "ciudad": "Sevilla",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/21407-manuel-cuesta"
-        }
-      ],
-      "bio": "",
+      "bio": "Jalezz Jalezz (Javier Martínez González) es artista y compositor sevillano nacido en 1998, que ha pasado de hacer covers en redes y vender seguros puerta fría a construir una carrera propia dentro del nuevo flamenco urbano y la canción pop.\nSu álbum debut “Un Flamenco Diferente” (2025), editado bajo SUPRMODE, mezcla flamenco, pop y urbano sin perder la raíz, e incluye temas como “La Cruz” (con Pikeras), “Pa’ los Dos” (con Dollar Selmouni) o “A Tu Compás” junto a Raúl Camacho. \nRecientemente ha publicado \"Parte(s) de mi alma\" (2026), EP de cuatro nuevas canciones que resumen los momentos más importantes del último año del artista.",
       "youtube": {
-        "channelId": "UCbNyHJO2OutM1M8NDO-oa0Q",
-        "url": "https://www.youtube.com/@manueldiasrojos",
+        "channelId": "UCxQBJE5NDS520bYJdlSuqYw",
+        "url": "https://www.youtube.com/@Jalezz",
         "videos": [
           {
-            "id": "CcvYPq0n3eg",
-            "titulo": "Legen-dario"
+            "id": "EZbaiYux1-g",
+            "titulo": "Jalezz - A las puertas del cielo"
           },
           {
-            "id": "GlQLMkZAYEk",
-            "titulo": "El hilo rojo (Con Funambulista) [Lyric Vídeo]"
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "Juanfe Peréz",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "21:00",
-          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
-          "ciudad": "Sevilla",
-          "url": "https://www.conciertosengranada.es/conciertos/22181-juanfe-perez"
-        }
-      ],
-      "bio": "MyMonkey Ettore",
-      "youtube": {
-        "channelId": "UCHNR_U21Y_6uFmKfRQURWSg",
-        "url": "https://www.youtube.com/@juanfeperezmusic",
-        "videos": [
-          {
-            "id": "Z2oRVLZE33I",
-            "titulo": "Juanfe Pérez - Directo Teatro Central de Sevilla"
-          },
-          {
-            "id": "ekB2FjY1n4o",
-            "titulo": "Juanfe Pérez - Sin Estirpe (Seguiriya) LIVE "
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "JESÚS CORBACHO",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "Fundación Cajasol",
-          "ciudad": "Sevilla",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/21321-jesus-corbacho"
-        }
-      ],
-      "bio": "",
-      "youtube": {
-        "channelId": "UCyiG73Rimb2c4G0FeGx23Aw",
-        "url": "https://www.youtube.com/@susicorbacho",
-        "videos": [],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "La Juan Román",
-      "estilos": [
-        "Folk"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Fun Club Sevilla",
-          "ciudad": "Sevilla",
-          "precio": "Desde 10 €",
-          "url": "https://www.conciertosengranada.es/conciertos/22093-la-juan-roman"
-        }
-      ],
-      "bio": "",
-      "youtube": {
-        "channelId": "UCOm450FvwG4HTDBGJ75fSfA",
-        "url": "https://www.youtube.com/@LaJuanRoman",
-        "videos": [
-          {
-            "id": "ljuHiv92dBo",
-            "titulo": "La Juan Román - Remember"
-          },
-          {
-            "id": "zK8wX2IlYxU",
-            "titulo": "Ayer Te Vi - La Juan Roman - Planta Baja, Granada 2024."
+            "id": "yZwKQh25ebg",
+            "titulo": "Jalezz - 18 de Abril"
           }
         ],
         "enlaces": [
-          "https://www.instagram.com/lajuanromancumbia/"
+          "https://twitter.com/jalezzmusic?lang=es",
+          "https://www.instagram.com/jalezzmusic",
+          "https://www.tiktok.com/@jalezz?lang=es"
         ]
       },
       "redes_enlazadas": {
-        "instagram": "https://www.instagram.com/lajuanromancumbia/"
+        "instagram": "https://www.instagram.com/jalezzmusic",
+        "tiktok": "https://www.tiktok.com/@jalezz"
       }
     },
     {
-      "nombre": "Mario Ruíz",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:30",
-          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
-          "ciudad": "Sevilla",
-          "url": "https://www.conciertosengranada.es/conciertos/22179-mario-ruiz"
-        }
-      ],
-      "bio": "",
-      "youtube": {
-        "channelId": "UC3j0qeAwyyN41wv-9MlmVaQ",
-        "url": "https://www.youtube.com/@marioruizyt",
-        "videos": [
-          {
-            "id": "027Q9Ya4jqQ",
-            "titulo": "Si tus VÍDEOS no pasan de 100 VISITAS, deja de PUBLICAR (HAZ ESTO ANTES)"
-          },
-          {
-            "id": "bV26a1DN7vE",
-            "titulo": "4 canales de YouTube hechos con Claude que PAGAN más que tu TRABAJO"
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "Maria Moreno",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "20:30",
-          "lugar": "Fundación Cajasol",
-          "ciudad": "Sevilla",
-          "precio": "15 €",
-          "url": "https://www.conciertosengranada.es/conciertos/21322-maria-moreno"
-        }
-      ],
-      "bio": "",
-      "youtube": {
-        "channelId": "UCbuwZwsDlo1NbzScHZHyqTA",
-        "url": "https://www.youtube.com/@Mariamoreno_h",
-        "videos": [
-          {
-            "id": "ZjWhSKcKhQI",
-            "titulo": "buscando venue en Merida !!!"
-          },
-          {
-            "id": "fKKYsgIPtlw",
-            "titulo": "Me caso con el amor de mi vida!!! "
-          }
-        ],
-        "enlaces": []
-      },
-      "redes_enlazadas": {}
-    },
-    {
-      "nombre": "V Ciclo Guitarras Flamenca de Mujer - 2026. Carmen García",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:30",
-          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
-          "ciudad": "Sevilla",
-          "precio": "Entrada libre",
-          "url": "https://www.conciertosengranada.es/conciertos/22180-carmen-garcia"
-        }
-      ],
-      "bio": "El Oso y sus Sabandijas La comarca granadina de Benalúa, caracterizada geográficamente por esa singularidad que supone las áridos paisajes de las badlands en los que se ubica, pasa por ser uno de los focos granadinos de mayor interés y creatividad musical con una incesante proliferación de bandas y proyectos de múltiples estilos. En el epicentro de todo este hervidero artístico siempre aparece un nombre, el de Antonio Travé Mesa , conocido como El Oso de Benalúa , cantante, guitarrista, productor, compositor y destacado armonicista; es difícil encontrar alguna iniciativa musical en la comarca en la que no esté de alguna manera implicado.\nTras diversos proyectos iniciáticos, Antonio inició su carrera musical al frente de Chicken Congress , banda de blues eléctrico en la que coincidió con el guitarrista Tony Molina con el que iniciaría una relación musical fructífera y de enrome calado que ha generado algunos de los mejores momentos musicales de la provincia de Granada en la última década. El Oso de Benalúa y Tony Molina , junto con el bajista Dani Levy y el baterista Giggs Nother , son el cuarteto integrante de la prestigiosa banda de rock psicodélico Elemento Deserto , con tres discos ya en su haber tras una década de singladura. El Oso de Benalúa también ha compaginado su trabajo al frente de Elemento Deserto con el de otras iniciativas que ha impulsado, como es el caso de El Osombroso y Sonriente Folk de las Badlands , combo de folk y rock costumbrista y raíces musicales an",
-      "youtube": null
-    },
-    {
-      "nombre": "FLAMENCA PARA DOS MÁSCARAS Y UNA GUITARRA",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-08",
-          "hora": "18:30",
-          "lugar": "Cartuja Center Cite",
-          "ciudad": "Sevilla",
-          "precio": "Desde 17 €",
-          "url": "https://www.conciertosengranada.es/conciertos/22184-flamenca-para-dos-mascaras-y-una-guitarra"
-        }
-      ],
-      "bio": "Tico y su Son Trío formado por Tico García a la guitarra, tres y voz, Miguel Pérez al bajo y Zeke Olmo a la percusión y batería. En su amplio repertorio escucharás canciones cubanas interpretadas en swing, standards de jazz en latin, y como no, tradición cubana con un punto de vanguardia.",
-      "youtube": null
-    },
-    {
-      "nombre": "Gitanos (Tuba Akatay & Rycardo Moreno)",
+      "nombre": "Chukky",
       "estilos": [
         "Mestizaje/Fusión"
       ],
-      "zona": "Andalucía",
+      "zona": "Granada",
       "conciertos": [
         {
-          "fecha": "2026-11-11",
-          "hora": "21:00",
-          "lugar": "Malandar Music Club",
-          "ciudad": "Sevilla",
-          "precio": "Desde 16 €",
-          "url": "https://www.conciertosengranada.es/conciertos/22082-gitanos-tuba-akatay-rycardo-moreno"
+          "fecha": "2026-11-27",
+          "hora": "22:15",
+          "lugar": "Lemon Rock",
+          "ciudad": "Granada",
+          "precio": "19,80 €",
+          "url": "https://www.conciertosengranada.es/conciertos/116730-chukky"
+        }
+      ],
+      "bio": "CHUKKY| GRANADA | GIRA ''RAP CON FLAMENCO SIN AUTOTUNE'' en Lemon Rock Granada\nChukky vuelve a los escenarios con una nueva gira titulada “Rap con Flamenco sin Autotune”",
+      "youtube": {
+        "channelId": "UCHDha4Mqxi_hxy1fDe_C3pg",
+        "url": "https://www.youtube.com/@chukky",
+        "videos": [
+          {
+            "id": "77f7qDp08K0",
+            "titulo": "CHUKKY - COMO VUELAS TÚ (Tanguillos) (VIDEOCLIP)"
+          },
+          {
+            "id": "VsC05zuxMSY",
+            "titulo": "CHUKKY -  MI RINCÓN (Rumba) (VIDEOCLIP)"
+          }
+        ],
+        "enlaces": [
+          "http://open.spotify.com/artist/1pbypJzDS0Glu3baISY6AL",
+          "http://www.chukky.es",
+          "http://www.facebook.com/chukky",
+          "https://goo.gl/GgoNUw",
+          "https://goo.gl/Jyx6VG",
+          "https://instagram.com/chukky",
+          "https://music.amazon.es/artists/B009B2K2PQ/chukky",
+          "https://tidal.com/browse/artist/5103376",
+          "https://twitter.com/chukky_rapea",
+          "https://www.facebook.com/chukky",
+          "https://www.instagram.com/chukky",
+          "https://www.tiktok.com/@chukky_rapea",
+          "https://www.twitch.tv/chukky_TV"
+        ]
+      },
+      "redes_enlazadas": {
+        "spotify": "http://open.spotify.com/artist/1pbypJzDS0Glu3baISY6AL",
+        "facebook": "http://www.facebook.com/chukky",
+        "instagram": "https://instagram.com/chukky",
+        "tiktok": "https://www.tiktok.com/@chukky_rapea"
+      },
+      "spotify": {
+        "id": "1pbypJzDS0Glu3baISY6AL",
+        "nombre": "Chukky",
+        "foto": "https://i.scdn.co/image/ab6761610000e5eb15706c287cd89abbed4f2f9f"
+      }
+    },
+    {
+      "nombre": "Jaleo Kanalla",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "19:00",
+          "lugar": "Sala Premier",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/130110-jaleo-kanalla"
         }
       ],
       "bio": "",
+      "youtube": {
+        "channelId": "UCjhDisJ3pU2YrSGaZqa8oEA",
+        "url": "https://www.youtube.com/@Jaleokanalla_",
+        "videos": [
+          {
+            "id": "rYT6lK3KBJA",
+            "titulo": "JALEO KANALLA - Hoy"
+          },
+          {
+            "id": "0jVX9dejyDE",
+            "titulo": "Jaleo Kanalla - Emborracharme (Lori Meyers)"
+          }
+        ],
+        "enlaces": []
+      },
+      "redes_enlazadas": {}
+    },
+    {
+      "nombre": "El Jose",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:00",
+          "lugar": "Industrial Copera Revert",
+          "ciudad": "La Zubia",
+          "precio": "25,50 €",
+          "url": "https://www.conciertosengranada.es/conciertos/128920-el-jose"
+        }
+      ],
+      "bio": "El Jose \"Soy El Jose y casualmente mi proyecto se llama El Jose XD. El proyecto nace en una casa situada en la Calle Aljibe de Trillo (Granada) y mirando de frente a la mismísima Alhambra, dos músicos de cuestionable salud mental y con un pasado musical en común y por separado, Alberto Sapillo y un servidor, decidimos hacer realidad una nueva idea musical a partir de mis composiciones\", Así presentó José Miguel Romerosa Vico la nueva etapa de su aventura musical.\nCon El Jose, nos encontramos con una nueva manera de entender la música con firma desde un realismo cargado de poesía, bohemia y humor con un personal toque de ironía y picaresca. Tiene don de gentes, salero verbal, facultades comunicadoras e igual hace un charlestón que un reggae o un pasodoble, tan cerca de Ketama y Kiko Veneno como de la Trinca: Albaicín Sound al cien por cien, por cuyas aceras trabaja, canta y reivindica hacerlo sin intervenciones de la autoridad competente. Ha sido etiquetado como \"Poesía mestiza\".\nConvertido ya en uno de los nombres 'de autor' más pujantes y que más gente está arracimando a su alrededor, en 2021 ha publicado un nuevo disco titulado Seguro de ná , que ha tenido por avance un tanguillo gaditano mezclado con joropo de Colombia y Venezuela llamado Voy a inventarme un camino y la rumba Cambiemos .\nAunque su debut en solitario es reciente, El Jose no es ningún recién llegado. Sus aventuras al frente de grupos como Microjachís o La Banda de Trapo le acreditan como un consumado composi",
+      "youtube": {
+        "channelId": "UCjACUui8FIVusMrh9oMppxg",
+        "url": "https://www.youtube.com/@josemiguelromerosa",
+        "videos": [
+          {
+            "id": "OR7SwsvhWaQ",
+            "titulo": "El Jose - Epístola Feminista (Directo Granada 2025)"
+          },
+          {
+            "id": "eEfHmmzaYIg",
+            "titulo": "El Jose ft Aula de Flautas del CSM Bonifacio Gil de Badajoz - Renuncio "
+          }
+        ],
+        "enlaces": [
+          "https://evento.uniandes.edu.co/es/eljose2024",
+          "https://open.spotify.com/intl-es/artist/2bYHojIdnEKALvN2TZ3zrP?si=CzPH3fXNSnGBw2G4ZJfWbw"
+        ]
+      },
+      "redes_enlazadas": {}
+    },
+    {
+      "nombre": "El intersticio: del flamenco al jazz y viceversa",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "Granada",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "22:00",
+          "lugar": "Ool Ya Koo",
+          "ciudad": "Granada",
+          "precio": "12 €",
+          "url": "https://www.conciertosengranada.es/conciertos/129719-el-intersticio-del-flamenco-al-jazz-y-viceversa"
+        }
+      ],
+      "bio": "Este proyecto rescata temas flamencos y aflamencados, populares y no tan populares, interpretados en clave de jazz. Ray Heredia, Paco de Lucía o Gerardo Núñez son algunos de los artistas reflejados en el repertorio, de claro soniquete flamenco pero que deja espacio a la improvisación, creatividad y búsqueda tímbrica, donde el quejío y el swing comparten espacio y tiempo.\nBeatriz Vela - flauta\nAlberto Barban - contrabajo\nSylvain Rouviere - guitarra eléctrica\nLucas Zegrí - batería",
       "youtube": null
     },
     {
@@ -789,20 +614,169 @@
       "youtube": null
     },
     {
+      "nombre": "Chloé Brûlé y Marco Vargas",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "21:30",
+          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
+          "ciudad": "Sevilla",
+          "url": "https://www.conciertosengranada.es/conciertos/22205-chloe-brule-y-marco-vargas"
+        }
+      ],
+      "bio": "",
+      "youtube": null
+    },
+    {
+      "nombre": "Fernando Jiménez",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "20:30",
+          "lugar": "Fundación Cajasol",
+          "ciudad": "Sevilla",
+          "precio": "15 €",
+          "url": "https://www.conciertosengranada.es/conciertos/21320-fernando-jimenez"
+        }
+      ],
+      "bio": "",
+      "youtube": null
+    },
+    {
+      "nombre": "JESSE & JOY – EL DESPECHO TOUR",
+      "estilos": [
+        "Pop Latino"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:00",
+          "lugar": "Cartuja Center Cite",
+          "ciudad": "Sevilla",
+          "precio": "Desde 33 €",
+          "url": "https://www.conciertosengranada.es/conciertos/22185-jesse-joy-el-despecho-tour"
+        }
+      ],
+      "bio": "Elena Terrón Cantante de Escala de Grises, y con una potente voz. Versiones de grupos en español e ingles de pop rock.",
+      "youtube": null
+    },
+    {
+      "nombre": "Marina Valiente",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:30",
+          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
+          "ciudad": "Sevilla",
+          "url": "https://www.conciertosengranada.es/conciertos/22206-marina-valiente"
+        }
+      ],
+      "bio": "",
+      "youtube": {
+        "channelId": "UCzyHl-7zKPy_TsGfY4hLp6g",
+        "url": "https://www.youtube.com/@MarinaValiente",
+        "videos": [
+          {
+            "id": "xrpLVZ_bY88",
+            "titulo": "MARINA VALIENTE - Bulerías - Tokio \"Garlochí\" 2019 - 2ª Parte"
+          },
+          {
+            "id": "u8k3kMl_lIc",
+            "titulo": "Marina Valiente y Herminia Borja (Tangos) - Teatro Quintero, Sevilla 2018"
+          }
+        ],
+        "enlaces": []
+      },
+      "redes_enlazadas": {}
+    },
+    {
+      "nombre": "Andrés Barrios",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-14",
+          "hora": "20:30",
+          "lugar": "Fundación Cajasol",
+          "ciudad": "Sevilla",
+          "precio": "15 €",
+          "url": "https://www.conciertosengranada.es/conciertos/21324-andres-barrios"
+        }
+      ],
+      "bio": "",
+      "youtube": {
+        "channelId": "UCV4HQrWuGgLrE-BQ9A33Wdw",
+        "url": "https://www.youtube.com/@Andr%C3%A9sBarrios",
+        "videos": [
+          {
+            "id": "nJfDuxYRlpA",
+            "titulo": "Andrés Barrios - A Fernanda (Rondeña)"
+          },
+          {
+            "id": "WOWlDv_GBh0",
+            "titulo": "Intemperie (zapateado) - Andrés Barrios - feat. Estela Alonso"
+          }
+        ],
+        "enlaces": [
+          "https://andresbarriosoficial.com/",
+          "https://music.apple.com/es/artist/andr%C3%A9s-barrios/320672493",
+          "https://open.spotify.com/artist/2aY94TUid607ZwgHxkDhzk",
+          "https://www.facebook.com/AndresBarriosOficial",
+          "https://www.instagram.com/andresbarriosoficial",
+          "https://www.instagram.com/andresbarriosoficial/"
+        ]
+      },
+      "redes_enlazadas": {
+        "spotify": "https://open.spotify.com/artist/2aY94TUid607ZwgHxkDhzk",
+        "facebook": "https://www.facebook.com/AndresBarriosOficial",
+        "instagram": "https://www.instagram.com/andresbarriosoficial"
+      },
+      "spotify": {
+        "id": "2aY94TUid607ZwgHxkDhzk",
+        "nombre": "Andrés Barrios",
+        "foto": "https://i.scdn.co/image/ab6761610000e5ebab3095b9a0d4042433e7f0f8"
+      }
+    },
+    {
+      "nombre": "50 Aniversario del disco percución de Juan Peña \"El Lebrijano\"",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-14",
+          "hora": "21:30",
+          "lugar": "Peña Flamenca Torres Macarena de Sevilla",
+          "ciudad": "Sevilla",
+          "url": "https://www.conciertosengranada.es/conciertos/22204-50-aniversario-del-disco-percucion-de-juan-pena-el-lebrijano"
+        }
+      ],
+      "bio": "Radio Crooner Tributo a Frank Sinatra y a los crooners de los 60",
+      "youtube": null
+    },
+    {
       "nombre": "Muerdo",
       "estilos": [
         "Mestizaje/Fusión"
       ],
       "zona": "Andalucía",
       "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:30",
-          "lugar": "Azkena",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "19,95 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/116900-muerdo"
-        },
         {
           "fecha": "2026-11-13",
           "hora": "21:00",
@@ -834,46 +808,147 @@
           "ciudad": "Santiago de Compostela",
           "precio": "19,95 €",
           "url": "https://conciertos.club/a-coruna/conciertos/116902-muerdo"
+        },
+        {
+          "fecha": "2026-11-26",
+          "hora": "21:00",
+          "lugar": "La 2 de Apolo",
+          "ciudad": "Barcelona",
+          "precio": "19,95 €",
+          "url": "https://conciertos.club/barcelona/conciertos/116908-muerdo"
         }
       ],
-      "bio": "Muerdo en Bilbao - Azkena",
+      "bio": "Muerdo Muerdo es el alias del cantante, compositor y poeta murciano Paskual Kantero, representante de la nueva canción de autor, a medio camino entre la canción de autor y el sonido mestizo.\nEn 2026 emprende la gira: “Volver a donde nacen las canciones”, un viaje íntimo y emocionante por los grandes éxitos de su carrera, revisitados desde una mirada más cercana, orgánica y esencial. En este formato especial, Muerdo alterna entre guitarras, teclados y otros instrumentos, acompañado de un único músico acompañante multinstrumentista que aporta nuevas texturas con la guitarra, percusión e instrumentos de viento. Juntos, reinterpretan canciones que marcaron distintas etapas de su camino, devolviéndolas al lugar de donde surgieron: la raíz, la emoción, la palabra y el ritmo compartido con el público. \nEn diciembre de 2024 lanzó su último trabajo discográfico, \"Sinvergüenza\", un álbum que busca autenticidad y se desvía de los convencionalismos, criticando la superficialidad de la era digital y la industria musical actual. Este proyecto incluye colaboraciones significativas, como la del músico cubano Eliades Ochoa, y aborda temas delicados como las adicciones y la manipulación social.\nMuerdo cumplió en 2022 10 años trayectoria musical, y publicó su anterior disco, \"10 años de flores, viento y fuego\", en el que revisa algunas de las canciones de sus discos anteriores y cuenta con colaboraciones nacionales e internacionales de artistas que han marcado e influido a Muerdo a lo largo de ",
       "youtube": null
     },
     {
-      "nombre": "Maruja Lenon",
+      "nombre": "Julio Demonio",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-14",
+          "hora": "18:00",
+          "lugar": "Capitán Pipa's",
+          "ciudad": "Jaén",
+          "precio": "Entrada libre",
+          "url": "https://conciertos.club/jaen/conciertos/130582-julio-demonio"
+        }
+      ],
+      "bio": "Julio Demonio",
+      "youtube": {
+        "channelId": "UCYxXnIHtLoTphlLi3dzTClg",
+        "url": "https://www.youtube.com/@JULIODEMONIO",
+        "videos": [
+          {
+            "id": "4cmD_cEud9M",
+            "titulo": "Nada para ellos - Julio Demonio"
+          },
+          {
+            "id": "W0PlxZi8xZI",
+            "titulo": "JULIO DEMONIO \"CINCO CANCIONES DEFINITIVAS\" 2026 (ÁLBUM COMPLETO)"
+          }
+        ],
+        "enlaces": [
+          "https://juliodemonio.bandcamp.com/"
+        ]
+      },
+      "redes_enlazadas": {
+        "bandcamp": "https://juliodemonio.bandcamp.com/"
+      }
+    },
+    {
+      "nombre": "Ciclo Flamenco Argumental. El espacio en el tiempo",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-19",
+          "hora": "20:00",
+          "lugar": "Teatro La Fundición",
+          "ciudad": "Sevilla",
+          "precio": "Desde 10 €",
+          "url": "https://www.conciertosengranada.es/conciertos/21987-el-espacio-en-el-tiempo"
+        }
+      ],
+      "bio": "AiDalai. Tributo a Mecano",
+      "youtube": null
+    },
+    {
+      "nombre": "MANUEL MORENO RAMÍREZ",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-19",
+          "hora": "20:30",
+          "lugar": "Fundación Cajasol",
+          "ciudad": "Sevilla",
+          "precio": "15 €",
+          "url": "https://www.conciertosengranada.es/conciertos/21325-manuel-moreno-ramirez"
+        }
+      ],
+      "bio": "",
+      "youtube": {
+        "channelId": "UCyQW4bNQxWsNMqmaRZ_wCLg",
+        "url": "https://www.youtube.com/@manuelmorenoramirez4855",
+        "videos": [
+          {
+            "id": "BQLjqJINOgQ",
+            "titulo": "Manuel Moreno Ramírez - “Aires Del Norte” (Farruca) "
+          },
+          {
+            "id": "1-6JhSp-r9c",
+            "titulo": "Manuel Moreno Ramírez- “Al Son De Mi Tierra” (Bulerías)"
+          }
+        ],
+        "enlaces": []
+      },
+      "redes_enlazadas": {}
+    },
+    {
+      "nombre": "Jorge Pardo",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-19",
+          "hora": "21:00",
+          "lugar": "Teatro Triana",
+          "ciudad": "Sevilla",
+          "precio": "18,50 €",
+          "url": "https://www.conciertosengranada.es/conciertos/21883-cristian-de-moret-jorge-pardo"
+        }
+      ],
+      "bio": "¡La Vin! Band ofrecerá un repertorio basado en los clásicos del swing con autores como Duke Ellington, Count Basie o Quincy Jones, mientras que la Ool-Ya-Koo Big Band interpretará las composiciones galardonadas en el VIII Concurso de Composición y Arreglos para Big Band",
+      "youtube": null
+    },
+    {
+      "nombre": "Geordie Greep",
       "estilos": [
         "Mestizaje/Fusión"
       ],
       "zona": "Andalucía",
       "conciertos": [
         {
-          "fecha": "2026-11-21",
-          "hora": "20:00",
-          "lugar": "Saigon",
-          "ciudad": "El Ejido",
-          "precio": "Entrada libre",
-          "url": "https://conciertos.club/almeria/conciertos/129923-maruja-lenon"
+          "fecha": "2026-11-19",
+          "hora": "21:00",
+          "lugar": "Sala X",
+          "ciudad": "Sevilla",
+          "precio": "19,20 €",
+          "url": "https://www.conciertosengranada.es/conciertos/22143-geordie-greep"
         }
       ],
-      "bio": "Maruja Lenon Maruja Lenon es una banda almeriense que fusiona estilos variados que abarcan desde el funky y el rock hasta el pop y la fusión flamenco.\nEncabezados por Juan Pedro López Montoya en la guitarra y voz, acompañado por Juan Pedro Martínez en la guitarra solista, Pedretti Moreke en el cajón y percusión, y Ana Ruiza en el bajo, la banda lanzó su primer EP en 2023, producido por Cheluis Salmerón en Guadix, bajo el sello de #GargolaRecords.\nEn marzo de 2024 lanzan un nuevo single.",
-      "youtube": {
-        "channelId": "UCg_Dl54b9o9Wq512vpOIR3Q",
-        "url": "https://www.youtube.com/@marujalenon",
-        "videos": [
-          {
-            "id": "U5jSX95Qba4",
-            "titulo": "Maruja Lenon - Country Western"
-          },
-          {
-            "id": "xqVTnZbmXKo",
-            "titulo": "Maruja Lenon - Fuentes de colores"
-          }
-        ],
-        "enlaces": [
-          "https://soundcloud.com/marujal"
-        ]
-      },
-      "redes_enlazadas": {}
+      "bio": "",
+      "youtube": null
     },
     {
       "nombre": "Rafa Taleguilla",
@@ -892,47 +967,6 @@
         }
       ],
       "bio": "",
-      "youtube": {
-        "channelId": "UCsMfrdGUTOPoxRzhtI_Q7zA",
-        "url": "https://www.youtube.com/@rafataleguilla",
-        "videos": [
-          {
-            "id": "8USQqKzaff4",
-            "titulo": "Diego Musu y Rafa Taleguilla"
-          },
-          {
-            "id": "NKvkSTC7ugg",
-            "titulo": "Rafa Taleguilla canta a \"Matías y Macu\""
-          }
-        ],
-        "enlaces": [
-          "https://twitter.com/rafataleguilla?lang=es",
-          "https://twitter.com/rafataleguilla?lang=escl",
-          "https://vm.tiktok.com/ZScQqCwx/",
-          "https://www.facebook.com/rafataleguilla"
-        ]
-      },
-      "redes_enlazadas": {
-        "facebook": "https://www.facebook.com/rafataleguilla"
-      }
-    },
-    {
-      "nombre": "Blanca la Almendrita",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "Andalucía",
-      "conciertos": [
-        {
-          "fecha": "2026-11-21",
-          "hora": "21:00",
-          "lugar": "La Garrapata",
-          "ciudad": "Málaga",
-          "precio": "20 €",
-          "url": "https://conciertos.club/malaga/conciertos/120099-blanca-la-almendrita"
-        }
-      ],
-      "bio": "Blanca la Almendrita",
       "youtube": null
     },
     {
@@ -942,14 +976,6 @@
       ],
       "zona": "Andalucía",
       "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "22:30",
-          "lugar": "Matisse Club",
-          "ciudad": "Valencia",
-          "precio": "21,80 €",
-          "url": "https://conciertos.club/valencia/conciertos/127362-los-canos"
-        },
         {
           "fecha": "2026-11-13",
           "hora": "22:00",
@@ -967,604 +993,150 @@
           "url": "https://conciertos.club/malaga/conciertos/126757-los-canos"
         }
       ],
-      "bio": "Los Caños Los Caños fue un icónico grupo andaluz que tras 20 años alejados del foco mediático, en 2025 decidió reencontrarse con su público y revivir en directo la magia de aquellos temas que los convirtieron en un referente del pop español. La gira, que lleva por nombre ‘20 años pensando en ti’ recorrerá varias localidades del país.\nNacido en Cádiz e integrado originalmente por Kiko, Juande y Javi, el grupo se convirtió en un auténtico fenómeno musical y social gracias a canciones como Niña piensa en ti, Bailar en tu boca, Ella es o Sin decirnos nada , temas que les llevaron a vender más de un millón de discos, obteniendo varios Discos de Oro y Platino.\nSu álbum debut, Los Caños (2000), alcanzó el número 1 en ventas en España y dio inicio a una trayectoria que continuó con trabajos como Agua de Luna (2002) y Los locos somos así (2003), consolidando al grupo como uno de los nombres imprescindibles del pop nacional de la época.\nEn 2026, Los Caños inician una nueva etapa artística liderada por Kiko y Juande, que continúan el proyecto con la misma esencia que conquistó al público en sus inicios, pero con una mirada renovada, más madura y abierta a nuevos caminos creativos.",
+      "bio": "LOS CAÑOS presentan en formato acústico e intimo en Murcia su nuevo EP. Descubre la nueva música de Los Caños después de 20 años y sus éxitos de siempre en un show más cercano. El concierto tendrá lugar en la sala Musik el Viernes 13 de Noviembre de 2026.",
       "youtube": null
     },
     {
-      "nombre": "Salma + Ali Abellán",
+      "nombre": "Jonathan Santiago + Manuel Berraquero",
       "estilos": [
-        "Mestizaje/Fusión"
+        "Flamenco/Copla"
       ],
-      "zona": "España",
+      "zona": "Andalucía",
       "conciertos": [
         {
-          "fecha": "2026-11-05",
-          "hora": "20:15",
-          "lugar": "Independance Club",
-          "ciudad": "Madrid",
-          "url": "https://conciertos.club/madrid/conciertos/127667-radar-joven-salma-ali-abellan"
+          "fecha": "2026-11-22",
+          "hora": "18:00",
+          "lugar": "Teatro el Brillante",
+          "ciudad": "Córdoba",
+          "precio": "22,50 €",
+          "url": "https://conciertos.club/cordoba/conciertos/127750-jonathan-santiago-manuel-berraquero"
         }
       ],
       "bio": "",
       "youtube": null
     },
     {
-      "nombre": "Andrés Obregón",
-      "estilos": [
-        "Pop Latino"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "21:00",
-          "lugar": "La Sala del Movistar Arena",
-          "ciudad": "Madrid",
-          "precio": "25,30 €",
-          "url": "https://conciertos.club/madrid/conciertos/121687-andres-obregon"
-        },
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Sala Jerusalem",
-          "ciudad": "Valencia",
-          "url": "https://conciertos.club/valencia/conciertos/121880-andres-obregon"
-        },
-        {
-          "fecha": "2026-11-12",
-          "hora": "20:30",
-          "lugar": "Razzmatazz 3",
-          "ciudad": "Barcelona",
-          "precio": "25,30 €",
-          "url": "https://conciertos.club/barcelona/conciertos/125249-andres-obregon"
-        }
-      ],
-      "bio": "El artista mexicano Andrés Obregón llega a España con su gira internacional Todo Pasa Tour.",
-      "youtube": null
-    },
-    {
-      "nombre": "AUPINARD",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "21:00",
-          "lugar": "Café La Palma",
-          "ciudad": "Madrid",
-          "precio": "20 €",
-          "url": "https://conciertos.club/madrid/conciertos/129513-aupinard"
-        }
-      ],
-      "bio": "Aupinard llega a Madrid tras agotar entradas en salas emblemáticas como el Olympia y la Salle Pleyel en Francia. El artista francés regresa a los escenarios europeos en esta ocasión para presentar spleen. social club, su primer álbum: un proyecto libre, luminoso e inclasificable donde fusiona bossa nova, soul y electrónica con una sensibilidad muy personal.",
-      "youtube": null
-    },
-    {
-      "nombre": "JAZZABEN LATIN JAM",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "22:00",
-          "lugar": "Moe",
-          "ciudad": "Madrid",
-          "precio": "Entrada libre",
-          "url": "https://conciertos.club/madrid/conciertos/129455-jazzaben-latin-jam"
-        }
-      ],
-      "bio": "Octava temporada de la jam mensual de latinjazz dirigida por Jazzaben. En redes sociales podrás encontrar la lista de temas por si quieres venir a tocar!\nBanda base:\nJuan Robles - Piano Vicente Perelló - Batería M'Joyes - Bajo",
-      "youtube": null
-    },
-    {
-      "nombre": "Mercedes Luján",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "19:00",
-          "lugar": "Centro Municipal Integrado El Llano",
-          "ciudad": "Gijón",
-          "url": "https://conciertos.club/asturias/conciertos/128532-arte-en-el-barrio-mercedes-lujan"
-        }
-      ],
-      "bio": "Ciclo Flamenco \nActuación de la guitarrista Mercedes Luján en noviembre en El Llano, dentro del programa Arte en el barrio .",
-      "youtube": null
-    },
-    {
-      "nombre": "El Nido",
-      "estilos": [
-        "Folk"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "20:15",
-          "lugar": "Kafe Antzokia",
-          "ciudad": "Bilbao-Bilbo",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/128095-el-nido"
-        }
-      ],
-      "bio": "Este evento se celberará en la Sala Kutxa Beltza / Ekitaldi hau Kutxa Beltza Aretoan izango da",
-      "youtube": null
-    },
-    {
-      "nombre": "Fillas de Cassandra",
-      "estilos": [
-        "Folk"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "La Riviera",
-          "ciudad": "Madrid",
-          "url": "https://conciertos.club/madrid/conciertos/119069-fillas-de-cassandra"
-        }
-      ],
-      "bio": "Fillas de Cassandra",
-      "youtube": null
-    },
-    {
-      "nombre": "Las Nietas del Charli",
-      "estilos": [
-        "Folk"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Burning House",
-          "ciudad": "Valencia",
-          "url": "https://conciertos.club/valencia/conciertos/127520-las-nietas-del-charli"
-        }
-      ],
-      "bio": "Las Nietas del Charli El dúo compuesto por las hermanas María y Raquel Rubio lleva siendo un secreto a voces del underground de la canción alternativa de autor varios años.\nTras decenas de conciertos en los que se convirtieron en un dúo de culto en el folk alternativo, Las Nietas del Charli debutaron con el ep \"Faro\". Un material en el que la profundidad de las canciones dialoga con las armonías vocales que las hermanas tienen a la hora de interpretar, y un vasto marco sonoro en el que se acercan tanto al folk americano más sentido como a la canción alternativa de autor, el jazz vocal y hasta el folclore ibérico.\nSu último lanzamiento, el álbum \"Un Sol dentro\" (2026), abre una ventana para que el folk alternativo que practican desde sus inicios  se empape de nuevas frecuencias y matices. Grabado y producido en directo por el prestigioso Campi Campón (productor de trabajos de Jorge Drexler, Vetusta Morla, Natalia Lafourcade o Valeria Castro, entre otros) y con Borja Barrueta y Rubén Carlés acompañado a la batería y el contrabajo, correspondientemente; el debut de las hermanas María y Raquel Rubio llega algo más de dos años después de \"Faro\", un primer EP que ya alumbraba a un dúo hecho de otra pasta a la hora de articular armonías y escribir canciones.",
-      "youtube": null
-    },
-    {
-      "nombre": "Estrogenuinas",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "La Lata de Bombillas",
-          "ciudad": "Zaragoza",
-          "precio": "13 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/125923-estrogenuinas-mallo"
-        }
-      ],
-      "bio": "Estrogenuinas Ni punk ni pop, Estrogenuinas hacen “chirll-out”, \" lo que les sale de la chirla\". Bajo este lema, el power-trío de Salamanca afincado en Madrid reivindica la libertad creativa. Su género es la comedia. El cuidado que le conceden a sus letras satíricas y con abundantes juegos de palabras es el elemento que les caracteriza, así como el sentido del humor, fruto del cual han surgido himnos como “Nietzsche Es Mi fetiche” y “Orgía En Casa De Los Buendía”.\nSu atrevida puesta en escena les ha llevado a actuar en conocidos festivales, tanto nacionales (Sonorama Ribera, Festival Gigante, Palencia Sonora, Irún Rock, MUWI...) como internacionales (Breminale 2019).\nEn 2026 presentan ‘Un Negocio Redondo’: prepárense para letras afiladas, guitarras insolentes y una irreverencia contagiosa. Porque, recuerden: ni punk ni pop, solo “chirll-out” —lo que les sale de la chirlla.\nSu anterior EP, \"Universo Para Lelos\", muestra su faceta más mordaz, poniendo el foco de denuncia en la precariedad laboral, la gentrificación y la estupidez humana.",
-      "youtube": null
-    },
-    {
-      "nombre": "Mallo",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "La Lata de Bombillas",
-          "ciudad": "Zaragoza",
-          "precio": "13 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/125923-estrogenuinas-mallo"
-        }
-      ],
-      "bio": "Estrogenuinas Ni punk ni pop, Estrogenuinas hacen “chirll-out”, \" lo que les sale de la chirla\". Bajo este lema, el power-trío de Salamanca afincado en Madrid reivindica la libertad creativa. Su género es la comedia. El cuidado que le conceden a sus letras satíricas y con abundantes juegos de palabras es el elemento que les caracteriza, así como el sentido del humor, fruto del cual han surgido himnos como “Nietzsche Es Mi fetiche” y “Orgía En Casa De Los Buendía”.\nSu atrevida puesta en escena les ha llevado a actuar en conocidos festivales, tanto nacionales (Sonorama Ribera, Festival Gigante, Palencia Sonora, Irún Rock, MUWI...) como internacionales (Breminale 2019).\nEn 2026 presentan ‘Un Negocio Redondo’: prepárense para letras afiladas, guitarras insolentes y una irreverencia contagiosa. Porque, recuerden: ni punk ni pop, solo “chirll-out” —lo que les sale de la chirlla.\nSu anterior EP, \"Universo Para Lelos\", muestra su faceta más mordaz, poniendo el foco de denuncia en la precariedad laboral, la gentrificación y la estupidez humana.",
-      "youtube": null
-    },
-    {
-      "nombre": "Fyahbwoy",
+      "nombre": "Los Fabulosos Cadillacs",
       "estilos": [
         "Reggae/Ska"
       ],
-      "zona": "España",
+      "zona": "Andalucía",
       "conciertos": [
         {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Sala López",
-          "ciudad": "Zaragoza",
-          "precio": "22 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/124031-fyahbwoy"
+          "fecha": "2026-11-24",
+          "hora": "20:00",
+          "lugar": "París 15",
+          "ciudad": "Málaga",
+          "url": "https://conciertos.club/malaga/conciertos/120036-los-fabulosos-cadillacs"
         },
         {
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-26",
           "hora": "21:00",
-          "lugar": "Porta Caeli",
-          "ciudad": "Valladolid",
-          "precio": "22 €",
-          "url": "https://conciertos.club/valladolid/conciertos/129905-fyahbwoy"
-        }
-      ],
-      "bio": "Fyahbwoy",
-      "youtube": null
-    },
-    {
-      "nombre": "Dura Calá",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Sala Z",
-          "ciudad": "Zaragoza",
-          "precio": "7,80 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/125925-dura-cala"
-        }
-      ],
-      "bio": "Dura Calá",
-      "youtube": null
-    },
-    {
-      "nombre": "Balkan Paradise Orchestra",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:00",
-          "lugar": "Centro Civico Río Ebro",
-          "ciudad": "Zaragoza",
-          "precio": "10 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/129180-jazz-al-margen-balkan-paradise-orchestra"
-        }
-      ],
-      "bio": "Balkan Paradise Orchestra Desde que inició su camino a principios de 2015 en la ciudad de Barcelona, Balkan Paradise Orchestra ha ido confirmando, actuación tras actuación su papel como formación inusual y rompedora. Integrada por once mujeres instrumentistas de viento y percusión, la BPO ha aportado un aire fresco y alegre al panorama de las fanfarrias de nuestro país.\n\"Néctar\" (2024) es el tercer álbum de la banda, que cuenta con las colaboraciones de Meritxell Neddermann y Maruja Limón, la producción de Arnau Altimir (batería de Oques Grasses) y el diseño del reputado artista digital Luis Toledo \"Laprisamata\".",
-      "youtube": null
-    },
-    {
-      "nombre": "María José Llergo",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-05",
-          "hora": "20:00",
-          "lugar": "Teatro Arriaga Antzokia",
-          "ciudad": "Bilbao-Bilbo",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/121434-maria-jose-llergo"
-        },
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:00",
-          "lugar": "Teatro de la Laboral",
-          "ciudad": "Gijón",
-          "precio": "28 €",
-          "url": "https://conciertos.club/asturias/conciertos/121435-maria-jose-llergo"
-        },
-        {
-          "fecha": "2026-11-13",
-          "hora": "21:00",
-          "lugar": "Teatro Afundación",
-          "ciudad": "Vigo",
-          "precio": "13,60 €",
-          "url": "https://conciertos.club/pontevedra-vigo/conciertos/121437-maria-jose-llergo"
-        }
-      ],
-      "bio": "María José Llergo",
-      "youtube": null
-    },
-    {
-      "nombre": "El Kanka",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "Santana 27 / Discoteca Fever",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "35 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/113309-el-kanka"
-        }
-      ],
-      "bio": "El Kanka",
-      "youtube": null
-    },
-    {
-      "nombre": "Raimundo el Canastero",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "21:30",
-          "lugar": "Kafe Antzokia",
-          "ciudad": "Bilbao-Bilbo",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/121033-raimundo-el-canastero"
-        }
-      ],
-      "bio": "",
-      "youtube": null
-    },
-    {
-      "nombre": "Amparo Sánchez",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "Sala La Room Café Concierto",
-          "ciudad": "Ferrol",
-          "precio": "13,20 €",
-          "url": "https://conciertos.club/a-coruna/conciertos/125472-amparo-sanchez"
-        }
-      ],
-      "bio": "Amparo Sánchez",
-      "youtube": null
-    },
-    {
-      "nombre": "Rancapino Chico",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:00",
-          "lugar": "Teatro Zorrilla",
-          "ciudad": "Valladolid",
-          "url": "https://conciertos.club/valladolid/conciertos/129969-rancapino-chico"
-        }
-      ],
-      "bio": "Rancapino Chico Alonso Núnez Fernández (Rancapino hijo), cantaor. Nace el 12 de Julio de 1988, en Chiclana de la Frontera, Cádiz. Con tan solo 6 años se dio a conocer en el programa infantil “Veo Veo” de Canal Sur, donde ganó en las primeras categorías el primer premio revelación, siendo su padrino de entrega de premios el gran cantaor Antonio Fernández Díaz “Fosforito”.\nHoy dia está considerado como gran promesa dentro del Flamenco Puro y heredero de los cantes de Cádiz, donde tiene presente a los más grandes como la Perla de Cádiz, Enrique el Mellizo y al igual que su padre, también tiene esa escuela del gran Manolo Caracol, Antonio el de la Calzá y Juanito Valderrama.",
-      "youtube": null
-    },
-    {
-      "nombre": "Eulalia",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "13:00",
-          "lugar": "Jazzville",
-          "ciudad": "Madrid",
-          "precio": "8 €",
-          "url": "https://conciertos.club/madrid/conciertos/129291-eulalia"
-        }
-      ],
-      "bio": "Eulalia. Concierto en Jazzville, Madrid (Madrid) el Sábado 7 de Noviembre de 2026. Es una actuación de estilo Cantautores.",
-      "youtube": null
-    },
-    {
-      "nombre": "LEX",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "La Sala del Movistar Arena",
-          "ciudad": "Madrid",
-          "precio": "31,90 €",
-          "url": "https://conciertos.club/madrid/conciertos/121686-lex"
-        }
-      ],
-      "bio": "LEX llega a Madrid con un concierto donde presentará su universo sonoro: un pop de autor con ADN bailable, influencias internacionales y una fuerte presencia de guitarra eléctrica.\nCantante, compositor, guitarrista y productor madrileño, el artista ha construido una propuesta personal en la que conviven ritmos caribeños, funk, soul, hip hop y sensibilidad pop.En esta gira, LEX lleva al directo canciones marcadas por la energía de su álbum “Sugar Free / Sin Azúcar Añadido”, un trabajo en español",
-      "youtube": null
-    },
-    {
-      "nombre": "Bonacorso",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Jazzville",
-          "ciudad": "Madrid",
-          "precio": "13 €",
-          "url": "https://conciertos.club/madrid/conciertos/129289-bonacorso"
-        }
-      ],
-      "bio": "Acompañado por Manu Clavijo en el violín.",
-      "youtube": null
-    },
-    {
-      "nombre": "Jere",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Sala Rockville",
-          "ciudad": "Madrid",
-          "precio": "15 €",
-          "url": "https://conciertos.club/madrid/conciertos/129473-jere"
-        }
-      ],
-      "bio": "Jere regresa a Madrid para presentar APOLO, su sexto álbum",
-      "youtube": null
-    },
-    {
-      "nombre": "Siete x Medio",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Burning House",
+          "lugar": "Roig Arena",
           "ciudad": "Valencia",
-          "precio": "18,56 €",
-          "url": "https://conciertos.club/valencia/conciertos/127519-siete-x-medio"
-        }
-      ],
-      "bio": "7xMEDIO (new flamenco jazz) \n“Siete x Medio” es una banda de cinco músicos reconocidos dentro de la escena del flamenco. Es un proyecto que nace desde las bases del flamenco, pero que tiene la necesidad de viajar hacia otros mundos como el de el jazz o la música afro americana.\nLa formación está compuesta por kike Terron a la percusión, Juanfe Perez al bajo, Enriquito Rodríguez paredes a la trompeta, José María Petaca al piano y Jose Luis Hernández al cante.",
-      "youtube": null
-    },
-    {
-      "nombre": "Así canta Jerez en Navidad",
-      "estilos": [
-        "Flamenco/Copla"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "20:00",
-          "lugar": "El Muelle Live",
-          "ciudad": "Alicante",
-          "url": "https://conciertos.club/alicante/conciertos/124223-asi-canta-jerez-en-navidad"
-        }
-      ],
-      "bio": "Así canta Jerez en Navidad Espectáculo de Zambomba Navideña Típica Jerezana.\nLos niños del barrio de Santiago, cuna del cante flamenco e hijos de los artistas más significativos de esta tierra como Niño Jero, Diego Carrasco, Tío Borrico, El Sordera, se unen para traer una de las fiestas populares con más encanto de la navidad andaluza.\nUn recorrido por los grandes éxitos que han marcado su historia, junto a nuevas composiciones inspiradas en el folclore tradicional del villancico, en un espectáculo que mantiene viva la esencia del flamenco y la zambomba jerezana con una puesta en escena actual.",
-      "youtube": null
-    },
-    {
-      "nombre": "Galván Real",
-      "estilos": [
-        "Pop Latino"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-07",
-          "hora": "21:00",
-          "lugar": "Bilbao Arena Miribilla",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "35-60 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/113311-galvan-real"
+          "precio": "49,50 €",
+          "url": "https://conciertos.club/valencia/conciertos/124549-los-fabulosos-cadillacs"
         },
         {
-          "fecha": "2026-11-21",
-          "hora": "21:30",
-          "lugar": "IFEVI - Instituto Feiral de Vigo",
-          "ciudad": "Vigo",
-          "precio": "33 €",
-          "url": "https://conciertos.club/pontevedra-vigo/conciertos/104909-galvan-real"
+          "fecha": "2026-11-27",
+          "hora": "20:30",
+          "lugar": "Sant Jordi Club",
+          "ciudad": "Barcelona",
+          "precio": "49,50 €",
+          "url": "https://conciertos.club/barcelona/conciertos/124547-los-fabulosos-cadillacs"
         }
       ],
-      "bio": "Galván Real En la mezcla está el enriquecimiento y la evolución. Lo piensan muchos músicos y uno de ellos es Galván Real, quien partiendo del flamenco, la música que escuchó desde pequeño, ha querido aportar su toque y acercar ese género a otros estilos, como la música latina, y darle además un barniz más moderno e incluir toques electrónicos en sus canciones. Porque son suyas, él no es sólo músico y cantante sino también autor y productor.\nÓscar Espinosa Castillo, que tal es su nombre real, nació en Valencia en 1992 y cuando era un crío lo que más escuchaba era flamenco, una base que siempre ha tenido muy presente y con la que empezó a experimentar, con el más loable de los propósitos, en 2012, lo que quiere decir cuando sólo tenía veinte años.\nEmpezó a editar esos temas, ya con el sobrenombre de Galván Real, en forma de singles. No convencionales, con su agujero en medio y demás, sino para ser descargados y visualizados en plataformas. En sus diez años de carrera ha publicado un total de 22.\nAl hilo de esto, es curioso pero un vistazo a internet sirve para comprobar que algunos fans han aprovechado la coyuntura para hacerse con esas canciones discos a la carta. Como las antiguas cintas de casete que se recopilaban en casa, vamos, pero aplicado a las nuevas tecnologías.\nComo otros muchos artistas de los últimos años, Galván Real gusta de acompañarse de otros músicos y cantantes en sus temas. Ha colaborado, entre otros, con Maki, María Artés o Saray Jiménez, entre otros. Con ",
+      "bio": "LOS FABULOSOS CADILLACS – TOUR EUROPA 2026 \nLos Fabulosos Cadillacs regresan a Europa con una gira histórica que promete noches cargadas de emoción, energía y celebración colectiva.\nFechas confirmadas\nMartes, 24 de noviembre de 2026 – MALAGA – PARIS 15\nJueves, 26 de noviembre de 2026 – VALENCIA – AUDITORIO ROIG ARENA\nViernes, 27 de noviembre de 2026 – BARCELONA – SANT JORDI CLUB\nDomingo, 29 de noviembre de 2026 – MADRID – LIVE LAS VENTAS\nMartes, 1 de diciembre de 2026 – COPENAGUE – POOLEN",
       "youtube": null
     },
     {
-      "nombre": "Juan Barrios",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-08",
-          "hora": "13:00",
-          "lugar": "Jazzville",
-          "ciudad": "Madrid",
-          "precio": "12 €",
-          "url": "https://conciertos.club/madrid/conciertos/129288-juan-barrios"
-        }
-      ],
-      "bio": "Concierto con banda del cantautor madrileño. Estreno de nuevas canciones, como Verano, y otras sorpresas.\nJuan Barrios - Piano, Guitarra, Voz Javier Campo - Saxofón David Pamo - Bajo eléctrico Lorenzo Palomares - Batería",
-      "youtube": null
-    },
-    {
-      "nombre": "La Lunfardita",
+      "nombre": "Gauchito Club",
       "estilos": [
         "Mestizaje/Fusión"
       ],
-      "zona": "España",
+      "zona": "Andalucía",
       "conciertos": [
         {
-          "fecha": "2026-11-08",
+          "fecha": "2026-11-26",
           "hora": "21:00",
-          "lugar": "Intruso Bar",
-          "ciudad": "Madrid",
-          "precio": "11,35 €",
-          "url": "https://conciertos.club/madrid/conciertos/129247-patronas-la-lunfardita"
-        }
-      ],
-      "bio": "La Lunfardita La Lunfardita nace en la capital madrileña bajo la luz del jazz y el regazo del tango, donde una voz argentina, la guitarra de los gitanos europeos, el acordeón y el contrabajo abren el camino de ambos estilos a desarrollarse y crecer juntos.",
-      "youtube": null
-    },
-    {
-      "nombre": "Pedro Pastor",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-08",
-          "hora": "19:00",
-          "lugar": "Kafe Antzokia",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "20 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/113071-pedro-pastor"
-        }
-      ],
-      "bio": "Pedro Pastor en Bilbo",
-      "youtube": null
-    },
-    {
-      "nombre": "Arlo Parks",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-10",
-          "hora": "21:00",
-          "lugar": "La Riviera",
-          "ciudad": "Madrid",
-          "precio": "43 €",
-          "url": "https://conciertos.club/madrid/conciertos/117438-arlo-parks"
+          "lugar": "Sala Trinchera",
+          "ciudad": "Málaga",
+          "url": "https://conciertos.club/malaga/conciertos/126776-gauchito-club"
         },
         {
-          "fecha": "2026-11-13",
+          "fecha": "2026-11-27",
           "hora": "21:00",
-          "lugar": "Apolo",
-          "ciudad": "Barcelona",
-          "precio": "43 €",
-          "url": "https://conciertos.club/barcelona/conciertos/117439-arlo-parks"
+          "lugar": "Sala Nazca",
+          "ciudad": "Madrid",
+          "precio": "24,20 €",
+          "url": "https://conciertos.club/madrid/conciertos/127125-gauchito-club"
         }
       ],
-      "bio": "Arlo Parks De nombre de pila Anaïs Oluwatoyin Estelle Marinho, esta cantante de crianza afrofrancesa es una cantautora y poeta británica. Su álbum de estudio debut, Collapsed in Sunbeams , fue lanzado en 2021 con elogios de la crítica y alcanzó el puesto número tres en el Reino Unido.  \nDe apenas 20 años, esta cantautora londinense, hija de un nigeriano y una francesa de familia africana, es una joven inquieta amante de la literatura, con una manifiesta conciencia política y dispuesta a revelar sus intimidades más crudas en sus canciones, matizadas con pinceladas amables de jazz-pop y neo soul.\nCollapsed in Sunbeams profundiza el tono confidente, incorpora como asunto relevante a la identidad sexual y juega con los límites del melodrama. En solo tres años se ha consolidado como la portavoz generacional del nuevo R&B británico más cargado de poesía y esperanza, un logro refrendado con premios (AIM Independent Music Award), colaboraciones (Glass Animals) y portadas (NME, Consequence Of Sound). Ha sido elegida Artist Of The Month en el prestigioso magacín neoyorquino Consequence Of Sound.",
+      "bio": "Después de conquistar los principales escenarios de Argentina con su inconfundible mezcla de rock, indie, pop y ritmos latinoamericanos, Gauchito Club desembarca en España para presentar un show donde no faltarán himnos como «El Camino», «Vino Tinto», «La Noche» y muchos más, además de recorrer lo mejor de su discografía.",
+      "youtube": null
+    },
+    {
+      "nombre": "Sara Baras",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Auditorio Maestro Padilla",
+          "ciudad": "Almería",
+          "precio": "60-70 €",
+          "url": "https://conciertos.club/almeria/conciertos/120164-sara-baras/1795809600"
+        },
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Auditorio Maestro Padilla",
+          "ciudad": "Almería",
+          "precio": "60-70 €",
+          "url": "https://conciertos.club/almeria/conciertos/120164-sara-baras/1795896000"
+        }
+      ],
+      "bio": "Sara Baras Infinita es el último espectáculo de la bailaora gaditana Sara Baras\nInfinita son \" ocho miradas de mujer, ocho mujeres que nos miran, y un solo pulso encarnando Andalucía, latiendo al compás del flamenco. Un baile que no explica, que no alecciona, un baile de mujer con la única pretensión de compartir, de disfrutar juntos de una esencia, de un legado que transmite y permanece. \" \nAnteriormente, en 2025, cuando su compañía cumplió 25 años, Sara Baras presentó un espectáculo que rinde homenaje al genio por antonomasia de la guitarra, Paco de Lucía, desde el respeto, el cariño y el amor que tanto se profesaban. Así nació Vuela , un espectáculo creado para transportarnos una vez más a ese mágico mundo que sólo Sara Baras es capaz de crear. Afrontando en esta ocasión la responsabilidad de hacer tributo al genio de Algeciras, este viaje coreográfico está compuesto por 15 piezas únicas, donde cada una de ellas girará en torno a una palabra, creando así, con nuestro lenguaje flamenco, palabras en movimiento.\nVuela es un recorrido fascinante dividido en cuatro actos, cada uno de ellos teje una narrativa poderosa. Madera, que nos recuerda la fuerza de unas raíces, la calidez del ser. Mar, que nos invita a navegar en la pasión y ser como el agua. Muerte, una forma de explorar las emociones humanas desde lo más profundo. Volar, la única forma de huir sin correr, sólo dejarse llevar por la celebración y la alegría, una oportunidad que sólo la música, el baile y los sentimiento",
+      "youtube": null
+    },
+    {
+      "nombre": "Vicky Gastelo",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "The Hall",
+          "ciudad": "Málaga",
+          "url": "https://conciertos.club/malaga/conciertos/126653-vicky-gastelo"
+        }
+      ],
+      "bio": "Vicky Gastelo llega con su Tour \"Lo tuvimos todo\" a Málaga. En formato dúo, Vicky estará acompañada al piano por Iñaki García.",
+      "youtube": null
+    },
+    {
+      "nombre": "Candilena",
+      "estilos": [
+        "Folk"
+      ],
+      "zona": "Andalucía",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "20:30",
+          "lugar": "Teatro Apolo de Almería",
+          "ciudad": "Almería",
+          "precio": "15 €",
+          "url": "https://conciertos.club/almeria/conciertos/126070-candilena"
+        }
+      ],
+      "bio": "El próximo 28 de noviembre, el Teatro Apolo de Almería acogerá el nuevo espectáculo de Candilena: \"Al fin y al Cabo de Gata\".\nEl corazón de la noche latirá con un emocionante  homenaje al folklore y a las raíces almerienses.",
       "youtube": null
     },
     {
@@ -1603,6 +1175,24 @@
         }
       ],
       "bio": "Munir Hossn’s - MysticSamba \nMysticSamba es el nuevo proyecto del multiinstrumentista y compositor brasileño Munir Hossn, que une ritmos afrobrasileños, jazz contemporáneo y sonoridades globales.\nInterpretado por un ensemble internacional y grabado íntegramente en vivo, el proyecto combina una rica dimensión percusiva, melodías vibrantes y un fuerte espíritu de improvisación, creando un sonido que está al mismo tiempo arraigado en la tradición y proyectado hacia una visión contemporánea.",
+      "youtube": null
+    },
+    {
+      "nombre": "Andrés Obregón",
+      "estilos": [
+        "Pop Latino"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "20:30",
+          "lugar": "Razzmatazz 3",
+          "ciudad": "Barcelona",
+          "url": "https://conciertos.club/barcelona/conciertos/125249-andres-obregon"
+        }
+      ],
+      "bio": "El artista mexicano Andrés Obregón llega a España con su gira internacional Todo Pasa Tour.",
       "youtube": null
     },
     {
@@ -1662,6 +1252,25 @@
       "youtube": null
     },
     {
+      "nombre": "Arlo Parks",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:00",
+          "lugar": "Apolo",
+          "ciudad": "Barcelona",
+          "precio": "43 €",
+          "url": "https://conciertos.club/barcelona/conciertos/117439-arlo-parks"
+        }
+      ],
+      "bio": "Arlo Parks De nombre de pila Anaïs Oluwatoyin Estelle Marinho, esta cantante de crianza afrofrancesa es una cantautora y poeta británica. Su álbum de estudio debut, Collapsed in Sunbeams , fue lanzado en 2021 con elogios de la crítica y alcanzó el puesto número tres en el Reino Unido.  \nDe apenas 20 años, esta cantautora londinense, hija de un nigeriano y una francesa de familia africana, es una joven inquieta amante de la literatura, con una manifiesta conciencia política y dispuesta a revelar sus intimidades más crudas en sus canciones, matizadas con pinceladas amables de jazz-pop y neo soul.\nCollapsed in Sunbeams profundiza el tono confidente, incorpora como asunto relevante a la identidad sexual y juega con los límites del melodrama. En solo tres años se ha consolidado como la portavoz generacional del nuevo R&B británico más cargado de poesía y esperanza, un logro refrendado con premios (AIM Independent Music Award), colaboraciones (Glass Animals) y portadas (NME, Consequence Of Sound). Ha sido elegida Artist Of The Month en el prestigioso magacín neoyorquino Consequence Of Sound.",
+      "youtube": null
+    },
+    {
       "nombre": "Holistiks + Low Kost",
       "estilos": [
         "Mestizaje/Fusión"
@@ -1713,9 +1322,35 @@
           "ciudad": "Murcia",
           "precio": "10 €",
           "url": "https://conciertos.club/murcia/conciertos/126318-cristina-len"
+        },
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Sala Creedence",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130345-cristina-len"
         }
       ],
       "bio": "Cristina Len La música de Cristina Len combina raíz y electrónica, mezclando tradición y presente con una mirada actual.\nTras su primer álbum TMLM (Todo menos la muerte) (2024), un viaje emocional donde la pérdida y el deseo se transformaban en himnos de resistencia, Cristina se adentra ahora en un nuevo territorio con Martiago (2025): un EP que parte del repertorio tradicional del pueblo salmantino del que procede su familia. Coproducido junto a Yoel Molina y con las voces de las mujeres martiaguesas, Martiago, reinterpreta el folclore desde la sensibilidad de una artista contemporánea. Es una mirada hacia atrás para entender el presente, un diálogo entre generaciones, un acto de pertenencia.\nMartiago es un proyecto musical que nace del vínculo familiar de la artista con un pequeño pueblo de Salamanca y del deseo de traer al presente un repertorio tradicional en riesgo de desaparición. El EP fue creado junto a la comunidad martiaguesa y al productor Yoel Molina (Casapalma), y recoge la memoria de generaciones que cantaban para celebrar, resistir y recordar. A través de cuatro canciones tradicionales reinterpretadas desde la electrónica y los lenguajes sonoros contemporáneos, el proyecto incorpora la participación de una coral de mujeres del pueblo. Se concibe como una pieza colectiva con una clara ambición artística: generar archivo local y conectar la raíz con el presente.",
+      "youtube": null
+    },
+    {
+      "nombre": "Pez Mago",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "20:30",
+          "lugar": "La Campana Underground",
+          "ciudad": "Zaragoza",
+          "precio": "11,76 €",
+          "url": "https://conciertos.club/zaragoza/conciertos/130412-pez-mago"
+        }
+      ],
+      "bio": "Pez Mago presenta su nuevo disco-libro \"Luna de dos\" producido por Depedro. Esta vez en formato acústico. También revisará sus grandes éxitos de sus doce discos anteriores..",
       "youtube": null
     },
     {
@@ -1753,6 +1388,25 @@
         }
       ],
       "bio": "Kiko Veneno  Artista \nJuan Ramón Caramés Suárez  Bajo \nJimmy Gonzalez  Batería \nÁlvaro Marabot  Guitarra \nAnabel Pérez  Teclados y coros \nJosé Torres Vicente  Guitarra \nGuillermo Leal Domínguez  coros \nRafael García Fontaiña  Percusión",
+      "youtube": null
+    },
+    {
+      "nombre": "María José Llergo",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:00",
+          "lugar": "Teatro Afundación",
+          "ciudad": "Vigo",
+          "precio": "13,60 €",
+          "url": "https://conciertos.club/pontevedra-vigo/conciertos/121437-maria-jose-llergo"
+        }
+      ],
+      "bio": "María José Llergo",
       "youtube": null
     },
     {
@@ -1961,20 +1615,30 @@
       "youtube": null
     },
     {
+      "nombre": "Karime Amaya",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-14",
+          "hora": "19:00",
+          "lugar": "Centro Cívico Estación del Norte",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130463-karime-amaya"
+        }
+      ],
+      "bio": "Karime Amaya. Concierto en Centro Cívico Estación del Norte, Zaragoza (Zaragoza) el Sábado 14 de Noviembre de 2026. Es una actuación de estilo Flamenco/Copla.",
+      "youtube": null
+    },
+    {
       "nombre": "Borja Picó",
       "estilos": [
         "Cantautores"
       ],
       "zona": "España",
       "conciertos": [
-        {
-          "fecha": "2026-11-06",
-          "hora": "20:00",
-          "lugar": "Shelter",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "5 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/128110-borja-pico"
-        },
         {
           "fecha": "2026-11-14",
           "hora": "20:30",
@@ -1984,26 +1648,7 @@
           "url": "https://conciertos.club/zaragoza/conciertos/125895-borja-pico"
         }
       ],
-      "bio": "Concierto acústico del cantautor Borja Picó con su gira 'Sonrisas'",
-      "youtube": null
-    },
-    {
-      "nombre": "Los Ganglios",
-      "estilos": [
-        "Mestizaje/Fusión"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-14",
-          "hora": "21:30",
-          "lugar": "Sala Z",
-          "ciudad": "Zaragoza",
-          "precio": "17 €",
-          "url": "https://conciertos.club/zaragoza/conciertos/125906-los-ganglios"
-        }
-      ],
-      "bio": "LOS GANGLIOS / ZARAGOZA\nCerrando el tour PERUGUAY (2025) tocando las canciones del nuevo disco y repasando todos los temasos PORC de la banda.",
+      "bio": "Concierto acústico del cantautor Borja Picó de su gira 'Sonrisas'",
       "youtube": null
     },
     {
@@ -2066,6 +1711,14 @@
           "ciudad": "Madrid",
           "precio": "27 €",
           "url": "https://conciertos.club/madrid/conciertos/129323-tu-otra-bonita"
+        },
+        {
+          "fecha": "2026-11-22",
+          "hora": "12:30",
+          "lugar": "Sala Clamores",
+          "ciudad": "Madrid",
+          "precio": "27 €",
+          "url": "https://conciertos.club/madrid/conciertos/129321-tu-otra-bonita"
         }
       ],
       "bio": "Conciertos fin de gira. La banda tocará todos los temas de su nuevo disco \"Puta Vida \" y las canciones mas importantes de toda su carrera musical en un formato único que no se volverá a repetir.",
@@ -2128,25 +1781,6 @@
       "youtube": null
     },
     {
-      "nombre": "Luisina Kippes",
-      "estilos": [
-        "Cantautores"
-      ],
-      "zona": "España",
-      "conciertos": [
-        {
-          "fecha": "2026-11-15",
-          "hora": "20:00",
-          "lugar": "Jazzville",
-          "ciudad": "Madrid",
-          "precio": "10 €",
-          "url": "https://conciertos.club/madrid/conciertos/129297-luisina-kippes"
-        }
-      ],
-      "bio": "Desde esta Orilla - Luisina Kippes - Fin de Gira Tour Madrid\nLuisina Kippes es compositora, intérprete y arreglista fueguina, nacida en Ushuaia y radicada en Madrid.\nCanciones propias, folklore argentino y latinoamericano y boleros se encuentran en una propuesta íntima de voz y guitarra, atravesada por el viaje, el desarraigo, la identidad y todo lo que significa construir una vida lejos de casa.",
-      "youtube": null
-    },
-    {
       "nombre": "Guada",
       "estilos": [
         "Cantautores"
@@ -2165,20 +1799,30 @@
       "youtube": null
     },
     {
+      "nombre": "Tamara",
+      "estilos": [
+        "Música Latina"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-15",
+          "hora": "21:00",
+          "lugar": "Teatro de las Esquinas",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130522-tamara"
+        }
+      ],
+      "bio": "Tamara Tamara se dio a conocer de niña en la versión infantil de “Menudas Estrellas”, su excepcional interpretación del bolero «Encadenados» en el que se homenajeaba a su abuelo (Rafael Farina) generó el interés inmediato de todas las discográficas de España. Se ha convertido por méritos propios en una de las voces más importantes de habla hispana.\nLa revolución llegó a Estados Unidos y Latinoamérica, donde la apodaron como \"la niña prodigio del bolero\". Con la ayuda del productor Bebu Silvetti,  hizo un dueto con Juan Gabriel (\"El amor de nosotros\") y su versión de  \"Si nos dejan\" y el tema inédito \"Celos\" se conviertieron en éxitos. \nÚnica en su estilo, Tamara ha ganado 4 premios Cadena Dial, un Premio Ondas a mejor canción con su archiconocida “Herida de Amor”, varias nominaciones a los Grammy y el Premio Latino de Oro a su Trayectoria, 5 discos de platino en España y disco de oro en varios países de América, como Venezuela, México o Colombia, entre otros muchos reconocimientos.\nLa sensibilidad con la que transforma los boleros de antaño en éxitos y directos envolventes son cualidades que han hecho de Tamara una de las cantantes más reconocidas y queridas de España.\nEn 2026 Tamara celebra sus más de 25 años en la música.\nSus últimas colaboraciones fueron dúos con estrellas como Cristian Castro,  Marco Antonio Solís, Juan Gabriel, Moncho, Marcos Llunas, David Bustamante,  Manuel Carrasco, Vanessa Martín…",
+      "youtube": null
+    },
+    {
       "nombre": "Jesse & Joy",
       "estilos": [
         "Pop Latino"
       ],
       "zona": "España",
       "conciertos": [
-        {
-          "fecha": "2026-11-11",
-          "hora": "21:00",
-          "lugar": "Sala Paral·lel 62",
-          "ciudad": "Barcelona",
-          "precio": "49,50 €",
-          "url": "https://conciertos.club/barcelona/conciertos/121169-jesse-joy"
-        },
         {
           "fecha": "2026-11-15",
           "hora": "20:00",
@@ -2204,7 +1848,7 @@
           "url": "https://conciertos.club/madrid/conciertos/121170-jesse-joy"
         }
       ],
-      "bio": "Jesse & Joy. Concierto en Sala Paral·lel 62, Barcelona (Barcelona) el Miércoles 11 de Noviembre de 2026. Es una actuación de estilo Pop Latino.",
+      "bio": "Jesse & Joy. Concierto en Roig Arena, Valencia (Valencia) el Domingo 15 de Noviembre de 2026. Es una actuación de estilo Pop Latino.",
       "youtube": null
     },
     {
@@ -2307,6 +1951,24 @@
         }
       ],
       "bio": "ROCKSTEADY & BOSS REGGAE des dels Països Baixos",
+      "youtube": null
+    },
+    {
+      "nombre": "NOCHE DE FLAMENCO",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-18",
+          "hora": "21:00",
+          "lugar": "Rock & Blues Café",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130290-noche-de-flamenco"
+        }
+      ],
+      "bio": "",
       "youtube": null
     },
     {
@@ -2526,14 +2188,6 @@
       "zona": "España",
       "conciertos": [
         {
-          "fecha": "2026-11-06",
-          "hora": "20:30",
-          "lugar": "Bilbao Arena Miribilla",
-          "ciudad": "Bilbao-Bilbo",
-          "precio": "33 €",
-          "url": "https://conciertos.club/bilbao-bizkaia/conciertos/128198-medina-azahara"
-        },
-        {
           "fecha": "2026-11-21",
           "hora": "21:00",
           "lugar": "Palacio de Vistalegre",
@@ -2541,7 +2195,7 @@
           "url": "https://conciertos.club/madrid/conciertos/124828-medina-azahara"
         }
       ],
-      "bio": "Este espectáculo se enmarca dentro de su gira de despedida «Hasta Siempre», con la que el legendario grupo cordobés pone el broche de oro a una carrera inolvidable que comenzó en 1979 y que ha dejado una profunda huella en la música española.\nDurante el concierto, los asistentes podrán revivir grandes himnos como «Paseando por la Mezquita», «Necesito Respirar» o «Todo tiene su fin». La banda repasará lo mejor de sus 24 discos de estudio y rendirá homenaje a todos los seguidores que los han acompañado durante más de 45 años.",
+      "bio": "Tras más de cuatro décadas marcando el rumbo del rock andaluz, Medina Azahara se despide de los escenarios con un emotivo y esperado concierto final en Madrid, que tendrá lugar el próximo 21 de noviembre de 2026 en el emblemático Palacio Vistalegre.\nEste espectáculo se enmarca dentro de su gira de despedida «Hasta Siempre», con la que el legendario grupo cordobés pone el broche de oro a una carrera inolvidable que comenzó en 1979 y que ha dejado una profunda huella en la música española.",
       "youtube": null
     },
     {
@@ -2621,6 +2275,43 @@
       "youtube": null
     },
     {
+      "nombre": "ANDREA DE MIGUEL",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-21",
+          "hora": "19:00",
+          "lugar": "Centro Cívico Estación del Norte",
+          "ciudad": "Zaragoza",
+          "precio": "14,65 €",
+          "url": "https://conciertos.club/zaragoza/conciertos/130475-andrea-de-miguel"
+        }
+      ],
+      "bio": "ANDREA DE MIGUEL \"CAMINANTE\"\n\"He andado muchos caminos, a mí me llaman el caminante\" es una letra con la que Andrea de Miguel se identifica mucho, no solo porque es nieta de carretero sino porque ella misma (no con las mismas fatigas) ha andado muchos caminos. De su Zaragoza natal a Granada, Los Ángeles, París... ahora regresa a su tierra con un espectáculo íntimo que recorre diferentes palos del flamenco como las alegrías o el taranto. \"Caminante\" es el relato de una vida en movimiento de la mano de las grandes figuras del flamenco actual de Zaragoza.\nRubén Jiménez a la guitarra\nJosé Díaz al cante\nDani Giménez “Nano” al cante\nJuan Caballero al bajo\nJosué Barres a la percusión\nAndrea de Miguel al baile\n--------------------------------------------------------------\nAndrea de Miguel (Zaragoza, 1992) inició su formación en el baile flamenco durante la adolescencia de la mano del maestro Jesús el Rondeño. Posteriormente, una estancia de tres años en Granada supuso un importante impulso en su formación como bailaora. A su regreso a Zaragoza, pasó a formar parte de la compañía flamenca de Amor Sánchez que le permitió compartir escenario con grandes artistas del flamenco zaragozano.\nDesde hace unos años reside en París, donde ha recibido formación continuada durante siete años con José Maya y actúa como bailaora solista e invitada en diferentes salas y espectáculos. Actualmente sigue formándose junto a artistas a los que admira como Juana Amaya, María del Mar Moreno, Inés Rubio y Ju",
+      "youtube": null
+    },
+    {
+      "nombre": "Irregular Roots",
+      "estilos": [
+        "Reggae/Ska"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-21",
+          "hora": "20:30",
+          "lugar": "La Casa Del Loco",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130519-irregular-roots"
+        }
+      ],
+      "bio": "Irregular Roots. Concierto en La Casa Del Loco, Zaragoza (Zaragoza) el Sábado 21 de Noviembre de 2026. Es una actuación de estilo Reggae/Ska.",
+      "youtube": null
+    },
+    {
       "nombre": "Anari",
       "estilos": [
         "Cantautores"
@@ -2655,6 +2346,450 @@
         }
       ],
       "bio": "El músico, compositor y cantante uruguayo Jorge Drexler, una de las voces más influyentes de la música iberoamericana contemporánea, presenta en directo su nuevo disco “TARACÁ”, publicado en marzo de 2026.",
+      "youtube": null
+    },
+    {
+      "nombre": "Galván Real",
+      "estilos": [
+        "Pop Latino"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-21",
+          "hora": "21:30",
+          "lugar": "IFEVI - Instituto Feiral de Vigo",
+          "ciudad": "Vigo",
+          "precio": "33 €",
+          "url": "https://conciertos.club/pontevedra-vigo/conciertos/104909-galvan-real"
+        }
+      ],
+      "bio": "Galván Real En la mezcla está el enriquecimiento y la evolución. Lo piensan muchos músicos y uno de ellos es Galván Real, quien partiendo del flamenco, la música que escuchó desde pequeño, ha querido aportar su toque y acercar ese género a otros estilos, como la música latina, y darle además un barniz más moderno e incluir toques electrónicos en sus canciones. Porque son suyas, él no es sólo músico y cantante sino también autor y productor.\nÓscar Espinosa Castillo, que tal es su nombre real, nació en Valencia en 1992 y cuando era un crío lo que más escuchaba era flamenco, una base que siempre ha tenido muy presente y con la que empezó a experimentar, con el más loable de los propósitos, en 2012, lo que quiere decir cuando sólo tenía veinte años.\nEmpezó a editar esos temas, ya con el sobrenombre de Galván Real, en forma de singles. No convencionales, con su agujero en medio y demás, sino para ser descargados y visualizados en plataformas. En sus diez años de carrera ha publicado un total de 22.\nAl hilo de esto, es curioso pero un vistazo a internet sirve para comprobar que algunos fans han aprovechado la coyuntura para hacerse con esas canciones discos a la carta. Como las antiguas cintas de casete que se recopilaban en casa, vamos, pero aplicado a las nuevas tecnologías.\nComo otros muchos artistas de los últimos años, Galván Real gusta de acompañarse de otros músicos y cantantes en sus temas. Ha colaborado, entre otros, con Maki, María Artés o Saray Jiménez, entre otros. Con ",
+      "youtube": null
+    },
+    {
+      "nombre": "Fyahbwoy",
+      "estilos": [
+        "Reggae/Ska"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-21",
+          "hora": "21:00",
+          "lugar": "Porta Caeli",
+          "ciudad": "Valladolid",
+          "precio": "22 €",
+          "url": "https://conciertos.club/valladolid/conciertos/129905-fyahbwoy"
+        }
+      ],
+      "bio": "Fyahbwoy",
+      "youtube": null
+    },
+    {
+      "nombre": "APRICOT JAM",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-22",
+          "hora": "19:00",
+          "lugar": "El Perro de la Parte de Atrás del Coche",
+          "ciudad": "Madrid",
+          "url": "https://conciertos.club/madrid/conciertos/129351-apricot-jam"
+        }
+      ],
+      "bio": "Apricot Jam nace con la idea de proponer un formato de jam diferente al habitual en Madrid, basado en la improvisación y la co-creación musical en directo.\nLa sesión comenzará con aproximadamente 30 minutos de improvisación a cargo de una house band, que servirá como introducción al concepto y al lenguaje musical de la jam. Después, el escenario se abrirá a otros músicos y artistas que quieran participar.\nMusicalmente, la sesión se moverá entre soul, jazz, R&B, hip hop, pop y fusión, dejando espacio para que la música se construya de forma espontánea entre los participantes.\nLa house band estará formada por músicos que ya forman parte de la escena madrileña, entre ellos integrantes de Wimo, Julia Bengala, Christopher, Emma Bernad y Duarte y otros artistas.",
+      "youtube": null
+    },
+    {
+      "nombre": "PEDRO JAVIER GONZALEZ - HORACIO FUMERO",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-22",
+          "hora": "21:30",
+          "lugar": "Harlem Jazz Club",
+          "ciudad": "Barcelona",
+          "precio": "18 €",
+          "url": "https://conciertos.club/barcelona/conciertos/126601-pedro-javier-gonzalez-horacio-fumero"
+        }
+      ],
+      "bio": "Pedro Javier González, guitarra - Horacio Fumero, contrabajo \nFlamenco y jazz se unen en este concierto en el que cada uno de los músicos aporta la genialidad de su estilo y género musical.\nEl contrabajista Horacio Fumero y el guitarrista Pedro Javier González son dos viajeros de sonoridades remotas que, cada uno desde su visión musical, hilvanan y compatibilizan géneros de orígenes lejanos pero que en sus conciertos se hermanan y pasean divertidos creando un universo musical común a la especie humana.\nFlamenco y jazz pero también bulerías y tango, rumba y chacarera, son las joyas que aparecen en las fascinantes actuaciones de los dos grandes maestros.",
+      "youtube": null
+    },
+    {
+      "nombre": "Camela",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-22",
+          "hora": "19:00",
+          "lugar": "Auditorio Príncipe Felipe",
+          "ciudad": "Oviedo",
+          "precio": "50 €",
+          "url": "https://conciertos.club/asturias/conciertos/127177-camela"
+        },
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Coliseum",
+          "ciudad": "A Coruña",
+          "precio": "41,04 €",
+          "url": "https://conciertos.club/a-coruna/conciertos/122997-camela"
+        }
+      ],
+      "bio": "Tras el éxito de su Gira 30 Aniversario, Camela regresa a los escenarios con Tour 2026, un espectáculo renovado, más potente y emocional que nunca.\nCon el lanzamiento de “Nunca te he olvidado”, el dúo icono de la tecno-rumba presenta un directo más visual, dinámico y festivo, manteniendo intacta la esencia que los ha convertido en un fenómeno único con más de siete millones de discos vendidos y éxitos inolvidables como “Lágrimas de Amor” o “Corazón Indomable”.",
+      "youtube": null
+    },
+    {
+      "nombre": "Juntos: Jorge Medina y Josi Cuen",
+      "estilos": [
+        "Pop Latino"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "20:00",
+          "lugar": "Movistar Arena",
+          "ciudad": "Madrid",
+          "url": "https://conciertos.club/madrid/conciertos/124605-juntos-jorge-medina-y-josi-cuen"
+        }
+      ],
+      "bio": "Jorge Medina y Josi Cuen, unidos bajo el nombre JUNTOS, llevan más de un año llenando los recintos más grandes de México y Estados Unidos con La Máquina del Tiempo Tour. Arena Monterrey, Auditorio Telmex, Auditorio Nacional. Miles de entradas vendidas. Noches que no se repiten.\nAhora JUNTOS cruzan el Atlántico por primera vez. Madrid, única fecha, no es una parada más: es la primera cita de toda Europa. Una sola noche para vivir en directo dos de las voces más queridas del regional mexicano.",
+      "youtube": null
+    },
+    {
+      "nombre": "THE UPSESSIONS + THE CREPITANS",
+      "estilos": [
+        "Reggae/Ska"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "21:00",
+          "lugar": "Gruta 77",
+          "ciudad": "Madrid",
+          "url": "https://conciertos.club/madrid/conciertos/124480-the-upsessions-the-crepitans"
+        }
+      ],
+      "bio": "The Upsessions , formados en Paises Bajos en el año 2005 son uno de los máximos exponentes en Europa del Early Reggae revival\nUna super banda Ska, como demostraron en el escenario de Gruta77 haciendo de backing band para The Pioneers.\nUna formación de altísima calidad en cada instrumentista. Sus ritmos de teclado hacen guiños al Soul y el Ska y el Calypso alternan con esa base Reggae de Batería y Bajo\nLes acompañarán los madrileños The Crepitans .",
+      "youtube": null
+    },
+    {
+      "nombre": "Félis",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "21:00",
+          "lugar": "Sala Vesta",
+          "ciudad": "Madrid",
+          "precio": "10 €",
+          "url": "https://conciertos.club/madrid/conciertos/129168-felis"
+        }
+      ],
+      "bio": "Félis presentará su primer álbum, \"A los locos que nos dejen soñar\", por primera vez en directo el próximo 26 de noviembre en la Sala Vesta, en Madrid.\nSu música combina el pop-rock, canción de autor, mucha sensibilidad en sus letras y en su voz, y una producción con sonidos actuales, acumulando más de un millón de reproducciones en plataformas digitales.\nTras su paso por La Voz y su reciente condición de semifinalista del concurso Suena Madrid, celebrado en La Sala Movistar Arena, Félis continúa consolidando un proyecto artístico con identidad propia, basado en canciones originales, una cuidada propuesta escénica y una conexión muy especial con el público.",
+      "youtube": null
+    },
+    {
+      "nombre": "LOVELETTER & ELVIRA DEL ROCIO",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "21:30",
+          "lugar": "Fulanita de Tal",
+          "ciudad": "Madrid",
+          "precio": "10 €",
+          "url": "https://conciertos.club/madrid/conciertos/129167-loveletter-elvira-del-rocio"
+        }
+      ],
+      "bio": "Loveletter y Elvira del Rocío presentan Sueño de otoño, un concierto que invita a adentrarse en un universo de cuento.\nDos propuestas que se encuentran en un mismo imaginario fantástico, cada una con su propia forma de hechizar: Loveletter, desde una sensibilidad luminosa y festiva; Elvira del Rocío, con un magnetismo enigmático y cautivador.",
+      "youtube": null
+    },
+    {
+      "nombre": "Levi.SCT",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "20:00",
+          "lugar": "La Rambleta",
+          "ciudad": "Valencia",
+          "precio": "38 €",
+          "url": "https://conciertos.club/valencia/conciertos/127370-levi-sct"
+        }
+      ],
+      "bio": "LEVI.SCT (Levi Schechtmann, n. 1999) es un pianista alemán que trasciende los géneros y está redefiniendo la experiencia del concierto clásico. Fusiona la profundidad emocional de los compositores de música clásica con la energía cruda del hip-hop y el house. Actuando bajo su nombre artístico LEVI.SCT, él está a la vanguardia de una nueva ola de artistas que hacen que la música clásica sea relevante y electrizante.",
+      "youtube": null
+    },
+    {
+      "nombre": "Anna Andreu",
+      "estilos": [
+        "Folk"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-26",
+          "hora": "20:00",
+          "lugar": "Sala Russafa",
+          "ciudad": "Valencia",
+          "precio": "18,56 €",
+          "url": "https://conciertos.club/valencia/conciertos/127542-anna-andreu"
+        }
+      ],
+      "bio": "CAL FER MÉS IMMENS EL CEL: l'última vigília (Final de gira a València)",
+      "youtube": null
+    },
+    {
+      "nombre": "La Plazuela",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Movistar Arena",
+          "ciudad": "Madrid",
+          "precio": "37,40 €",
+          "url": "https://conciertos.club/madrid/conciertos/109825-la-plazuela"
+        }
+      ],
+      "bio": "La Plazuela",
+      "youtube": null
+    },
+    {
+      "nombre": "GRANKHAN & FASTAH SELECTAH",
+      "estilos": [
+        "Reggae/Ska"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "22:00",
+          "lugar": "Café La Palma",
+          "ciudad": "Madrid",
+          "url": "https://conciertos.club/madrid/conciertos/129536-grankhan-fastah-selectah"
+        }
+      ],
+      "bio": "Grankhan es un artista madrileño de reggae y dancehall con una presencia ya consolidada en la escena española, tras más de 10 años en el género. \nActualmente, tras publicar parte de lo que será su segundo álbum, con títulos como Avalancha (Ft. Warma) y Pisando Arena (Ft. Green Valley) e inmerso también en la gira de salas y festivales -como corista e intérprete- de Fyahbwoy, Grankhan está en plena forma para seguir emergiendo a golpe de hit, poniendo más reggae, más dancehall y más fuego en cada altavoz y tarima.",
+      "youtube": null
+    },
+    {
+      "nombre": "O'Funk'illo",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:00",
+          "lugar": "Salamandra",
+          "ciudad": "L'Hospitalet de Llobregat",
+          "precio": "18 €",
+          "url": "https://conciertos.club/barcelona/conciertos/121356-o-funk-illo"
+        }
+      ],
+      "bio": "O'Funk'illo O'Funk'illo es una banda de \"Funky Andaluz Embrutessío\" liderada por el cantante Andreas Lutz y el extraordinario bajista Pepe Bao que comenzó como trío, posteriormente fue dúo y actualmente actúan en modo tropa.\nCuentan con 6 álbumes editados, su última grabación data de 2019, 'Ofunkilloterapia', que contenía entre otras canciones una divertida parodia del 'Stayin´Alive' ('Tengo que madurar') de The Bee Gees. \nEn directo son una barbaridad que en escenarios grandes se crece.",
+      "youtube": null
+    },
+    {
+      "nombre": "Los Ganglios",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-14",
+          "hora": "21:30",
+          "lugar": "Sala Z",
+          "ciudad": "Zaragoza",
+          "precio": "17 €",
+          "url": "https://conciertos.club/zaragoza/conciertos/125906-los-ganglios"
+        },
+        {
+          "fecha": "2026-11-27",
+          "hora": "21:30",
+          "lugar": "Sala Jerusalem",
+          "ciudad": "Valencia",
+          "precio": "17 €",
+          "url": "https://conciertos.club/valencia/conciertos/127515-los-ganglios"
+        }
+      ],
+      "bio": "LOS GANGLIOS / ZARAGOZA\nCerrando el tour PERUGUAY (2025) tocando las canciones del nuevo disco y repasando todos los temasos PORC de la banda.",
+      "youtube": null
+    },
+    {
+      "nombre": "Raimundo Amador",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-27",
+          "hora": "20:30",
+          "lugar": "Sala The One",
+          "ciudad": "San Vicente del Raspeig",
+          "precio": "28,60 €",
+          "url": "https://conciertos.club/alicante/conciertos/128917-raimundo-amador"
+        }
+      ],
+      "bio": "Raimundo Amador",
+      "youtube": null
+    },
+    {
+      "nombre": "Paloma morphy",
+      "estilos": [
+        "Pop Latino"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:00",
+          "lugar": "Sala Villanos",
+          "ciudad": "Madrid",
+          "precio": "19,80 €",
+          "url": "https://conciertos.club/madrid/conciertos/129385-paloma-morphy"
+        }
+      ],
+      "bio": "Paloma Morphy es una cantante y compositora mexicana con una propuesta de pop íntimo, honesto y emocional. Desde el lanzamiento de su álbum debut, Au , ha consolidado una identidad artística única, marcada por su sensibilidad compositiva y una estética sonora contemporánea. Hoy se posiciona como una de las voces más prometedoras del pop latino.",
+      "youtube": null
+    },
+    {
+      "nombre": "Saint Levant",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:00",
+          "lugar": "Razzmatazz 1",
+          "ciudad": "Barcelona",
+          "url": "https://conciertos.club/barcelona/conciertos/125269-saint-levant"
+        }
+      ],
+      "bio": "Abdelhamid se ha convertido en portavoz de la realidad palestina alrededor del mundo. Un cargo honorífico que defenderá el próximo otoño en Barcelona y Madrid: actuará el 28 de noviembre en Razzmatazz y el 30 de noviembre en La Riviera.",
+      "youtube": null
+    },
+    {
+      "nombre": "Gonzalo Hermida",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:00",
+          "lugar": "Teatro Flumen",
+          "ciudad": "Valencia",
+          "url": "https://conciertos.club/valencia/conciertos/120431-gonzalo-hermida"
+        }
+      ],
+      "bio": "Gonzalo Hermida el próximo 28 de noviembre 2026 en el Teatro Flumen de Valencia.",
+      "youtube": null
+    },
+    {
+      "nombre": "Estopa",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:15",
+          "lugar": "Roig Arena",
+          "ciudad": "Valencia",
+          "url": "https://conciertos.club/valencia/conciertos/127216-estopa-mafalda-cardenal"
+        }
+      ],
+      "bio": "Concierto de los hermanos Estopa patrocinado por una empresa eléctrica, al que se suma la cantautora Mafalda Cardenal como artista invitada.",
+      "youtube": null
+    },
+    {
+      "nombre": "Mafalda Cardenal",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "21:15",
+          "lugar": "Roig Arena",
+          "ciudad": "Valencia",
+          "url": "https://conciertos.club/valencia/conciertos/127216-estopa-mafalda-cardenal"
+        }
+      ],
+      "bio": "Concierto de los hermanos Estopa patrocinado por una empresa eléctrica, al que se suma la cantautora Mafalda Cardenal como artista invitada.",
+      "youtube": null
+    },
+    {
+      "nombre": "JC Ondiviela",
+      "estilos": [
+        "Cantautores"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "13:00",
+          "lugar": "La Lata de Bombillas",
+          "ciudad": "Zaragoza",
+          "url": "https://conciertos.club/zaragoza/conciertos/130407-jc-ondiviela"
+        }
+      ],
+      "bio": "El guitarrista y cantante zaragozano José Carlos Ondiviela presenta su nuevo trabajo discográfico titulado \"Recuerdos de un pasado peor\".",
+      "youtube": null
+    },
+    {
+      "nombre": "Marta Santos",
+      "estilos": [
+        "Mestizaje/Fusión"
+      ],
+      "zona": "España",
+      "conciertos": [
+        {
+          "fecha": "2026-11-28",
+          "hora": "19:30",
+          "lugar": "Palacio de la Ópera",
+          "ciudad": "A Coruña",
+          "precio": "33,31 €",
+          "url": "https://conciertos.club/a-coruna/conciertos/123001-marta-santos"
+        }
+      ],
+      "bio": "Marta Santos Marta Santos comenzó su viaje musical con una guitarra y su teléfono, grabándose mientras interpretaba canciones de otros artistas. Compartía estos videos en sus redes sociales, inicialmente con menos de 1.000 seguidores. En solo un año, su presencia en Instagram y TikTok ha crecido de manera explosiva, acumulando más de 400.000 seguidores. Entre sus admiradores se encuentran músicos, futbolistas y prominentes figuras del país.\nEn Abril, Marta se unió a Sound Blaster Records, lo que marcó un punto de inflexión. Su primer lanzamiento profesional fue un cover de «Las Cosas Pequeñitas», que rápidamente se volvió viral en Spotify y Youtube, alcanzando más de 5 millones de reproducciones. Luego, su interpretación de «Envuelto en llamas» se ganó un lugar en la playlist de Flamenco Pop de Spotify.\nImpulsada por el éxito de estos covers, Marta decidió lanzar su propio material original, debutando con el sencillo «Cerquita de Mí». Sin embargo, su logro más destacado llegó con su versión de «La Bachata», que escaló en las listas de éxitos de Spotify España y superó el millón de reproducciones mensuales.",
       "youtube": null
     }
   ]
