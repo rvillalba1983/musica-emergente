@@ -99,7 +99,8 @@ def main():
 
     # 2) GitHub Models (models.github.ai)
     gh_token = (
-        os.environ.get("GITHUB_MODELS_TOKEN")
+        os.environ.get("MODELS_TOKEN")
+        or os.environ.get("GITHUB_MODELS_TOKEN")
         or os.environ.get("GITHUB_TOKEN")
         or os.environ.get("GH_TOKEN")
         or os.environ.get("INPUT_GITHUBTOKEN")
