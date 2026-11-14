@@ -51,6 +51,7 @@ jobs:
         id: generar
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
           MODEL: ${{ github.event.inputs.modelo || 'gpt-4o-mini' }}
         run: |
           python3 scripts/ia_generar.py \
