@@ -256,6 +256,22 @@
               "ciudad": "Málaga",
               "precio": "20 €",
               "url": "https://conciertos.club/malaga/conciertos/111757-chiquita-movida"
+            },
+            {
+              "fecha": "2026-11-21",
+              "hora": "21:00",
+              "lugar": "El Tren",
+              "ciudad": "Granada",
+              "precio": "20 €",
+              "url": "https://conciertos.club/artistas/chiquita-movida"
+            },
+            {
+              "fecha": "2026-12-12",
+              "hora": "21:00",
+              "lugar": "Sala Tebras",
+              "ciudad": "Lugo",
+              "precio": "20 €",
+              "url": "https://conciertos.club/artistas/chiquita-movida"
             }
           ],
           "redes": {},
