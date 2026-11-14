@@ -73,6 +73,9 @@ jobs:
           PUBLICAR_DIRECTO: "false"
         run: |
           TITULO=$(python3 -c "import json; d=json.load(open('/tmp/entrada_ia.json')); print(d.get('titulo', 'Sin titulo'))")
+          # Asegurar labels existen
+          gh label create "diario-semanal" --description "Diario semanal generado por IA" 2>/dev/null || true
+          gh label create "ia-generado" --description "Entrada generada automáticamente" 2>/dev/null || true
           if [ "${PUBLICAR_DIRECTO}" = "true" ]; then
             python3 scripts/publicar_directo.py /tmp/entrada_ia.json
           else
