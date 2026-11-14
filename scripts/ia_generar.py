@@ -41,6 +41,31 @@ def fecha_proxima():
     return (hoy + dt.timedelta(days=(4 - hoy.weekday()) % 7)).isoformat()
 
 
+def _cargar_publicados_recientes(max_entradas=26):
+    """Devuelve un set con nombres de artistas en las últimas N entradas (~6 meses semanales)."""
+    diario_path = os.path.join(c.RAIZ, "data", "diario.json")
+    if not os.path.exists(diario_path):
+        return set()
+    with open(diario_path, encoding="utf-8") as f:
+        diario = json.load(f)
+    publicados = set()
+    for e in diario.get("entradas", [])[:max_entradas]:
+        for a in e.get("artistas", []):
+            nombre = a.get("nombre", "").strip().lower()
+            if nombre:
+                publicados.add(nombre)
+    return publicados
+
+
+def _filtrar_nuevos(candidatos, publicados):
+    """Quita candidatos que ya salieron en entradas recientes."""
+    nuevos = []
+    for c in candidatos:
+        if c.get("nombre", "").strip().lower() not in publicados:
+            nuevos.append(c)
+    return nuevos
+
+
 def llamar_modelo(base_url, api_key, modelo, sistema, usuario):
     cuerpo = json.dumps({
         "model": modelo,
@@ -83,7 +108,17 @@ def main():
 
     with open(args.entrada, encoding="utf-8") as f:
         datos = json.load(f)
-    candidatos = datos.get("candidatos", [])[:8]
+
+    # Excluir artistas ya publicados en las últimas entradas
+    todos = datos.get("candidatos", [])
+    publicados = _cargar_publicados_recientes(max_entradas=5)
+    nuevos = _filtrar_nuevos(todos, publicados)
+    candidatos = nuevos[:8]
+    if not candidatos:
+        print("⚠️ No quedan candidatos nuevos (todos ya publicados). Uso los primeros.", file=sys.stderr)
+        candidatos = todos[:8]
+    if len(nuevos) < len(todos):
+        print(f"ℹ️ {len(todos) - len(nuevos)} candidatos excluidos por ya publicados", file=sys.stderr)
 
     # 1) OpenAI
     base = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
