@@ -14,16 +14,16 @@ on:
         required: false
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
   issues: write
-  models: read
 
 concurrency:
   group: entrada-semanal
   cancel-in-progress: false
 
 jobs:
-  generar_entrada:
+  generar_y_publicar:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -68,13 +68,10 @@ jobs:
           fi
           python3 scripts/validar_entrada.py /tmp/entrada_ia.json
 
-      - name: Subir entrada como artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: entrada-semanal-${{ github.run_id }}
-          path: /tmp/entrada_ia.json
-
-      - name: Crear issue con la entrada generada
+      - name: Publicar automáticamente en el diario
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/ia_crear_issue.py
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/publicar_automatico.py
