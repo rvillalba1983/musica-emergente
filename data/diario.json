@@ -84,6 +84,70 @@
               "ciudad": "Baeza",
               "precio": "6 €",
               "url": "https://conciertos.club/jaen/conciertos/129649-nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2026-11-27",
+              "hora": "22:30",
+              "lugar": "Sideral",
+              "ciudad": "Albacete",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2026-12-11",
+              "hora": "21:00",
+              "lugar": "The Olympus Beer",
+              "ciudad": "Pamplona-Iruña",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2026-12-12",
+              "hora": "18:00",
+              "lugar": "Stereo R&R Bar",
+              "ciudad": "Logroño",
+              "precio": "10 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2027-02-27",
+              "hora": "12:30",
+              "lugar": "La Cochera Cabaret",
+              "ciudad": "Málaga",
+              "precio": "18 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2027-03-05",
+              "hora": "22:00",
+              "lugar": "Jazz Cafe",
+              "ciudad": "Córdoba",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2027-03-06",
+              "hora": "12:30",
+              "lugar": "La Cochera Cabaret",
+              "ciudad": "Málaga",
+              "precio": "18 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2027-04-02",
+              "hora": "19:00",
+              "lugar": "Talleres Palermo",
+              "ciudad": "Las Palmas de Gran Canaria",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2027-04-09",
+              "hora": "22:00",
+              "lugar": "La Puerta Falsa",
+              "ciudad": "Murcia",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
             }
           ],
           "redes": {},
@@ -110,6 +174,14 @@
               "lugar": "Noir Craft",
               "ciudad": "Granada",
               "url": "https://www.conciertosengranada.es/conciertos/129130-garnata"
+            },
+            {
+              "fecha": "2026-12-11",
+              "hora": "21:30",
+              "lugar": "La Lolaina",
+              "ciudad": "Nigüelas",
+              "precio": "7 €",
+              "url": "https://conciertos.club/artistas/garnata"
             }
           ],
           "redes": {},
@@ -146,6 +218,14 @@
               "ciudad": "Granada",
               "precio": "17,60 €",
               "url": "https://www.conciertosengranada.es/conciertos/129654-jalezz"
+            },
+            {
+              "fecha": "2026-12-11",
+              "hora": "22:00",
+              "lugar": "Sala Marte",
+              "ciudad": "Málaga",
+              "precio": "17,60 €",
+              "url": "https://conciertos.club/artistas/jalezz"
             }
           ],
           "redes": {
@@ -157,12 +237,12 @@
           "foto": "",
           "videos": [
             {
-              "id": "EZbaiYux1-g",
-              "titulo": "Jalezz - A las puertas del cielo"
+              "id": "ya3TYrC4a-A",
+              "titulo": "flor en vela"
             },
             {
-              "id": "yZwKQh25ebg",
-              "titulo": "Jalezz - 18 de Abril"
+              "id": "EZbaiYux1-g",
+              "titulo": "Jalezz - A las puertas del cielo"
             }
           ]
         },
@@ -1271,12 +1351,12 @@
           },
           "videos": [
             {
-              "id": "dJjCxUJjF2Y",
-              "titulo": "QUE QUIZÁ TAMPOCO ES PARA TANTO o el making of de tiro al plato"
-            },
-            {
               "id": "1NfpS08qIHo",
               "titulo": "Tour Tiro al plato 2026"
+            },
+            {
+              "id": "p9atO87Q_A0",
+              "titulo": "Tiro al plato (Video Oficial)"
             }
           ],
           "youtubeChannelId": "UCca55sMeBnzipw68ex6WYpQ"
