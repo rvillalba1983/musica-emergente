@@ -1,0 +1,38 @@
+# Cada sábado genera un resumen del diario y lo deja como issue de seguimiento.
+name: Resumen semanal
+
+on:
+  schedule:
+    - cron: "17 6 * * 6"    # sábado 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: resumen
+  cancel-in-progress: false
+
+jobs:
+  resumen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar resumen
+        run: python3 scripts/resumen_semanal.py --salida /tmp/resumen.md
+
+      - name: Crear o actualizar el issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create resumen --description "Resumen semanal automático del diario" --color 0e8a16 2>/dev/null || true
+          EXISTENTE=$(gh issue list --label resumen --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTENTE" ]; then
+            gh issue edit "$EXISTENTE" --body-file /tmp/resumen.md
+            echo "Issue #$EXISTENTE actualizado"
+          else
+            gh issue create --title "Resumen semanal del diario" --label resumen --body-file /tmp/resumen.md
+          fi

@@ -11,6 +11,8 @@ Uso: python3 scripts/revisar.py [--sin-red]
 """
 import argparse
 import datetime as dt
+import json
+import os
 import re
 import sys
 import time
@@ -126,8 +128,30 @@ def main():
             if st != 200:
                 errores.append(f"{desc} no carga (HTTP {st}): {u}")
 
+    # Validar data/rechazados.json si existe
+    rechazados_path = os.path.join(os.path.dirname(c.DIARIO), "rechazados.json")
+    if os.path.exists(rechazados_path):
+        try:
+            with open(rechazados_path, encoding="utf-8") as f:
+                rechazados = json.load(f)
+            n = len(rechazados.get("nombres", []))
+            for i, r in enumerate(rechazados.get("nombres", [])):
+                if not r.get("nombre"):
+                    errores.append(f"Rechazado #{i}: falta nombre")
+                if not r.get("motivo"):
+                    avisos.append(f"Rechazado #{i} '{r.get('nombre','')}': sin motivo")
+        except ValueError as e:
+            errores.append(f"data/rechazados.json no es JSON válido: {e}")
+            n = None
+        else:
+            n = len(rechazados.get("nombres", []))
+    else:
+        n = None
+
     lineas = [f"**Revisión del diario:** {len(entradas)} entradas, {len(vistos)} artistas, "
               f"{len(errores)} error(es), {len(avisos)} aviso(s)."]
+    if n is not None:
+        lineas.append(f"Rechazados: {n} artistas en lista")
     lineas += [f"- ❌ {x}" for x in errores] + [f"- ⚠️ {x}" for x in avisos]
     texto = "\n".join(lineas)
     print(texto)

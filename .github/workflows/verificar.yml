@@ -1,0 +1,42 @@
+# Verifica sin IA que YouTube y Spotify de cada candidato son del artista.
+name: Verificar candidatos
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Elegir entrada
+        id: entrada
+        run: |
+          if [ -f data/candidatos_filtrados.json ]; then
+            F=data/candidatos_filtrados.json
+          else
+            F=data/candidatos.json
+          fi
+          echo "archivo=$F" >> $GITHUB_OUTPUT
+
+      - name: Verificar
+        run: python3 scripts/verificar_candidatos.py --entrada ${{ steps.entrada.outputs.archivo }} --salida data/candidatos_verificados.json
+
+      - name: Guardar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidatos_verificados.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Verificación de candidatos (automático)"
+          git pull --rebase origin main
+          git push origin HEAD:main

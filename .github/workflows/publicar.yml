@@ -1,0 +1,84 @@
+# Publica la entrada semanal: inserta la entrada en data/diario.json,
+# pasa la revisión y hace commit+push. También dispara refrescar.yml
+# para que GitHub actualice vídeos/concertos (YouTube responde mejor desde sus servers).
+name: Publicar entrada
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha de publicación (AAAA-MM-DD)"
+        required: true
+      entrada:
+        description: "JSON de la entrada completa (id, numero, fecha, titulo, intro, ventana, artistas)"
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Insertar entrada en el diario
+        id: insertar
+        run: |
+          python3 - <<'PY'
+          import json, sys, os
+
+          entrada = json.loads(os.environ.get("ENTRADA_JSON", "{}"))
+          if not entrada.get("id") or not entrada.get("numero"):
+              print("::error::Entrada incompleta: falta id o numero")
+              sys.exit(1)
+
+          # Cargar diario
+          with open("data/diario.json", encoding="utf-8") as f:
+              diario = json.load(f)
+
+          # Verificar que no existe ya una entrada con esa fecha
+          por_id = {e["id"]: i for i, e in enumerate(diario["entradas"])}
+          if entrada["id"] in por_id:
+              print(f"::warning::La entrada {entrada['id']} ya existe, se reemplazará")
+              diario["entradas"][por_id[entrada["id"]]] = entrada
+          else:
+              # Insertar al principio (más reciente primero)
+              diario["entradas"] = [entrada] + diario["entradas"]
+
+          # Recalcular números: el más reciente es N+1 del anterior
+          for i, e in enumerate(diario["entradas"]):
+              e["numero"] = i + 1
+
+          with open("data/diario.json", "w", encoding="utf-8") as f:
+              json.dump(diario, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+
+          print("Entrada insertada:", entrada["id"])
+          PY
+        env:
+          ENTRADA_JSON: ${{ github.event.inputs.entrada }}
+
+      - name: Revisar el diario
+        run: python3 scripts/revisar.py
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diario.json
+          git commit -m "Diario semanal ${{ github.event.inputs.fecha }} (automático)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Disparar refresco de vídeos y conciertos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run refrescar.yml --ref main

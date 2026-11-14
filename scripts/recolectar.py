@@ -28,6 +28,7 @@ PROVINCIAS = ["almeria", "cadiz", "cordoba", "huelva", "jaen", "malaga", "madrid
               "bilbao-bizkaia", "a-coruna", "pontevedra-vigo", "valladolid"]
 ANDALUCIA = {"almeria", "cadiz", "cordoba", "huelva", "jaen", "malaga", "sevilla", "granada"}
 EXCLUIR = os.path.join(c.RAIZ, "data", "excluir.json")
+RECHAZADOS = os.path.join(c.RAIZ, "data", "rechazados.json")
 SALIDA = os.path.join(c.RAIZ, "data", "candidatos.json")
 
 
@@ -85,6 +86,13 @@ def main():
             excluir = json.load(f).get("nombres", [])
     vetados |= {c.normalizar(n) for n in excluir}
 
+    # Rechazados por motivos editoriales
+    rechazados = []
+    if os.path.exists(RECHAZADOS):
+        with open(RECHAZADOS, encoding="utf-8") as f:
+            rechazados = json.load(f).get("nombres", [])
+    vetados |= {c.normalizar(n) for n in rechazados}
+
     conciertos = agenda_granada(desde, hasta)
     c.log(f"Granada: {len(conciertos)} conciertos")
     for prov in ["sevilla"] + PROVINCIAS:
@@ -138,6 +146,10 @@ def main():
         m = re.search(r"artist/([A-Za-z0-9]{22})", sp or "")
         if m:
             a["spotify"] = dict(id=m.group(1), **(c.spotify_foto(m.group(1)) or {}))
+
+    from filtrar_criterios import filtrar_candidatos
+    candidatos_filtrados = filtrar_candidatos(candidatos, desde.isoformat(), hasta.isoformat())
+    candidatos = candidatos_filtrados
 
     salida = {
         "generado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),

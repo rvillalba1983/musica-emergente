@@ -1,0 +1,43 @@
+# Sincroniza data/diario.json y data/rechazados.json hacia Supabase.
+# Requiere secrets: SUPABASE_URL y SUPABASE_SERVICE_KEY en el repo.
+name: Sincronizar Supabase
+
+on:
+  workflow_dispatch:
+    inputs:
+      que:
+        description: "Qué sincronizar"
+        type: choice
+        options:
+          - diario
+          - rechazados
+          - ambos
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: supabase
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Subir diario
+        if: ${{ github.event.inputs.que == 'diario' || github.event.inputs.que == 'ambos' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python3 scripts/sync_supabase.py --subir-diario data/diario.json
+
+      - name: Subir rechazados
+        if: ${{ github.event.inputs.que == 'rechazados' || github.event.inputs.que == 'ambos' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python3 scripts/sync_supabase.py --subir-rechazados data/rechazados.json

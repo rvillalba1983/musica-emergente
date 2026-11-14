@@ -9,26 +9,58 @@ Todas las entradas, nuevas y antiguas, se pintan con el mismo formato completo (
 
 En `scripts/` (Python sin dependencias) y `.github/workflows/`:
 
-- `recolectar.py` (jueves por la tarde): lee las agendas (conciertosengranada.es, conciertos.club por provincias, escenaensevilla.es), filtra estilos afines dentro de la ventana del próximo viernes, quita a quien ya salió o está en `data/excluir.json`, y deja en `data/candidatos.json` cada candidato con sus conciertos, la biografía de la ficha y, si lo encuentra, su canal de YouTube (últimos vídeos y redes enlazadas) y su Spotify. **Es una lista sin revisar**: el canal y el Spotify se emparejan por nombre y pueden ser de un homónimo.
+- `recolectar.py` (jueves por la tarde): lee las agendas (conciertosengranada.es, conciertos.club por provincias, escenaensevilla.es), filtra estilos afines dentro de la ventana del próximo viernes, quita a quien ya salió o está en `data/excluir.json` **y en `data/rechazados.json`**, y deja en `data/candidatos.json` cada candidato con sus conciertos, la biografía de la ficha y, si lo encuentra, su canal de YouTube (últimos vídeos y redes enlazadas) y su Spotify. **Es una lista sin revisar**: el canal y el Spotify se emparejan por nombre y pueden ser de un homónimo.
+- `filtrar_criterios.py` (lunes/martes): filtra candidatos según criterios editoriales sin IA (estilos afines, concierto dentro de la ventana, heurística de "emergente").
+- `verificar_candidatos.py` (lunes/martes): verifica sin IA que el YouTube y el Spotify de cada candidato coinciden con el nombre del artista (título de la ficha Spotify vs nombre, título del canal YouTube vs nombre).
 - `refrescar.py` (miércoles): actualiza los 2 últimos vídeos de cada artista publicado, añade fechas nuevas de conciertos.club (nunca borra) y repone fotos caídas.
 - `revisar.py` (tras cada cambio del diario y tras el refresco): comprueba campos, fechas, repetidos, formatos de ID y que cargan fotos y miniaturas. Si falla, GitHub avisa por correo.
 
-Todos van despacio a propósito (pausas de 6-10 s con YouTube y 3-5 s con las agendas), reintentan con espera creciente ante un 429 y, si YouTube bloquea 3 veces seguidas, dejan de llamarle en esa ejecución sin tocar los datos que ya había. Se pueden lanzar a mano en la pestaña Actions del repo ("Run workflow"), con `gh api -X POST repos/rvillalba1983/musica-emergente/actions/workflows/<archivo>.yml/dispatches -f ref=main`, o en local: `python3 scripts/revisar.py`. Ojo: desde los servidores de GitHub, YouTube devuelve la lista de vídeos al día; desde una sesión de Claude en la nube a veces llega con retraso. Por eso, tras publicar una entrada, conviene lanzar `refrescar.yml` para que GitHub ponga los últimos vídeos.
+Todos van despacio a propósito (pausas de 6-10 s con YouTube y 3-5 s con las agendas), reintentan con espera creciente ante un 429 y, si YouTube bloquea 3 veces seguidas, dejan de llamarle en esa ejecución sin tocar los datos que ya tenía. Se pueden lanzar a mano en la pestaña Actions del repo ("Run workflow"), con `gh api -X POST repos/rvillalba1983/musica-emergente/actions/workflows/<archivo>.yml/dispatches -f ref=main`, o en local: `python3 scripts/revisar.py`. Ojo: desde los servidores de GitHub, YouTube devuelve la lista de vídeos al día; desde una sesión de Claude en la nube a veces llega con retraso. Por eso, tras publicar una entrada, conviene lanzar `refrescar.yml` para que GitHub ponga los últimos vídeos.
+
+## Workflows de GitHub Actions
+
+- `recolectar.yml` (jueves 17:23 UTC): ejecuta `recolectar.py` y guarda `data/candidatos.json`.
+- `filtrar.yml` (manual, lunes): ejecuta `filtrar_criterios.py` sobre `data/candidatos.json` → `data/candidatos_filtrados.json`.
+- `verificar.yml` (manual, martes): ejecuta `verificar_candidatos.py` sobre `data/candidatos_filtrados.json` → `data/candidatos_verificados.json`.
+- `publicar.yml` (manual, miércoles/jueves): recibe un JSON de entrada completa, la inserta en `data/diario.json`, ejecuta `revisar.py`, hace commit+push y dispara `refrescar.yml`.
+- `refrescar.yml` (miércoles 05:17 UTC): ejecuta `refrescar.py` + `revisar.py`, commit+push.
+- `revisar.yml` (push a diario.json): ejecuta `revisar.py`, falla si hay errores.
+- `buzon.yml` (cada hora): lee Google Docs y sincroniza entradas nuevas/corregidas.
+
+## Gestión de rechazados
+
+- `data/rechazados.json`: lista de artistas que el editor descarta (motivo + fecha). El recolector los excluye automáticamente.
+- `scripts/gestionar_rechazos.py --list / --add / --remove / --clear` para mantener la lista.
+
+## Resumen semanal
+
+- `scripts/resumen_semanal.py` genera un Markdown con estadísticas (entradas, artistas, ciudades, conciertos próximos/pasados, candidatos verificados).
+- Puede publicarse en GitHub Issues o usarse internamente.
+
+## Supabase (opcional)
+
+- `supabase/schema.sql`: esquema de tablas (artistas, entradas, rechazados, verificaciones).
+- `scripts/sync_supabase.py --subir-diario / --subir-rechazados`: sincroniza datos hacia Supabase (requiere `SUPABASE_URL` y `SUPABASE_SERVICE_KEY`).
+- Futuro: interfaz de administración en Supabase Studio para revisar candidatos, aprobar/rechazar, y disparar publicación vía Actions.
 
 ## Entrada semanal (cada viernes)
 
-0. Antes de buscar nada, haz `git pull` y lee `data/candidatos.json`: si es de esta semana (`fecha_entrada`), parte de esa lista y comprueba cada candidato antes de usarlo (que el YouTube y el Spotify son de ese artista, que encaja y que es emergente). Completa por tu cuenta lo que falte o si `youtube_bloqueado` es true. Si eliges a alguien que el dueño ya sigue o que no debe salir nunca, añádelo a `data/excluir.json`.
+0. Antes de buscar nada, haz `git pull` y lee `data/candidatos_verificados.json` (o `data/candidatos.json` si no has filtrado/verificado): si es de esta semana (`fecha_entrada`), parte de esa lista y comprueba cada candidato antes de usarlo (que el YouTube y el Spotify son de ese artista, que encaja y que es emergente). Completa por tu cuenta lo que falte o si `youtube_bloqueado` es true. Si eliges a alguien que el dueño ya sigue o que no debe salir nunca, añádelo a `data/rechazados.json` (usando `scripts/gestionar_rechazos.py --add`).
 
-1. Añade una entrada NUEVA al principio de `entradas` en `data/diario.json`, sin tocar las anteriores.
+1. Opción A (manual): Añade una entrada NUEVA al principio de `entradas` en `data/diario.json`, sin tocar las anteriores.
    - `id` y `fecha`: fecha de publicación (AAAA-MM-DD). `numero`: el siguiente al último.
    - `ventana.desde` = fecha − 7 días, `ventana.hasta` = fecha + 15 días.
    - `titulo`: frase corta que resuma la tanda. `intro`: 1-3 frases (qué hay en Granada/Andalucía).
    - Tono de diario musical para cualquier lector: NADA de comentarios sobre cómo se ha hecho la selección, criterios, búsquedas, huecos ("no he encontrado…"), dudas de verificación, ni referencias a los gustos o al Spotify del dueño. Si un dato no está verificado, no lo pongas. Los huecos y dudas se cuentan solo en el mensaje privado al usuario, no en la web.
+
+   Opción B (automatizada): Genera un borrador con `scripts/generar_entrada.py` y luego edítalo, o dispara el workflow `publicar.yml` con el JSON completo de la entrada.
+
 2. Criterio de artistas (5 por semana):
    - Emergentes de verdad: primeras giras, EP o primeros discos, circuitos tipo Girando Por Salas o Radar Joven. Nada de veteranos ni artistas que llenan teatros.
    - Con al menos un concierto DENTRO de la ventana. Busca en salas y bares, festivales, ciclos de cantautores, conciertos en pueblos y asociaciones culturales, en España y Latinoamérica.
    - Que encajen con el perfil: canción de autor, rumba, flamenco y flamenquito, mestizaje; letras en castellano preferiblemente.
    - Que no hayan salido en ninguna entrada anterior.
+
 3. Campos por artista (mira las entradas existentes como ejemplo):
    - `nombre`, `origen`, `estilo` (2-3 etiquetas), `porQue` (2-4 frases: quién es, qué hace y dónde toca; sin comparar con los artistas que escucha el dueño).
    - `foto`: `https://open.spotify.com/oembed?url=https://open.spotify.com/artist/<ID>` devuelve `thumbnail_url`; usa `https://i.scdn.co/image/<hash>` cambiando el prefijo `ab67616100005174` por `ab6761610000e5eb` (640 px).
@@ -36,5 +68,12 @@ Todos van despacio a propósito (pausas de 6-10 s con YouTube y 3-5 s con las ag
    - `conciertos`: [{fecha, hora, lugar, ciudad, precio, url}]. Incluye también las fechas fuera de la ventana si las hay.
    - `redes`: spotify, youtube, instagram, tiktok, facebook, bandcamp, web (solo las que existan y estén verificadas).
    - `videos`: los 2 últimos vídeos del canal oficial [{id, titulo}]. Si no puedes leer YouTube, pon `youtubeChannelId` (UC…) y la web incrusta sola los dos últimos vídeos subidos. Si no tienes ninguno de los dos, omite el campo.
+
 4. Nunca inventes enlaces, IDs ni fechas: todo debe venir de una herramienta o de una fuente consultada.
-5. Valida con `python3 scripts/revisar.py` (debe salir sin errores), haz `git pull --rebase`, commit en `main` y push. Pages se actualiza solo en 1-2 minutos.
+
+5. Valida con `python3 scripts/revisar.py` (debe salir sin errores).
+
+6. Si hiciste manual: haz `git pull --rebase`, commit en `main` y push. Pages se actualiza solo en 1-2 minutos.
+   Si usaste automatizado: `gh workflow run publicar.yml --field fecha="2026-11-18" --field entrada='{JSON}'`.
+
+7. (Opcional) Dispara `refrescar.yml` tras publicar para que GitHub actualice vídeos/concertos (YouTube responde mejor desde sus servers).
