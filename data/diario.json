@@ -3,8 +3,281 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
-      "id": "2026-11-13",
+      "id": "2026-11-27",
       "numero": 1,
+      "fecha": "2026-11-27",
+      "titulo": "Semana de artistas emergentes",
+      "intro": "8 artistas con conciertos entre 2026-11-20 y 2026-12-12.",
+      "ventana": {
+        "desde": "2026-11-20",
+        "hasta": "2026-12-12"
+      },
+      "artistas": [
+        {
+          "nombre": "Alumnado del Conservatorio Profesional de Música Carlos Ros",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "El Conservatorio Profesional de Música Carlos Ros celebrará el próximo jueves, a las 19:30 horas, un concierto de su alumnado en el salón de actos del Palacio Villalegre.\nLa actuación reunirá a estudiantes de distintas especialidades, entre ellas gui",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-12",
+              "hora": "19:30",
+              "lugar": "Palacio de Villalegre",
+              "ciudad": "Guadix",
+              "url": "https://www.conciertosengranada.es/conciertos/130595-alumnado-del-conservatorio-profesional-de-musica-carlos-ros"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Jonathan Vallejo",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Fusión, Flamenco, Música latina... Con Jonathan Vallejo y Pepe Agudo a la guitarra y coros.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-12",
+              "hora": "20:30",
+              "lugar": "La Goma",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCJtA8UI8Bx63IwS7vGi5iLA",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "0yRm_1oEQdI",
+              "titulo": "Al borde del fracaso / feat. Sergio Sacoto (Cover)"
+            },
+            {
+              "id": "HUyfv2D4FWU",
+              "titulo": "Careless Whisper / George Michael (Cover) feat. Santiago Cuenca"
+            }
+          ]
+        },
+        {
+          "nombre": "Pepe Agudo",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Fusión, Flamenco, Música latina... Con Jonathan Vallejo y Pepe Agudo a la guitarra y coros.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-12",
+              "hora": "20:30",
+              "lugar": "La Goma",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCtp4FYaaiPB7ChtnHn8rYcQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Bolero... please!",
+          "origen": "",
+          "estilo": [
+            "Música Latina"
+          ],
+          "porQue": "Bolero... please! Bolero... please! es un proyecto musical centrado en la interpretación y puesta en valor de este género nacido en Cuba pero de trascendencia universal.\nCon un cuidado repertorio, arreglos originales y un sonido clásico a la par que ",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-12",
+              "hora": "21:30",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/129637-bolero-please"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCmEU3PVzJhUyHX6_hdRVsgQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "u1lSSGPU6vk",
+              "titulo": "Bolero   please!"
+            }
+          ]
+        },
+        {
+          "nombre": "Palo Bueno",
+          "origen": "",
+          "estilo": [
+            "Música Latina"
+          ],
+          "porQue": "Este quinteto de son cubano nacido en Granada fusióna la tradición del género con la frescura de influencias contemporáneas. Su sonido combina la cadencia clásica del tres (reinterpretada a través de la guitarra) junto con el tumbao, la clave y la tr",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-13",
+              "hora": "21:00",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "8 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129634-palo-bueno"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Víctor Franco",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Artista emergente con concierto en la ventana.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-13",
+              "hora": "21:00",
+              "lugar": "Casa de Porras",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130594-victor-franco"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "The Camels",
+          "origen": "",
+          "estilo": [
+            "Reggae/Ska"
+          ],
+          "porQue": "The Camels The Camels es una banda granadina de reggae fusionado con rock y ritmos bailables. Energética, fresca y con un directo que no perdona. Cuenta con un sonido propio que se mueve entre la elegancia y la fiesta de barrio.\nIntegrantes: \nCarlos ",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-14",
+              "hora": "23:30",
+              "lugar": "Sala Premier",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130104-the-camels"
+            }
+          ],
+          "redes": {
+            "instagram": "http://www.instagram.com/fonseca.e.y"
+          },
+          "youtubeChannelId": "UCzARlXf_ecKJRLCuDKTy1jQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "On-yFic6TZI",
+              "titulo": "【秋冬】ストリートスナップを見ながら参考になるコーディネートを見つけよう!!!【ピンタレスト】"
+            },
+            {
+              "id": "bIolIsxbSMI",
+              "titulo": "【コスパ最強】6590円!?ZARAブラックバギーデニムを紹介!!!"
+            }
+          ]
+        },
+        {
+          "nombre": "Chiquita Movida",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Chiquita Movida",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-12",
+              "hora": "21:00",
+              "lugar": "Kafe Antzokia",
+              "ciudad": "Bilbao-Bilbo",
+              "precio": "20 €",
+              "url": "https://conciertos.club/bilbao-bizkaia/conciertos/111766-chiquita-movida"
+            },
+            {
+              "fecha": "2026-11-13",
+              "hora": "21:00",
+              "lugar": "Sala López",
+              "ciudad": "Zaragoza",
+              "precio": "20 €",
+              "url": "https://conciertos.club/zaragoza/conciertos/111765-chiquita-movida"
+            },
+            {
+              "fecha": "2026-11-20",
+              "hora": "21:00",
+              "lugar": "Sala Trinchera",
+              "ciudad": "Málaga",
+              "precio": "20 €",
+              "url": "https://conciertos.club/malaga/conciertos/111757-chiquita-movida"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCdhW3UqfiAXcoy8avCqqBfQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "ITn21sHOFxU",
+              "titulo": "Chiquita Movida, Rayden, Mediyama, Skiz7 - Hey chaval (Official)"
+            },
+            {
+              "id": "7YBOB-VHmz0",
+              "titulo": "Chiquita Movida - Sold Out en Madrid "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13",
+      "numero": 2,
       "fecha": "2026-11-13",
       "titulo": "Folk, Flamenco joven, Rumba y Rap con Flamenco en Huétor Tájar y la provincia",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, ALBOROQUE trae el folk andaluz a La Chistera (Monachil); Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; y Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -286,7 +559,7 @@
     },
     {
       "id": "2026-11-08",
-      "numero": 2,
+      "numero": 3,
       "fecha": "2026-11-08",
       "titulo": "Cante joven en Huétor Tájar, bajo flamenco y una fueguina en Madrid",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, Marta «La Niña» cantó en el Festival Flamenco Joven de Huétor Tájar y Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; en Sevilla, Juanfe Pérez puso el bajo eléctrico al servicio del flamenco, y el 21 de noviembre Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -501,7 +774,7 @@
     },
     {
       "id": "2026-11-02",
-      "numero": 3,
+      "numero": 4,
       "fecha": "2026-11-02",
       "titulo": "Flamenco joven en Huétor Tájar, ska almeriense y una chilena de gira",
       "intro": "Cinco artistas con concierto entre el 26 de octubre y el 17 de noviembre. En Granada, la JJ Taberna recibe a Miguel Company el 6 de noviembre y a Alfredo Robles el 15, y ese mismo 6 el Festival Flamenco Joven de Huétor Tájar trae la guitarra de Antonio de la Luz. Fuera de Andalucía, la gallega Sara Sístole pasa por Radar Joven y la chilena Cancamusa arranca gira por España.",
@@ -782,7 +1055,7 @@
     },
     {
       "id": "2026-10-25",
-      "numero": 4,
+      "numero": 5,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
       "intro": "Ocho artistas con concierto entre el 18 de octubre y el 9 de noviembre. Cuatro pasan por la JJ Taberna de Granada (30 y 31 de octubre, 1 y 7 de noviembre), y el Festival Flamenco Joven de Huétor Tájar junta el cante de Cristian de Moret con la guitarra de Juanito Campos.",
@@ -1147,7 +1420,7 @@
     },
     {
       "id": "2026-10-23",
-      "numero": 5,
+      "numero": 6,
       "fecha": "2026-10-23",
       "titulo": "Rock de Vallecas, canciones-cuento y flamenco a dos",
       "intro": "Cinco nombres para estrenar el diario: el rock con letras de Riada, el pop rock de Gon Abril, las canciones-cuento de Roura, el flamenco de Juan + Yerai y el directo guitarrero de Carmesí.",
