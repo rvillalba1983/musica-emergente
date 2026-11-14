@@ -14,8 +14,7 @@ on:
         required: false
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
   issues: write
 
 concurrency:
@@ -67,23 +66,30 @@ jobs:
           fi
           python3 scripts/validar_entrada.py /tmp/entrada_ia.json
 
-      - name: Abrir PR (o publicar directo)
+      - name: Subir entrada como artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: entrada-semanal-${{ github.run_id }}
+          path: /tmp/entrada_ia.json
+
+      - name: Crear issue con la entrada generada
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLICAR_DIRECTO: "false"
         run: |
-          TITULO=$(python3 -c "import json; d=json.load(open('/tmp/entrada_ia.json')); print(d.get('titulo', 'Sin titulo'))")
-          # Asegurar labels existen
-          gh label create "diario-semanal" --description "Diario semanal generado por IA" 2>/dev/null || true
-          gh label create "ia-generado" --description "Entrada generada automáticamente" 2>/dev/null || true
-          if [ "${PUBLICAR_DIRECTO}" = "true" ]; then
-            python3 scripts/publicar_directo.py /tmp/entrada_ia.json
-          else
-            gh pr create \
-              --title "Diario semanal ${{ github.event.inputs.fecha || '2026-11-13' }}" \
-              --body "$(cat /tmp/entrada_ia.json)" \
-              --base main \
-              --head github-actions[bot]-entrada-semanal-${{ github.run_id }} \
-              --label "diario-semanal" \
-              --label "ia-generado"
-          fi
+          FECHA=$(python3 -c "import json; print(json.load(open('/tmp/entrada_ia.json'))['fecha'])")
+          TITULO=$(python3 -c "import json; print(json.load(open('/tmp/entrada_ia.json'))['titulo'])")
+          CUERPO=$(cat /tmp/entrada_ia.json)
+          gh issue create \
+            --title "Entrada semanal ${FECHA}: ${TITULO}" \
+            --body "Entrada generada automáticamente por IA. Revisar y, si está bien, publicar con:
+
+\`\`\`bash
+gh workflow run publicar.yml --field fecha=${FECHA} --field entrada='${CUERPO}'
+\`\`\`
+
+\`\`\`json
+${CUERPO}
+\`\`\`" \
+            --label "diario-semanal" \
+            --label "ia-generado" \
+            --repo rvillalba1983/musica-emergente || echo "No se pudo crear issue"
