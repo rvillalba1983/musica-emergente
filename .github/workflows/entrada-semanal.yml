@@ -1,0 +1,86 @@
+name: Entrada Semanal IA
+
+on:
+  schedule:
+    - cron: "17 5 * * 5"    # viernes 05:17 UTC
+  workflow_dispatch:
+    inputs:
+      modelo:
+        description: "Modelo a usar (ej. gpt-4o-mini, claude-3-5-sonnet-20241022)"
+        required: false
+        default: "gpt-4o-mini"
+      fecha:
+        description: "Fecha de publicación (AAAA-MM-DD). Vacío = próximo viernes"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: entrada-semanal
+  cancel-in-progress: false
+
+jobs:
+  generar_entrada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests
+
+      - name: Leer candidatos
+        id: candidatos
+        run: |
+          if [ -f data/candidatos_filtrados.json ]; then
+            echo "archivo=data/candidatos_filtrados.json" >> $GITHUB_OUTPUT
+          else
+            echo "archivo=data/candidatos.json" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generar entrada con IA (o local)
+        id: generar
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODEL: ${{ github.event.inputs.modelo || 'gpt-4o-mini' }}
+        run: |
+          python3 scripts/ia_generar.py \
+            --entrada "${{ steps.candidatos.outputs.archivo }}" \
+            --salida /tmp/entrada_ia.json \
+            --fecha "${{ github.event.inputs.fecha || '' }}"
+
+      - name: Validar entrada
+        run: |
+          if [ ! -f /tmp/entrada_ia.json ]; then
+            echo "❌ No se generó /tmp/entrada_ia.json"
+            exit 1
+          fi
+          python3 scripts/revisar.py --sin-red /tmp/entrada_ia.json
+
+      - name: Abrir PR (o publicar directo)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICAR_DIRECTO: ${{ env.PUBLICAR_DIRECTO }}
+        run: |
+          TITULO=$(python3 -c "import json; d=json.load(open('/tmp/entrada_ia.json')); print(d.get('titulo', 'Sin titulo'))")
+          if [ "${{ env.PUBLICAR_DIRECTO }}" = "true" ]; then
+            python3 scripts/publicar_directo.py /tmp/entrada_ia.json
+          else
+            gh pr create \
+              --title "Diario semanal ${{ github.event.inputs.fecha || '2026-11-13' }}" \
+              --body "$(cat /tmp/entrada_ia.json)" \
+              --base main \
+              --head github-actions[bot]-entrada-semanal-${{ github.run_id }} \
+              --label "diario-semanal" \
+              --label "ia-generado"
+          fi

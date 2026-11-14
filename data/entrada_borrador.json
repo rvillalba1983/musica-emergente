@@ -1,0 +1,134 @@
+{
+  "candidatos": [
+    {
+      "nombre": "Alumnado del Conservatorio Profesional de Música Carlos Ros",
+      "origen": "Granada",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "bio": "El Conservatorio Profesional de Música Carlos Ros celebrará el próximo jueves, a las 19:30 horas, un concierto de su alumnado en el salón de actos del Palacio Villalegre.\nLa actuación reunirá a estudiantes de distintas especialidades, entre ellas guitarra flamenca, cante y baile, junto a intérpretes de piano, violín, flauta, trompa, contrabajo y percusión.",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "19:30",
+          "lugar": "Palacio de Villalegre",
+          "ciudad": "Guadix",
+          "url": "https://www.conciertosengranada.es/conciertos/130595-alumnado-del-conservatorio-profesional-de-musica-carlos-ros"
+        }
+      ],
+      "redes": {},
+      "youtube": {},
+      "spotify": {}
+    },
+    {
+      "nombre": "Jonathan Vallejo",
+      "origen": "Granada",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "bio": "Fusión, Flamenco, Música latina... Con Jonathan Vallejo y Pepe Agudo a la guitarra y coros.",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "20:30",
+          "lugar": "La Goma",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
+        }
+      ],
+      "redes": {},
+      "youtube": {
+        "channelId": "UCJtA8UI8Bx63IwS7vGi5iLA",
+        "url": "https://www.youtube.com/@jonathanvallejo1502",
+        "videos": [
+          {
+            "id": "0yRm_1oEQdI",
+            "titulo": "Al borde del fracaso / feat. Sergio Sacoto (Cover)"
+          },
+          {
+            "id": "HUyfv2D4FWU",
+            "titulo": "Careless Whisper / George Michael (Cover) feat. Santiago Cuenca"
+          }
+        ],
+        "enlaces": []
+      },
+      "spotify": {}
+    },
+    {
+      "nombre": "Pepe Agudo",
+      "origen": "Granada",
+      "estilos": [
+        "Flamenco/Copla"
+      ],
+      "bio": "Fusión, Flamenco, Música latina... Con Jonathan Vallejo y Pepe Agudo a la guitarra y coros.",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "20:30",
+          "lugar": "La Goma",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/130038-jonathan-vallejo-pepe-agudo"
+        }
+      ],
+      "redes": {},
+      "youtube": {
+        "channelId": "UCtp4FYaaiPB7ChtnHn8rYcQ",
+        "url": "https://www.youtube.com/@PepeAgudo-yz3yo",
+        "videos": [],
+        "enlaces": []
+      },
+      "spotify": {}
+    },
+    {
+      "nombre": "Bolero... please!",
+      "origen": "Granada",
+      "estilos": [
+        "Música Latina"
+      ],
+      "bio": "Bolero... please! Bolero... please! es un proyecto musical centrado en la interpretación y puesta en valor de este género nacido en Cuba pero de trascendencia universal.\nCon un cuidado repertorio, arreglos originales y un sonido clásico a la par que fresco y actual, el cuarteto hace un recorrido por la historia, las sonoridades, la poesía y los diferentes ambientes y colores del bolero.\nGuillermo Ibáñez: Guitarra Juanma Navia: Piano, Flauta Jesus Santiago: Percusión Alfonso Alcalá: Contrabajo",
+      "conciertos": [
+        {
+          "fecha": "2026-11-12",
+          "hora": "21:30",
+          "lugar": "JJ Taberna",
+          "ciudad": "Granada",
+          "url": "https://www.conciertosengranada.es/conciertos/129637-bolero-please"
+        }
+      ],
+      "redes": {},
+      "youtube": {
+        "channelId": "UCmEU3PVzJhUyHX6_hdRVsgQ",
+        "url": "https://www.youtube.com/@Bolero...please",
+        "videos": [
+          {
+            "id": "u1lSSGPU6vk",
+            "titulo": "Bolero   please!"
+          }
+        ],
+        "enlaces": []
+      },
+      "spotify": {}
+    },
+    {
+      "nombre": "Palo Bueno",
+      "origen": "Granada",
+      "estilos": [
+        "Música Latina"
+      ],
+      "bio": "Este quinteto de son cubano nacido en Granada fusióna la tradición del género con la frescura de influencias contemporáneas. Su sonido combina la cadencia clásica del tres (reinterpretada a través de la guitarra) junto con el tumbao, la clave y la trompeta además de un set de percusiones -congas bongó, güiro y campana- que sostiene el pulso caribeño con carácter propio, con guiños a canciones modernas que amplían el horizonte del estilo sin perder su esencia.\nPresentaran algunos temas propios con los que abren una nueva etapa\nEmilio Sanz - trompeta Daniel de Rojas - guitarra Tomy Ciotto - bajo Tomás Medina - percusiones Carlos Berbel - voz",
+      "conciertos": [
+        {
+          "fecha": "2026-11-13",
+          "hora": "21:00",
+          "lugar": "JJ Taberna",
+          "ciudad": "Granada",
+          "precio": "8 €",
+          "url": "https://www.conciertosengranada.es/conciertos/129634-palo-bueno"
+        }
+      ],
+      "redes": {},
+      "youtube": {},
+      "spotify": {}
+    }
+  ]
+}
