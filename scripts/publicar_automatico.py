@@ -57,6 +57,10 @@ def main():
     )
     if result.returncode != 0:
         print(f"❌ Validación falló, restaurando diario original")
+        print("---- SALIDA DE REVISAR ----")
+        print(result.stdout)
+        print("---- STDERR DE REVISAR ----")
+        print(result.stderr)
         with open("data/diario.json", "w", encoding="utf-8") as f:
             f.write(diario_original)
         sys.exit(1)
