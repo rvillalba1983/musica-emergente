@@ -141,7 +141,7 @@ def main():
             "redes": a.get("redes_enlazadas", {}),
             "youtubeChannelId": yt.get("channelId", ""),
             "spotifyId": sp.get("id", "")[:22] if sp.get("id") else "",
-            "foto": "",
+            "foto": a.get("foto", "") or "",
             "videos": yt.get("videos", [])[:2],
         })
     _guardar(args.salida, entrada, fecha)
