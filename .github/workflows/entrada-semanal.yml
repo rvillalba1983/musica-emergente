@@ -59,13 +59,13 @@ jobs:
             --salida /tmp/entrada_ia.json \
             --fecha "${{ github.event.inputs.fecha || '' }}"
 
-      - name: Validar entrada
+      - name: Validar entrada suelta
         run: |
           if [ ! -f /tmp/entrada_ia.json ]; then
             echo "❌ No se generó /tmp/entrada_ia.json"
             exit 1
           fi
-          python3 scripts/revisar.py --sin-red /tmp/entrada_ia.json
+          python3 scripts/validar_entrada.py /tmp/entrada_ia.json
 
       - name: Abrir PR (o publicar directo)
         env:
