@@ -23,9 +23,12 @@ def main():
     with open(ENTRADA, encoding="utf-8") as f:
         entrada = json.load(f)
 
-    # Insertar al principio del diario
+    # Hacer backup del diario original por si la validación falla
     with open("data/diario.json", encoding="utf-8") as f:
-        diario = json.load(f)
+        diario_original = f.read()
+
+    # Insertar al principio del diario
+    diario = json.loads(diario_original)
 
     # Evitar duplicados por si acaso con misma fecha
     ids_existentes = {e["id"] for e in diario["entradas"]}
@@ -53,10 +56,9 @@ def main():
         text=True,
     )
     if result.returncode != 0:
-        print(f"❌ Validación falló, revertiendo diario.json")
-        # Revertimos guardando el original
+        print(f"❌ Validación falló, restaurando diario original")
         with open("data/diario.json", "w", encoding="utf-8") as f:
-            f.write("[]\n")
+            f.write(diario_original)
         sys.exit(1)
 
     # Commit y push
