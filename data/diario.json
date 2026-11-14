@@ -3,8 +3,210 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
+      "id": "2026-11-13",
+      "numero": 1,
+      "fecha": "2026-11-13",
+      "titulo": "Folk, Flamenco joven, Rumba y Rap con Flamenco en Huétor Tájar y la provincia",
+      "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, ALBOROQUE trae el folk andaluz a La Chistera (Monachil); Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; y Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
+      "ventana": {
+        "desde": "2026-11-06",
+        "hasta": "2026-11-28"
+      },
+      "artistas": [
+        {
+          "nombre": "ALBOROQUE",
+          "origen": "Granada",
+          "estilo": [
+            "Folk"
+          ],
+          "porQue": "ALBOROQUE: ALBOROQUE · MÚSICA PENINSULAR\nAlboroque es un festín sonoro para bailar al ritmo de panderetas y panderos, con sones de toda la península ibérica.. Tocó el 2026-11-13 en La Chistera (Monachil).",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-13",
+              "hora": "21:30",
+              "lugar": "La Chistera",
+              "ciudad": "Monachil",
+              "precio": "pay after show",
+              "url": "https://www.conciertosengranada.es/conciertos/129631-alboroque"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCpBG6N2HrdqTbKqyZwNFUsQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "fUjr1vIX26Y",
+              "titulo": "Alboroque - No te la mereces (Videoclip Oficial)"
+            },
+            {
+              "id": "pE2tJoVuLYI",
+              "titulo": "Sentimiento Escorpión - Alboroque (Himno 30 Aniversario Orihuela Cf)"
+            }
+          ]
+        },
+        {
+          "nombre": "Nito Serrano y Lapurasangre",
+          "origen": "Granada",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Nito Serrano y Lapurasangre: Nito Serrano y Lapurasangre. Tocó el 2026-11-13 en Babel Torrelodones (Torrelodones).",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-13",
+              "hora": "22:00",
+              "lugar": "Babel Torrelodones",
+              "ciudad": "Torrelodones",
+              "precio": "18 €",
+              "url": "https://conciertos.club/madrid/conciertos/129651-nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2026-11-14",
+              "hora": "21:30",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "15 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129650-nito-serrano-y-lapurasangre"
+            },
+            {
+              "fecha": "2026-11-26",
+              "hora": "22:30",
+              "lugar": "Café Teatro Central",
+              "ciudad": "Baeza",
+              "precio": "6 €",
+              "url": "https://conciertos.club/jaen/conciertos/129649-nito-serrano-y-lapurasangre"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Garnata",
+          "origen": "Granada",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Garnata: Garnata Nuevo proyecto musical con José A. Rodríguez al violín y Pepe Agudo a la guitarra.. Tocó el 2026-11-19 en Noir Craft (Granada).",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-19",
+              "hora": "22:00",
+              "lugar": "Noir Craft",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/129130-garnata"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCeB7d6lluYlmcb39C_qsn6g",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "nF_w9JIyIEU",
+              "titulo": "W golf 50 aniversario"
+            },
+            {
+              "id": "Jq7aL-JDYeI",
+              "titulo": "La silla del Moro"
+            }
+          ]
+        },
+        {
+          "nombre": "Jalezz",
+          "origen": "Granada",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Jalezz: Jalezz Jalezz (Javier Martínez González) es artista y compositor sevillano nacido en 1998, que ha pasado de hacer covers en redes y vender seguros puerta fría a construir una carrera propia dentro del nuevo flamenco urbano y la canción pop.\nSu álbum . Tocó el 2026-11-27 en JJ Taberna (Granada).",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-27",
+              "hora": "21:00",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "17,60 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129654-jalezz"
+            }
+          ],
+          "redes": {
+            "instagram": "https://www.instagram.com/jalezzmusic",
+            "tiktok": "https://www.tiktok.com/@jalezz"
+          },
+          "youtubeChannelId": "UCxQBJE5NDS520bYJdlSuqYw",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "EZbaiYux1-g",
+              "titulo": "Jalezz - A las puertas del cielo"
+            },
+            {
+              "id": "yZwKQh25ebg",
+              "titulo": "Jalezz - 18 de Abril"
+            }
+          ]
+        },
+        {
+          "nombre": "El Jose",
+          "origen": "Granada",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "El Jose: El Jose \"Soy El Jose y casualmente mi proyecto se llama El Jose XD. El proyecto nace en una casa situada en la Calle Aljibe de Trillo (Granada) y mirando de frente a la mismísima Alhambra, dos músicos de cuestionable salud mental y con un pasado musi. Tocó el 2026-11-28 en Industrial Copera Revert (La Zubia).",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-28",
+              "hora": "21:00",
+              "lugar": "Industrial Copera Revert",
+              "ciudad": "La Zubia",
+              "precio": "25,50 €",
+              "url": "https://www.conciertosengranada.es/conciertos/128920-el-jose"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCjACUui8FIVusMrh9oMppxg",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "OR7SwsvhWaQ",
+              "titulo": "El Jose - Epístola Feminista (Directo Granada 2025)"
+            },
+            {
+              "id": "eEfHmmzaYIg",
+              "titulo": "El Jose ft Aula de Flautas del CSM Bonifacio Gil de Badajoz - Renuncio "
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-08",
-      "numero": 4,
+      "numero": 2,
       "fecha": "2026-11-08",
       "titulo": "Cante joven en Huétor Tájar, bajo flamenco y una fueguina en Madrid",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, Marta «La Niña» cantó en el Festival Flamenco Joven de Huétor Tájar y Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; en Sevilla, Juanfe Pérez puso el bajo eléctrico al servicio del flamenco, y el 21 de noviembre Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -500,7 +702,7 @@
     },
     {
       "id": "2026-10-25",
-      "numero": 2,
+      "numero": 4,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
       "intro": "Ocho artistas con concierto entre el 18 de octubre y el 9 de noviembre. Cuatro pasan por la JJ Taberna de Granada (30 y 31 de octubre, 1 y 7 de noviembre), y el Festival Flamenco Joven de Huétor Tájar junta el cante de Cristian de Moret con la guitarra de Juanito Campos.",
@@ -865,7 +1067,7 @@
     },
     {
       "id": "2026-10-23",
-      "numero": 1,
+      "numero": 5,
       "fecha": "2026-10-23",
       "titulo": "Rock de Vallecas, canciones-cuento y flamenco a dos",
       "intro": "Cinco nombres para estrenar el diario: el rock con letras de Riada, el pop rock de Gon Abril, las canciones-cuento de Roura, el flamenco de Juan + Yerai y el directo guitarrero de Carmesí.",
