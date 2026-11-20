@@ -666,6 +666,13 @@
               "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
             },
             {
+              "fecha": "2026-11-28",
+              "hora": "21:30",
+              "lugar": "Sala Euterpe",
+              "ciudad": "Alicante",
+              "url": "https://conciertos.club/artistas/nito-serrano-y-lapurasangre"
+            },
+            {
               "fecha": "2026-12-11",
               "hora": "21:00",
               "lugar": "The Olympus Beer",
@@ -1923,12 +1930,12 @@
           },
           "videos": [
             {
-              "id": "dJjCxUJjF2Y",
-              "titulo": "QUE QUIZÁ TAMPOCO ES PARA TANTO o el making of de tiro al plato"
+              "id": "DgDdxpMd5uU",
+              "titulo": "Por qué soy guitarrista"
             },
             {
-              "id": "1NfpS08qIHo",
-              "titulo": "Tour Tiro al plato 2026"
+              "id": "dJjCxUJjF2Y",
+              "titulo": "QUE QUIZÁ TAMPOCO ES PARA TANTO o el making of de tiro al plato"
             }
           ],
           "youtubeChannelId": "UCca55sMeBnzipw68ex6WYpQ"
