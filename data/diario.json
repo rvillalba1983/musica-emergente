@@ -3,8 +3,291 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
-      "id": "2026-11-27",
+      "id": "2026-11-20",
       "numero": 1,
+      "fecha": "2026-11-20",
+      "titulo": "Semana de artistas emergentes",
+      "intro": "8 artistas con conciertos entre 2026-11-13 y 2026-12-05.",
+      "ventana": {
+        "desde": "2026-11-13",
+        "hasta": "2026-12-05"
+      },
+      "artistas": [
+        {
+          "nombre": "Jaleo Kanalla",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Territorio Festival.\nFin de semana de conciertos en Perra Gorda",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-20",
+              "hora": "19:00",
+              "lugar": "Perragorda",
+              "ciudad": "Granada",
+              "precio": "10 €",
+              "url": "https://www.conciertosengranada.es/conciertos/131052-jaleo-kanalla"
+            },
+            {
+              "fecha": "2026-11-28",
+              "hora": "19:00",
+              "lugar": "Sala Premier",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130110-jaleo-kanalla"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCjhDisJ3pU2YrSGaZqa8oEA",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "rYT6lK3KBJA",
+              "titulo": "JALEO KANALLA - Hoy"
+            },
+            {
+              "id": "0jVX9dejyDE",
+              "titulo": "Jaleo Kanalla - Emborracharme (Lori Meyers)"
+            }
+          ]
+        },
+        {
+          "nombre": "Esther Crisol",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Esther Crisol Cantaora flamenca",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-20",
+              "hora": "22:00",
+              "lugar": "Liberia Café Pub",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130853-esther-crisol"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Christian de Miguel Ángel",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Territorio Festival. Concierto de Christian de Miguel",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "19:00",
+              "lugar": "Perragorda",
+              "ciudad": "Granada",
+              "precio": "10 €",
+              "url": "https://www.conciertosengranada.es/conciertos/131051-christian-de-miguel-angel"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCX3PXYe4GYcu4AhD1LukMog",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "NP50UgcSysQ",
+              "titulo": "Christian de Miguel Ángel feat. Blanca “La Almendrita” - Bailaora (live)"
+            },
+            {
+              "id": "RKCTQ6JyJbo",
+              "titulo": "Christian de Miguel Ángel - Irene (live) en Taberna J&J de Granada"
+            }
+          ]
+        },
+        {
+          "nombre": "Fuentes e la Alhambra",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "SIETE GUITARRISTAS DE DISTINTAS GENERACIONES SE REÚNEN EN EL TEATRO ALHAMBRA PARA PRESENTAR EL ÁLBUM ‘FUENTES DE LA ALHAMBRA’\nRafael Cortés, Paco Cortés, Álvaro ‘Martinete’, Miguel Ángel Cortés, Miguel Ochando, José Fermín Fernández y Juan Habichuela",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "19:30",
+              "lugar": "Teatro Alhambra",
+              "ciudad": "Granada",
+              "precio": "Entrada libre",
+              "url": "https://www.conciertosengranada.es/conciertos/130698-fuentes-e-la-alhambra"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Rosario Toledo Orihuela",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Artista emergente con concierto en la ventana.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-21",
+              "hora": "21:00",
+              "lugar": "Peña La Platería",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130593-rosario-toledo-orihuela"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Kirsti Blow",
+          "origen": "",
+          "estilo": [
+            "Cantautores"
+          ],
+          "porQue": "Kirsti Blow Kirsti Blow es una cantautora neoyorquina que actualmente reside en Granada. Su estilo fresco de blues-pop acústico está presente tanto en sus versiones como en sus propias canciones. Loose Ends es el nombre del primer LP de esta joven ar",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-24",
+              "hora": "21:30",
+              "lugar": "Lemon Rock",
+              "ciudad": "Granada",
+              "precio": "Entrada libre",
+              "url": "https://www.conciertosengranada.es/conciertos/129871-kirsti-blow"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCeye8NuSRAXHcdNvo0rP0NA",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "e4dqdXflKC0",
+              "titulo": "Dog Days by Kirsti Blow"
+            },
+            {
+              "id": "AFYLzDa4I4k",
+              "titulo": "Rooftop Concert - Almería, Spain"
+            }
+          ]
+        },
+        {
+          "nombre": "Velada flamenca",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Artista emergente con concierto en la ventana.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-26",
+              "hora": "22:00",
+              "lugar": "Liberia Café Pub",
+              "ciudad": "Granada",
+              "url": "https://www.conciertosengranada.es/conciertos/130852-velada-flamenca"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCkW73smIOMGC9KlLS-QeJGQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "uMwdGRo108U",
+              "titulo": "Pasos de Fuego 💃 | Flamenco Dance Mix | Velada Flamenca"
+            },
+            {
+              "id": "S9N4ABwYMVI",
+              "titulo": "Cuerdas del Destino 🎸 | Flamenco Story | Velada Flamenca"
+            }
+          ]
+        },
+        {
+          "nombre": "Chukky",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "CHUKKY| GRANADA | GIRA ''RAP CON FLAMENCO SIN AUTOTUNE'' en Lemon Rock Granada\nChukky vuelve a los escenarios con una nueva gira titulada “Rap con Flamenco sin Autotune”",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-27",
+              "hora": "22:15",
+              "lugar": "Lemon Rock",
+              "ciudad": "Granada",
+              "precio": "19,80 €",
+              "url": "https://www.conciertosengranada.es/conciertos/116730-chukky"
+            }
+          ],
+          "redes": {
+            "spotify": "http://open.spotify.com/artist/1pbypJzDS0Glu3baISY6AL",
+            "facebook": "http://www.facebook.com/chukky",
+            "instagram": "https://instagram.com/chukky",
+            "tiktok": "https://www.tiktok.com/@chukky_rapea"
+          },
+          "youtubeChannelId": "UCHDha4Mqxi_hxy1fDe_C3pg",
+          "spotifyId": "1pbypJzDS0Glu3baISY6AL",
+          "foto": "",
+          "videos": [
+            {
+              "id": "77f7qDp08K0",
+              "titulo": "CHUKKY - COMO VUELAS TÚ (Tanguillos) (VIDEOCLIP)"
+            },
+            {
+              "id": "VsC05zuxMSY",
+              "titulo": "CHUKKY -  MI RINCÓN (Rumba) (VIDEOCLIP)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27",
+      "numero": 2,
       "fecha": "2026-11-27",
       "titulo": "Semana de artistas emergentes",
       "intro": "8 artistas con conciertos entre 2026-11-20 y 2026-12-12.",
@@ -293,7 +576,7 @@
     },
     {
       "id": "2026-11-13",
-      "numero": 2,
+      "numero": 3,
       "fecha": "2026-11-13",
       "titulo": "Folk, Flamenco joven, Rumba y Rap con Flamenco en Huétor Tájar y la provincia",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, ALBOROQUE trae el folk andaluz a La Chistera (Monachil); Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; y Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -575,7 +858,7 @@
     },
     {
       "id": "2026-11-08",
-      "numero": 3,
+      "numero": 4,
       "fecha": "2026-11-08",
       "titulo": "Cante joven en Huétor Tájar, bajo flamenco y una fueguina en Madrid",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, Marta «La Niña» cantó en el Festival Flamenco Joven de Huétor Tájar y Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; en Sevilla, Juanfe Pérez puso el bajo eléctrico al servicio del flamenco, y el 21 de noviembre Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -790,7 +1073,7 @@
     },
     {
       "id": "2026-11-02",
-      "numero": 4,
+      "numero": 5,
       "fecha": "2026-11-02",
       "titulo": "Flamenco joven en Huétor Tájar, ska almeriense y una chilena de gira",
       "intro": "Cinco artistas con concierto entre el 26 de octubre y el 17 de noviembre. En Granada, la JJ Taberna recibe a Miguel Company el 6 de noviembre y a Alfredo Robles el 15, y ese mismo 6 el Festival Flamenco Joven de Huétor Tájar trae la guitarra de Antonio de la Luz. Fuera de Andalucía, la gallega Sara Sístole pasa por Radar Joven y la chilena Cancamusa arranca gira por España.",
@@ -1071,7 +1354,7 @@
     },
     {
       "id": "2026-10-25",
-      "numero": 5,
+      "numero": 6,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
       "intro": "Ocho artistas con concierto entre el 18 de octubre y el 9 de noviembre. Cuatro pasan por la JJ Taberna de Granada (30 y 31 de octubre, 1 y 7 de noviembre), y el Festival Flamenco Joven de Huétor Tájar junta el cante de Cristian de Moret con la guitarra de Juanito Campos.",
@@ -1436,7 +1719,7 @@
     },
     {
       "id": "2026-10-23",
-      "numero": 6,
+      "numero": 7,
       "fecha": "2026-10-23",
       "titulo": "Rock de Vallecas, canciones-cuento y flamenco a dos",
       "intro": "Cinco nombres para estrenar el diario: el rock con letras de Riada, el pop rock de Gon Abril, las canciones-cuento de Roura, el flamenco de Juan + Yerai y el directo guitarrero de Carmesí.",
