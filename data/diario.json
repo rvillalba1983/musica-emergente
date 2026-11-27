@@ -122,6 +122,14 @@
               "ciudad": "Granada",
               "precio": "16 €",
               "url": "https://www.conciertosengranada.es/conciertos/129636-maria-ruiz"
+            },
+            {
+              "fecha": "2027-02-06",
+              "hora": "21:30",
+              "lugar": "Sala Euterpe",
+              "ciudad": "Alicante",
+              "precio": "16 €",
+              "url": "https://conciertos.club/artistas/maria-ruiz"
             }
           ],
           "redes": {
@@ -163,6 +171,13 @@
               "ciudad": "Granada",
               "precio": "35,90-47 €",
               "url": "https://www.conciertosengranada.es/conciertos/125102-israel-fernandez"
+            },
+            {
+              "fecha": "2027-08-08",
+              "hora": "22:00",
+              "lugar": "Bodegas Las Copas",
+              "ciudad": "Jerez de la Frontera",
+              "url": "https://conciertos.club/artistas/israel-fernandez"
             }
           ],
           "redes": {},
@@ -241,12 +256,35 @@
           },
           "conciertos": [
             {
+              "fecha": "2026-12-11",
+              "hora": "21:00",
+              "lugar": "Noma Backstage Club",
+              "ciudad": "Málaga",
+              "precio": "16 €",
+              "url": "https://conciertos.club/artistas/guiu-cortes"
+            },
+            {
               "fecha": "2026-12-12",
               "hora": "22:00",
               "lugar": "Taberna Del Beso",
               "ciudad": "Granada",
               "precio": "16 €",
               "url": "https://www.conciertosengranada.es/conciertos/129657-el-nino-de-la-hipoteca-guiu-cortes"
+            },
+            {
+              "fecha": "2027-02-19",
+              "hora": "22:00",
+              "lugar": "Taberna Del Beso",
+              "ciudad": "Granada",
+              "precio": "15 €",
+              "url": "https://conciertos.club/artistas/guiu-cortes"
+            },
+            {
+              "fecha": "2027-04-09",
+              "hora": "22:00",
+              "lugar": "Café Teatro",
+              "ciudad": "Valladolid",
+              "url": "https://conciertos.club/artistas/guiu-cortes"
             }
           ],
           "redes": {},
