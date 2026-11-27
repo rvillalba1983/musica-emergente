@@ -3,8 +3,268 @@
   "subtitulo": "Diario semanal de artistas emergentes que están tocando en bares, salas, festivales y pueblos de España y Latinoamérica.",
   "entradas": [
     {
-      "id": "2026-11-20",
+      "id": "2026-11-27",
       "numero": 1,
+      "fecha": "2026-11-27",
+      "titulo": "Semana de artistas emergentes",
+      "intro": "8 artistas con conciertos entre 2026-11-20 y 2026-12-12.",
+      "ventana": {
+        "desde": "2026-11-20",
+        "hasta": "2026-12-12"
+      },
+      "artistas": [
+        {
+          "nombre": "El intersticio: del flamenco al jazz y viceversa",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "Este proyecto rescata temas flamencos y aflamencados, populares y no tan populares, interpretados en clave de jazz. Ray Heredia, Paco de Lucía o Gerardo Núñez son algunos de los artistas reflejados en el repertorio, de claro soniquete flamenco pero q",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-28",
+              "hora": "22:00",
+              "lugar": "Ool Ya Koo",
+              "ciudad": "Granada",
+              "precio": "12 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129719-el-intersticio-del-flamenco-al-jazz-y-viceversa"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Guada",
+          "origen": "",
+          "estilo": [
+            "Cantautores"
+          ],
+          "porQue": "GUADA. GIRA 2026. GRANADA\nLa artista propone una noche íntima, casi ritual.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-29",
+              "hora": "19:30",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "12,48 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129655-guada"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCn3sFIGvC2AFWMC_dv_0clQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "dZSww_fdTi0",
+              "titulo": "Cambié el look de mi recámara! 😱🫟 ¿Me gustó?"
+            },
+            {
+              "id": "2KsTTIq-C2o",
+              "titulo": "Intentamos pasar 24 HORAS en la alberca…⛱️😨"
+            }
+          ]
+        },
+        {
+          "nombre": "Descarga Cubana para baile",
+          "origen": "",
+          "estilo": [
+            "Música Latina"
+          ],
+          "porQue": "Descarga Cubana es un combo musical que revive el espíritu de las legendarias descargas cubanas de los años 50, encuentros en los que el son, el ritmo y la improvisación se entrelazan en torno a los montunos, dando lugar a una música vibrante, espont",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-11-29",
+              "hora": "20:30",
+              "lugar": "Ool Ya Koo",
+              "ciudad": "Granada",
+              "precio": "12 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129718-descarga-cubana-para-baile"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "María Ruiz",
+          "origen": "",
+          "estilo": [
+            "Cantautores"
+          ],
+          "porQue": "María Ruiz presenta La Tregua , su cuarto trabajo de estudio.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-12-03",
+              "hora": "21:30",
+              "lugar": "JJ Taberna",
+              "ciudad": "Granada",
+              "precio": "16 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129636-maria-ruiz"
+            }
+          ],
+          "redes": {
+            "spotify": "https://open.spotify.com/artist/0AFj9y8WKAlLA0s0om6NaI",
+            "facebook": "https://www.facebook.com/mariaruizmusic",
+            "instagram": "https://www.instagram.com/mariaruiz_music",
+            "tiktok": "https://www.tiktok.com/@mariaruiz.music"
+          },
+          "youtubeChannelId": "UCjAejWoTORP0HOEGXkq2QpA",
+          "spotifyId": "0AFj9y8WKAlLA0s0om6NaI",
+          "foto": "",
+          "videos": [
+            {
+              "id": "E63mgzoxZwM",
+              "titulo": "CONTIGO PERO SIN TI - María Ruiz y  Miguelichi López "
+            },
+            {
+              "id": "PK0sjyK5d40",
+              "titulo": "La careta - María Ruiz "
+            }
+          ]
+        },
+        {
+          "nombre": "Israel Fernández",
+          "origen": "",
+          "estilo": [
+            "Flamenco/Copla"
+          ],
+          "porQue": "Israel Fernández - De oro y marfil \"De oro y marfil\" es una de los shows más ambiciosos de Israel Fernández, donde asoma su faceta más extensa como músico y artista.\nCon esta obra Israel pretende sumergirnos en un sutil viaje por su personal manera d",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-12-04",
+              "hora": "21:00",
+              "lugar": "Palacio de Congresos y Exposiciones",
+              "ciudad": "Granada",
+              "precio": "35,90-47 €",
+              "url": "https://www.conciertosengranada.es/conciertos/125102-israel-fernandez"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Adri Makarra",
+          "origen": "",
+          "estilo": [
+            "Cantautores"
+          ],
+          "porQue": "ADRI MAKARRA - EN DESCONCIERTO\nAdri Makarra es un cantautor gay, subversivo y cabreado. Después de muchos años trabajando como músico profesional, este proyecto nace para dar un golpe en la mesa desde la visión y la experiencia acumuladas a lo largo ",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-12-05",
+              "hora": "21:30",
+              "lugar": "Taberna Terra Blues Santa Fe",
+              "ciudad": "Santa Fe",
+              "precio": "10 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129656-adri-makarra"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCA-QxCHcWt_WpMNlQpAaqtw",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "La bandada",
+          "origen": "",
+          "estilo": [
+            "Música Latina"
+          ],
+          "porQue": "Artista emergente con concierto en la ventana.",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-12-06",
+              "hora": "16:30",
+              "lugar": "La Lolaina",
+              "ciudad": "Nigüelas",
+              "precio": "6 €",
+              "url": "https://www.conciertosengranada.es/conciertos/130139-la-bandada"
+            }
+          ],
+          "redes": {
+            "instagram": "https://www.instagram.com/la.bandada",
+            "tiktok": "https://www.tiktok.com/@labandada"
+          },
+          "youtubeChannelId": "UCTsMSxslVp85v-BbiOzTkZQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": []
+        },
+        {
+          "nombre": "Guiu Cortés",
+          "origen": "",
+          "estilo": [
+            "Mestizaje/Fusión"
+          ],
+          "porQue": "El Niño de la Hipoteca VS Guiu Cortés en GRANADA \nEl Niño de la Hipoteca (Guiu Cortés) ha sido toda una revolución en el mundo de la música y uno de los pioneros, en este país, del formato artista multitarea que se autoedita, autoproduce y autogestio",
+          "cancion": {
+            "titulo": "",
+            "url": ""
+          },
+          "conciertos": [
+            {
+              "fecha": "2026-12-12",
+              "hora": "22:00",
+              "lugar": "Taberna Del Beso",
+              "ciudad": "Granada",
+              "precio": "16 €",
+              "url": "https://www.conciertosengranada.es/conciertos/129657-el-nino-de-la-hipoteca-guiu-cortes"
+            }
+          ],
+          "redes": {},
+          "youtubeChannelId": "UCtuVuLvuAR9yvv9cSNhy7cQ",
+          "spotifyId": "",
+          "foto": "",
+          "videos": [
+            {
+              "id": "LGvJiXiDCI8",
+              "titulo": "Forats negres #ConcursCiènciaOberta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20",
+      "numero": 2,
       "fecha": "2026-11-20",
       "titulo": "Semana de artistas emergentes",
       "intro": "8 artistas con conciertos entre 2026-11-13 y 2026-12-05.",
@@ -287,7 +547,7 @@
     },
     {
       "id": "2026-11-13",
-      "numero": 2,
+      "numero": 3,
       "fecha": "2026-11-13",
       "titulo": "Folk, Flamenco joven, Rumba y Rap con Flamenco en Huétor Tájar y la provincia",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, ALBOROQUE trae el folk andaluz a La Chistera (Monachil); Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; y Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -576,7 +836,7 @@
     },
     {
       "id": "2026-11-08",
-      "numero": 3,
+      "numero": 4,
       "fecha": "2026-11-08",
       "titulo": "Cante joven en Huétor Tájar, bajo flamenco y una fueguina en Madrid",
       "intro": "Cinco artistas con concierto entre el 1 y el 23 de noviembre. En la provincia de Granada, Marta «La Niña» cantó en el Festival Flamenco Joven de Huétor Tájar y Ermanno Panta llevó su Mediterráneo al Ool Ya Koo; en Sevilla, Juanfe Pérez puso el bajo eléctrico al servicio del flamenco, y el 21 de noviembre Maruja Lenon toca gratis en El Ejido. Desde Ushuaia, Luisina Kippes cierra gira en Madrid.",
@@ -791,7 +1051,7 @@
     },
     {
       "id": "2026-11-02",
-      "numero": 4,
+      "numero": 5,
       "fecha": "2026-11-02",
       "titulo": "Flamenco joven en Huétor Tájar, ska almeriense y una chilena de gira",
       "intro": "Cinco artistas con concierto entre el 26 de octubre y el 17 de noviembre. En Granada, la JJ Taberna recibe a Miguel Company el 6 de noviembre y a Alfredo Robles el 15, y ese mismo 6 el Festival Flamenco Joven de Huétor Tájar trae la guitarra de Antonio de la Luz. Fuera de Andalucía, la gallega Sara Sístole pasa por Radar Joven y la chilena Cancamusa arranca gira por España.",
@@ -1072,7 +1332,7 @@
     },
     {
       "id": "2026-10-25",
-      "numero": 5,
+      "numero": 6,
       "fecha": "2026-10-25",
       "titulo": "Rumba de versiones, flamenco de pueblo y folk en euskera",
       "intro": "Ocho artistas con concierto entre el 18 de octubre y el 9 de noviembre. Cuatro pasan por la JJ Taberna de Granada (30 y 31 de octubre, 1 y 7 de noviembre), y el Festival Flamenco Joven de Huétor Tájar junta el cante de Cristian de Moret con la guitarra de Juanito Campos.",
@@ -1437,7 +1697,7 @@
     },
     {
       "id": "2026-10-23",
-      "numero": 6,
+      "numero": 7,
       "fecha": "2026-10-23",
       "titulo": "Rock de Vallecas, canciones-cuento y flamenco a dos",
       "intro": "Cinco nombres para estrenar el diario: el rock con letras de Riada, el pop rock de Gon Abril, las canciones-cuento de Roura, el flamenco de Juan + Yerai y el directo guitarrero de Carmesí.",
